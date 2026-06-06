@@ -1,0 +1,126 @@
+{{/* ====================================================
+     JSON-LD 结构化数据注入
+     - 首页：WebSite Schema（含 SearchAction）
+     - 文章页：BlogPosting Schema
+     ===================================================== */}}
+
+{{- $author := .Site.Params.author | default "Cee Yang" -}}
+{{- $siteUrl := .Site.BaseURL | strings.TrimRight "/" -}}
+{{- $siteTitle := .Site.Title -}}
+{{- $siteDesc := .Site.Params.description -}}
+
+{{/* ── 首页：WebSite Schema ── */}}
+{{- if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": {{ $siteTitle | jsonify }},
+  "url": {{ $siteUrl | jsonify }},
+  "description": {{ $siteDesc | jsonify }},
+  "inLanguage": "zh-CN",
+  "author": {
+    "@type": "Person",
+    "name": {{ $author | jsonify }},
+    "url": {{ $siteUrl | jsonify }}
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": {{ printf "%s/search/?q={search_term_string}" $siteUrl | jsonify }}
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+{{- end }}
+
+{{/* ── 文章页：BlogPosting Schema ── */}}
+{{- if and (eq .Kind "page") (eq .Type "posts") }}
+{{- $datePublished := .Date.Format "2006-01-02T15:04:05Z07:00" -}}
+{{- $dateModified := .Lastmod.Format "2006-01-02T15:04:05Z07:00" -}}
+{{- $description := .Description | default .Summary | plainify | truncate 200 -}}
+{{- $pageUrl := .Permalink -}}
+{{- $title := .Title -}}
+
+{{/* 封面图 */}}
+{{- $imageUrl := "" -}}
+{{- if .Params.cover.image -}}
+  {{- $imageUrl = printf "%s/%s" $siteUrl .Params.cover.image -}}
+{{- else -}}
+  {{- $imageUrl = printf "%s/images/og-cover.png" $siteUrl -}}
+{{- end -}}
+
+{{/* 标签 */}}
+{{- $tags := slice -}}
+{{- range .Params.tags -}}
+  {{- $tags = $tags | append . -}}
+{{- end -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ $title | jsonify }},
+  "description": {{ $description | jsonify }},
+  "url": {{ $pageUrl | jsonify }},
+  "datePublished": {{ $datePublished | jsonify }},
+  "dateModified": {{ $dateModified | jsonify }},
+  "author": {
+    "@type": "Person",
+    "name": {{ $author | jsonify }},
+    "url": {{ $siteUrl | jsonify }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ $siteTitle | jsonify }},
+    "url": {{ $siteUrl | jsonify }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ printf "%s/images/og-cover.png" $siteUrl | jsonify }}
+    }
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": {{ $imageUrl | jsonify }}
+  },
+  "keywords": {{ $tags | jsonify }},
+  "inLanguage": "zh-CN",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ $pageUrl | jsonify }}
+  }
+}
+</script>
+{{- end }}
+
+{{/* ── BreadcrumbList Schema（文章页）── */}}
+{{- if and (eq .Kind "page") (eq .Type "posts") }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": {{ $siteTitle | jsonify }},
+      "item": {{ $siteUrl | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Posts",
+      "item": {{ printf "%s/posts/" $siteUrl | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ .Title | jsonify }},
+      "item": {{ .Permalink | jsonify }}
+    }
+  ]
+}
+</script>
+{{- end }}

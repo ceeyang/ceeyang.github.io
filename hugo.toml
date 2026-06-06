@@ -10,10 +10,16 @@ pygmentsUseClasses = true
 
 [params]
   env = "production"
-  description = "Every failure is leading towards success."
+  title = "Cee Yang — AI 产品 · 全栈开发 · 一人公司"
+  description = "Cee Yang 的个人技术博客，专注 AI 产品开发、Flutter/Dart、全栈工程实践与一人公司经验分享。"
+  keywords = ["AI开发", "全栈开发", "Flutter", "Dart", "一人公司", "独立开发者", "技术博客"]
   author = "Cee Yang"
   defaultTheme = "auto"
   DateFormat = "2006-01-02"
+  canonicalURL = "https://ceeyang.com"
+
+  # 默认 Open Graph 分享封面图
+  images = ["images/og-cover.png"]
 
   ShowReadingTime = true
   ShowWordCount = true
@@ -22,7 +28,8 @@ pygmentsUseClasses = true
   ShowPostNavLinks = true
   ShowRssButtonInSectionTermList = true
   ShowToc = true
-  ShowShareButtons = false
+  ShowShareButtons = true
+  ShowFullTextinRSS = true
 
   # Profile Mode 关闭 — 改用 homeInfoParams（上方简介 + 下方文章列表）
   [params.profileMode]
@@ -30,8 +37,8 @@ pygmentsUseClasses = true
 
   # 首页简介栏
   [params.homeInfoParams]
-    Title = "你的AI产品合伙人"
-    Content = "全栈开发 · AI开发 · 一人公司实践中 · 数字游民"
+    Title = "你的AI产品合伙人 👋"
+    Content = "专注 AI 开发、Flutter/Dart 全栈实践与一人公司经验分享"
 
   # 社交链接
   [[params.socialIcons]]
@@ -41,6 +48,10 @@ pygmentsUseClasses = true
   [[params.socialIcons]]
     name = "twitter"
     url = "https://twitter.com/ceeyang_crypto"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
 
 [menu]
   [[menu.main]]
