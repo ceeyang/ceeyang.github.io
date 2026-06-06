@@ -1,0 +1,88 @@
+baseURL = "https://ceeyang.com/"
+title = "Cee Yang"
+languageCode = "zh-cn"
+theme = "PaperMod"
+paginate = 10
+
+enableRobotsTXT = true
+enableEmoji = true
+pygmentsUseClasses = true
+
+[params]
+  env = "production"
+  description = "Every failure is leading towards success."
+  author = "Cee Yang"
+  defaultTheme = "auto"
+  DateFormat = "2006-01-02"
+
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc = true
+  ShowShareButtons = false
+
+  # Profile Mode 关闭 — 改用 homeInfoParams（上方简介 + 下方文章列表）
+  [params.profileMode]
+    enabled = false
+
+  # 首页简介栏
+  [params.homeInfoParams]
+    Title = "你的AI产品合伙人"
+    Content = "全栈开发 · AI开发 · 一人公司实践中 · 数字游民"
+
+  # 社交链接
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/ceeyang"
+
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/ceeyang_crypto"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 50
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+  [markup.highlight]
+    noClasses = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
