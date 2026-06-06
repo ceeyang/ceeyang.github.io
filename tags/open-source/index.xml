@@ -1,1 +1,462 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Open Source on Cee Yang</title><link>https://ceeyang.com/tags/open-source/</link><description>Recent content in Open Source on Cee Yang</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 03 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ceeyang.com/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>dart_common_extensions：一套 Dart 常用扩展方法集合</title><link>https://ceeyang.com/posts/2026-06-03-dart-common-extensions-intro/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2026-06-03-dart-common-extensions-intro/</guid><description>开源了一套 Dart 扩展方法库：方便日常开发中处理日期格式化、字符串校验、列表操作、Map 变换等常见场景，减少样板代码。</description></item><item><title>开源邀请归因系统 share-installs：自托管延迟深度链接匹配方案</title><link>https://ceeyang.com/posts/2026-06-01-share-installs-guide/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2026-06-01-share-installs-guide/</guid><description>分享一个开源自托管的邀请码 &amp;amp; 延迟深度链接归因系统——share-installs。用户点击邀请链接并安装 App 后，首次启动时邀请码自动识别回填。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Open Source on Cee Yang</title><link>https://ceeyang.com/tags/open-source/</link><description>Recent content in Open Source on Cee Yang</description><image><title>Cee Yang</title><url>https://ceeyang.com/images/og-cover.png</url><link>https://ceeyang.com/images/og-cover.png</link></image><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 03 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ceeyang.com/tags/open-source/index.xml" rel="self" type="application/rss+xml"/><item><title>dart_common_extensions：一套 Dart 常用扩展方法集合</title><link>https://ceeyang.com/posts/2026-06-03-dart-common-extensions-intro/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2026-06-03-dart-common-extensions-intro/</guid><description>开源了一套 Dart 扩展方法库：方便日常开发中处理日期格式化、字符串校验、列表操作、Map 变换等常见场景，减少样板代码。</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<p>写 Dart / Flutter 时，你一定遇到过这些场景：</p>
+<blockquote>
+<p>字符串转 int 要写 <code>int.parse(s)</code>，还担心抛异常；日期格式化到处写 <code>DateFormat</code>；列表想要个 <code>chunked</code> 还得自己写循环；Map 想取个不存在的 key 要加一大堆 <code>containsKey</code> 判断……</p>
+</blockquote>
+<p>这些小操作本身不难，但每天写十几次，代码就变得啰嗦且容易出错。</p>
+<p>这就是我开源 <strong>dart_common_extensions</strong> 的原因。</p>
+<p>项目地址：<a href="https://github.com/ceeyang/dart_common_extensions">github.com/ceeyang/dart_common_extensions</a><br>
+Pub 地址：<a href="https://pub.dev/packages/dart_common_extensions">pub.dev/packages/dart_common_extensions</a></p>
+<pre tabindex="0"><code>⭐ 150+ 扩展方法，覆盖 String / DateTime / List / Map / Num / Enum / Object
+📦 零运行时依赖（仅 decimal + intl）
+🧪 100+ 单元测试
+📄 完整 API 文档 + 示例代码
+</code></pre><hr>
+<h2 id="安装">安装</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">dependencies</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">dart_common_extensions</span><span class="p">:</span><span class="w"> </span><span class="l">^0.0.9</span><span class="w">
+</span></span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Flutter 项目</span>
+</span></span><span class="line"><span class="cl">flutter pub get
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 纯 Dart 项目</span>
+</span></span><span class="line"><span class="cl">dart pub get
+</span></span></code></pre></div><hr>
+<h2 id="核心功能一览">核心功能一览</h2>
+<h3 id="-object-extensions--函数式编程小工具">📎 Object Extensions — 函数式编程小工具</h3>
+<p>Kotlin 开发者会非常熟悉 <code>let</code> 和 <code>also</code>，Dart 里也能用了：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="c1">// let：对非空对象执行操作并返回结果
+</span></span></span><span class="line"><span class="cl"><span class="kd">final</span> <span class="n">length</span> <span class="o">=</span> <span class="n">userInput</span><span class="o">?</span><span class="p">.</span><span class="n">let</span><span class="p">((</span><span class="n">it</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">it</span><span class="p">.</span><span class="n">length</span><span class="p">)</span> <span class="o">??</span> <span class="m">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// also：对对象执行副作用并返回对象本身
+</span></span></span><span class="line"><span class="cl"><span class="n">someObject</span><span class="p">.</span><span class="n">also</span><span class="p">((</span><span class="n">it</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">print</span><span class="p">(</span><span class="s1">&#39;Processing: </span><span class="si">$</span><span class="n">it</span><span class="s1">&#39;</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 空安全判断
+</span></span></span><span class="line"><span class="cl"><span class="n">print</span><span class="p">(</span><span class="n">someObject</span><span class="p">.</span><span class="n">isNull</span><span class="p">);</span>    <span class="c1">// true / false
+</span></span></span><span class="line"><span class="cl"><span class="n">print</span><span class="p">(</span><span class="n">someObject</span><span class="p">.</span><span class="n">isNotNull</span><span class="p">);</span> <span class="c1">// true / false
+</span></span></span></code></pre></div><h3 id="-string-extensions--字符串处理的瑞士军刀">🧵 String Extensions — 字符串处理的瑞士军刀</h3>
+<p>这是这个包里<strong>最常用的部分</strong>。类型转换、校验、格式化、大小写变换，一行搞定：</p>
+<p><strong>类型转换：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="s1">&#39;12&#39;</span><span class="p">.</span><span class="n">toInt</span><span class="p">;</span>                          <span class="c1">// 12
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;12.34&#39;</span><span class="p">.</span><span class="n">toDouble</span><span class="p">;</span>                    <span class="c1">// 12.34
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;2023-01-01&#39;</span><span class="p">.</span><span class="n">toDate</span><span class="p">;</span>                 <span class="c1">// DateTime(2023, 1, 1)
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;{&#34;key&#34;:&#34;value&#34;}&#39;</span><span class="p">.</span><span class="n">toJson</span><span class="p">;</span>            <span class="c1">// {key: value}
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;1,2,3&#39;</span><span class="p">.</span><span class="n">toIntList</span><span class="p">;</span>                   <span class="c1">// [1, 2, 3]
+</span></span></span></code></pre></div><p><strong>校验方法：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="s1">&#39;13912345678&#39;</span><span class="p">.</span><span class="n">isChineseMobile</span><span class="p">;</span>       <span class="c1">// true
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;user@example.com&#39;</span><span class="p">.</span><span class="n">isEmail</span><span class="p">;</span>          <span class="c1">// true
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;192.168.1.1&#39;</span><span class="p">.</span><span class="n">isIP</span><span class="p">;</span>                  <span class="c1">// true
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;{&#34;a&#34;:1}&#39;</span><span class="p">.</span><span class="n">isJson</span><span class="p">;</span>                    <span class="c1">// true
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;SGVsbG8=&#39;</span><span class="p">.</span><span class="n">isBase64</span><span class="p">;</span>                 <span class="c1">// true
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;https://example.com&#39;</span><span class="p">.</span><span class="n">isValidUrl</span><span class="p">;</span>    <span class="c1">// true（支持 localhost、IP、自定义端口）
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;AFFE&#39;</span><span class="p">.</span><span class="n">isValidHex</span><span class="p">;</span>                   <span class="c1">// true
+</span></span></span></code></pre></div><p><strong>大小写转换：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="s1">&#39;hello_world&#39;</span><span class="p">.</span><span class="n">toCamelCase</span><span class="p">;</span>           <span class="c1">// helloWorld
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;helloWorld&#39;</span><span class="p">.</span><span class="n">toSnakeCase</span><span class="p">;</span>            <span class="c1">// hello_world
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;hello-world&#39;</span><span class="p">.</span><span class="n">toKebabCase</span><span class="p">;</span>           <span class="c1">// hello-world
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;hello world&#39;</span><span class="p">.</span><span class="n">toTitleCase</span><span class="p">;</span>           <span class="c1">// Hello World
+</span></span></span></code></pre></div><p><strong>字符串操作：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="s1">&#39;This is a long text&#39;</span><span class="p">.</span><span class="n">truncate</span><span class="p">(</span><span class="m">10</span><span class="p">);</span>  <span class="c1">// &#39;This is a ...&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;user@example.com&#39;</span><span class="p">.</span><span class="n">substringBefore</span><span class="p">(</span><span class="s1">&#39;@&#39;</span><span class="p">);</span> <span class="c1">// &#39;user&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;hello&#39;</span><span class="p">.</span><span class="n">capitalize</span><span class="p">;</span>                  <span class="c1">// &#39;Hello&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;Hello World&#39;</span><span class="p">.</span><span class="n">removeAllSpaces</span><span class="p">;</span>       <span class="c1">// &#39;HelloWorld&#39;
+</span></span></span></code></pre></div><h3 id="-datetime-extensions--日期时间不头疼">📅 DateTime Extensions — 日期时间不头疼</h3>
+<p><strong>格式化：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="kd">final</span> <span class="n">now</span> <span class="o">=</span> <span class="n">DateTime</span><span class="p">.</span><span class="n">now</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">ymd</span><span class="p">;</span>              <span class="c1">// &#34;2026-07-15&#34;
+</span></span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">dmy</span><span class="p">;</span>              <span class="c1">// &#34;15-07-2026&#34;
+</span></span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">iso8601</span><span class="p">;</span>          <span class="c1">// &#34;2026-07-15T12:00:00&#34;
+</span></span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">fullDateTime</span><span class="p">;</span>     <span class="c1">// &#34;2026-07-15 12:00:00&#34;
+</span></span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">monthYear</span><span class="p">;</span>        <span class="c1">// &#34;July 2026&#34;
+</span></span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">shortDate</span><span class="p">;</span>        <span class="c1">// &#34;7/15/2026&#34;（locale dependent）
+</span></span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">longDate</span><span class="p">;</span>         <span class="c1">// &#34;July 15, 2026&#34;（locale dependent）
+</span></span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">time</span><span class="p">;</span>             <span class="c1">// &#34;12:00:00&#34;
+</span></span></span></code></pre></div><p>字符串也可以直接格式化：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="s1">&#39;2023-01-01&#39;</span><span class="p">.</span><span class="n">ymd</span><span class="p">;</span>                    <span class="c1">// &#34;2023-01-01&#34;
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;2023-01-01&#39;</span><span class="p">.</span><span class="n">fullDateTime</span><span class="p">;</span>           <span class="c1">// &#34;2023-01-01 00:00:00&#34;
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;1672531200000&#39;</span><span class="p">.</span><span class="n">ymd</span><span class="p">;</span>                 <span class="c1">// &#34;2023-01-01&#34;（时间戳也支持）
+</span></span></span></code></pre></div><p><strong>日期计算：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">startOfDay</span><span class="p">;</span>                      <span class="c1">// 当天 00:00:00.000
+</span></span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">endOfDay</span><span class="p">;</span>                        <span class="c1">// 当天 23:59:59.999
+</span></span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">isToday</span><span class="p">;</span>                         <span class="c1">// true / false
+</span></span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">nextDay</span><span class="p">;</span>                         <span class="c1">// 明天
+</span></span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">isLeapYear</span><span class="p">;</span>                      <span class="c1">// 是否闰年
+</span></span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">daysInMonth</span><span class="p">;</span>                     <span class="c1">// 当月天数
+</span></span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 工作日计算
+</span></span></span><span class="line"><span class="cl"><span class="n">DateTime</span> <span class="n">friday</span> <span class="o">=</span> <span class="n">DateTime</span><span class="p">(</span><span class="m">2023</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">6</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">friday</span><span class="p">.</span><span class="n">addBusinessDays</span><span class="p">(</span><span class="m">1</span><span class="p">);</span>           <span class="c1">// 下周一（跳过周末）
+</span></span></span><span class="line"><span class="cl"><span class="n">friday</span><span class="p">.</span><span class="n">subtractBusinessDays</span><span class="p">(</span><span class="m">1</span><span class="p">);</span>      <span class="c1">// 上周四
+</span></span></span><span class="line"><span class="cl"><span class="n">DateTime</span><span class="p">(</span><span class="m">2023</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">7</span><span class="p">).</span><span class="n">isWeekend</span><span class="p">;</span>      <span class="c1">// true（周六）
+</span></span></span></code></pre></div><h3 id="-list--iterable-extensions--集合操作大补全">📋 List &amp; Iterable Extensions — 集合操作大补全</h3>
+<p><strong>安全访问：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="p">[</span><span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">,</span> <span class="s1">&#39;c&#39;</span><span class="p">].</span><span class="n">safeElementAt</span><span class="p">(</span><span class="m">5</span><span class="p">);</span>    <span class="c1">// null（不抛异常）
+</span></span></span><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">4</span><span class="p">,</span> <span class="m">5</span><span class="p">].</span><span class="n">firstWhereOrNull</span><span class="p">((</span><span class="n">e</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">e</span> <span class="o">&gt;</span> <span class="m">10</span><span class="p">);</span> <span class="c1">// null
+</span></span></span></code></pre></div><p><strong>分组与变换：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">4</span><span class="p">,</span> <span class="m">5</span><span class="p">].</span><span class="n">chunked</span><span class="p">(</span><span class="m">2</span><span class="p">);</span>         <span class="c1">// [[1, 2], [3, 4], [5]]
+</span></span></span><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">4</span><span class="p">].</span><span class="n">windowed</span><span class="p">(</span><span class="m">2</span><span class="p">);</span>           <span class="c1">// [[1, 2], [2, 3], [3, 4]]
+</span></span></span><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">].</span><span class="n">zip</span><span class="p">([</span><span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">]);</span>             <span class="c1">// [[1, &#39;a&#39;], [2, &#39;b&#39;]]
+</span></span></span><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">].</span><span class="n">mapIndexed</span><span class="p">((</span><span class="n">i</span><span class="p">,</span> <span class="n">e</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="s1">&#39;</span><span class="si">$</span><span class="n">i</span><span class="s1">: </span><span class="si">$</span><span class="n">e</span><span class="s1">&#39;</span><span class="p">);</span> <span class="c1">// [&#39;0: 1&#39;, &#39;1: 2&#39;, &#39;2: 3&#39;]
+</span></span></span></code></pre></div><p><strong>统计聚合：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">4</span><span class="p">].</span><span class="n">sum</span><span class="p">;</span>                   <span class="c1">// 10
+</span></span></span><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">4</span><span class="p">].</span><span class="n">average</span><span class="p">;</span>               <span class="c1">// 2.5
+</span></span></span><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">4</span><span class="p">].</span><span class="n">max</span><span class="p">;</span>                   <span class="c1">// 4
+</span></span></span><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">4</span><span class="p">].</span><span class="n">min</span><span class="p">;</span>                   <span class="c1">// 1
+</span></span></span><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">4</span><span class="p">].</span><span class="n">count</span><span class="p">((</span><span class="n">i</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="m">2</span><span class="p">);</span>  <span class="c1">// 2
+</span></span></span></code></pre></div><p><strong>实用方法：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">].</span><span class="n">random</span><span class="p">;</span>                   <span class="c1">// 随机元素
+</span></span></span><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">].</span><span class="n">shuffled</span><span class="p">;</span>                 <span class="c1">// 打乱后的新列表
+</span></span></span><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">].</span><span class="n">groupBy</span><span class="p">((</span><span class="n">e</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">e</span><span class="p">.</span><span class="n">isEven</span> <span class="o">?</span> <span class="s1">&#39;even&#39;</span> <span class="o">:</span> <span class="s1">&#39;odd&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// {&#39;odd&#39;: [1, 3], &#39;even&#39;: [2]}
+</span></span></span><span class="line"><span class="cl"><span class="p">[</span><span class="kc">null</span><span class="p">,</span> <span class="kc">null</span><span class="p">].</span><span class="n">isAllNull</span><span class="p">;</span>             <span class="c1">// true
+</span></span></span></code></pre></div><h3 id="-map-extensions--安全又灵活">🗺️ Map Extensions — 安全又灵活</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="kd">var</span> <span class="n">map</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;first&#39;</span><span class="o">:</span> <span class="m">1</span><span class="p">,</span> <span class="s1">&#39;second&#39;</span><span class="o">:</span> <span class="m">2</span><span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">map</span><span class="p">.</span><span class="n">getOrDefault</span><span class="p">(</span><span class="s1">&#39;third&#39;</span><span class="p">,</span> <span class="m">0</span><span class="p">);</span>       <span class="c1">// 0（不抛异常）
+</span></span></span><span class="line"><span class="cl"><span class="n">map</span><span class="p">.</span><span class="n">getOrNull</span><span class="p">(</span><span class="s1">&#39;third&#39;</span><span class="p">);</span>             <span class="c1">// null
+</span></span></span><span class="line"><span class="cl"><span class="n">map</span><span class="p">.</span><span class="n">toJsonString</span><span class="p">();</span>                 <span class="c1">// &#39;{&#34;first&#34;: 1, &#34;second&#34;: 2}&#39;
+</span></span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 过滤
+</span></span></span><span class="line"><span class="cl"><span class="n">map</span><span class="p">.</span><span class="n">pick</span><span class="p">([</span><span class="s1">&#39;first&#39;</span><span class="p">]);</span>                <span class="c1">// {&#39;first&#39;: 1}
+</span></span></span><span class="line"><span class="cl"><span class="n">map</span><span class="p">.</span><span class="n">omit</span><span class="p">([</span><span class="s1">&#39;first&#39;</span><span class="p">]);</span>                <span class="c1">// {&#39;second&#39;: 2}
+</span></span></span><span class="line"><span class="cl"><span class="n">map</span><span class="p">.</span><span class="n">filterKeys</span><span class="p">((</span><span class="n">k</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">k</span><span class="p">.</span><span class="n">startsWith</span><span class="p">(</span><span class="s1">&#39;f&#39;</span><span class="p">));</span> <span class="c1">// {&#39;first&#39;: 1}
+</span></span></span><span class="line"><span class="cl"><span class="n">map</span><span class="p">.</span><span class="n">filterValues</span><span class="p">((</span><span class="n">v</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">v</span> <span class="o">&gt;</span> <span class="m">1</span><span class="p">);</span>     <span class="c1">// {&#39;second&#39;: 2}
+</span></span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 合并
+</span></span></span><span class="line"><span class="cl"><span class="p">{</span><span class="s1">&#39;a&#39;</span><span class="o">:</span> <span class="m">1</span><span class="p">}.</span><span class="n">merge</span><span class="p">({</span><span class="s1">&#39;a&#39;</span><span class="o">:</span> <span class="m">2</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="o">:</span> <span class="m">3</span><span class="p">});</span>  <span class="c1">// {&#39;a&#39;: 2, &#39;b&#39;: 3}
+</span></span></span><span class="line"><span class="cl"><span class="p">{</span><span class="s1">&#39;a&#39;</span><span class="o">:</span> <span class="m">1</span><span class="p">}.</span><span class="n">merge</span><span class="p">({</span><span class="s1">&#39;a&#39;</span><span class="o">:</span> <span class="m">2</span><span class="p">},</span> <span class="p">(</span><span class="n">v1</span><span class="p">,</span> <span class="n">v2</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">v1</span> <span class="o">+</span> <span class="n">v2</span><span class="p">);</span> <span class="c1">// {&#39;a&#39;: 3}
+</span></span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 变换
+</span></span></span><span class="line"><span class="cl"><span class="p">{</span><span class="s1">&#39;a&#39;</span><span class="o">:</span> <span class="m">1</span><span class="p">}.</span><span class="n">mapKeys</span><span class="p">((</span><span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">k</span><span class="p">.</span><span class="n">toUpperCase</span><span class="p">());</span> <span class="c1">// {&#39;A&#39;: 1}
+</span></span></span><span class="line"><span class="cl"><span class="p">{</span><span class="s1">&#39;a&#39;</span><span class="o">:</span> <span class="m">1</span><span class="p">}.</span><span class="n">mapValues</span><span class="p">((</span><span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">v</span> <span class="o">+</span> <span class="m">1</span><span class="p">);</span>         <span class="c1">// {&#39;a&#39;: 2}
+</span></span></span></code></pre></div><h3 id="-num-extensions--数字也可以有语法糖">🔢 Num Extensions — 数字也可以有语法糖</h3>
+<p><strong>时间 Duration：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="m">5.</span><span class="n">seconds</span><span class="p">;</span>            <span class="c1">// Duration(seconds: 5)
+</span></span></span><span class="line"><span class="cl"><span class="m">1.5</span><span class="p">.</span><span class="n">days</span><span class="p">;</span>             <span class="c1">// Duration(hours: 36)
+</span></span></span><span class="line"><span class="cl"><span class="m">60.</span><span class="n">secondsDuration</span><span class="p">;</span>   <span class="c1">// 0:01:00.000000
+</span></span></span><span class="line"><span class="cl"><span class="kd">await</span> <span class="m">5.</span><span class="n">secondsDelay</span><span class="p">();</span> <span class="c1">// 延迟 5 秒
+</span></span></span></code></pre></div><p><strong>格式化：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="m">1024.</span><span class="n">toFileSize</span><span class="p">();</span>              <span class="c1">// &#34;1.00 KB&#34;
+</span></span></span><span class="line"><span class="cl"><span class="m">123456.78</span><span class="p">.</span><span class="n">toCurrency</span><span class="p">(</span><span class="nl">symbol:</span> <span class="s1">&#39;€&#39;</span><span class="p">);</span> <span class="c1">// &#34;€123,456.78&#34;
+</span></span></span><span class="line"><span class="cl"><span class="m">1234.567</span><span class="p">.</span><span class="n">toMoney</span><span class="p">(</span><span class="nl">decimalDigits:</span> <span class="m">1</span><span class="p">);</span> <span class="c1">// &#34;1,234.6&#34;
+</span></span></span><span class="line"><span class="cl"><span class="m">255.</span><span class="n">toHexString</span><span class="p">;</span>                <span class="c1">// &#34;ff&#34;
+</span></span></span><span class="line"><span class="cl"><span class="m">10.</span><span class="n">toBinaryString</span><span class="p">;</span>              <span class="c1">// &#34;1010&#34;
+</span></span></span><span class="line"><span class="cl"><span class="m">0.1234</span><span class="p">.</span><span class="n">toPercentage</span><span class="p">();</span>          <span class="c1">// &#34;12.34%&#34;
+</span></span></span></code></pre></div><p><strong>数学：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="m">1.</span><span class="n">rangeTo</span><span class="p">(</span><span class="m">5</span><span class="p">);</span>                   <span class="c1">// [1, 2, 3, 4, 5]
+</span></span></span><span class="line"><span class="cl"><span class="m">5.</span><span class="n">rangeTo</span><span class="p">(</span><span class="m">1</span><span class="p">);</span>                   <span class="c1">// [5, 4, 3, 2, 1]
+</span></span></span><span class="line"><span class="cl"><span class="m">1.</span><span class="n">sumTo</span><span class="p">(</span><span class="m">5</span><span class="p">);</span>                     <span class="c1">// 15
+</span></span></span><span class="line"><span class="cl"><span class="m">2.</span><span class="n">power</span><span class="p">(</span><span class="m">3</span><span class="p">);</span>                     <span class="c1">// 8
+</span></span></span><span class="line"><span class="cl"><span class="m">5.</span><span class="n">isPrime</span><span class="p">;</span>                      <span class="c1">// true
+</span></span></span><span class="line"><span class="cl"><span class="m">2.</span><span class="n">isEven</span><span class="p">;</span>                       <span class="c1">// true
+</span></span></span></code></pre></div><h3 id="-enum-extensions--循环导航">🔁 Enum Extensions — 循环导航</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="n">enum</span> <span class="n">Status</span> <span class="p">{</span> <span class="n">active</span><span class="p">,</span> <span class="n">inactive</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Status</span><span class="p">.</span><span class="n">active</span><span class="p">.</span><span class="n">next</span><span class="p">(</span><span class="n">Status</span><span class="p">.</span><span class="n">values</span><span class="p">);</span>    <span class="c1">// Status.inactive
+</span></span></span><span class="line"><span class="cl"><span class="n">Status</span><span class="p">.</span><span class="n">inactive</span><span class="p">.</span><span class="n">previous</span><span class="p">(</span><span class="n">Status</span><span class="p">.</span><span class="n">values</span><span class="p">);</span> <span class="c1">// Status.active
+</span></span></span></code></pre></div><p>特别适合分页状态机、步骤导航等场景。</p>
+<hr>
+<h2 id="为什么自己造这个轮子">为什么自己造这个轮子？</h2>
+<p>Dart 生态中其实不缺扩展库，比如 <code>dartx</code>、<code>basics</code>、<code>supercharged</code> 等。选择自建一个，有几个原因：</p>
+<ol>
+<li><strong>按需定制</strong>：只收录日常真的会用到的扩展，不做大而全的&quot;百宝箱&quot;</li>
+<li><strong>中文友好</strong>：内置了 <code>isChinese</code>、<code>isChineseMobile</code> 等中文场景校验</li>
+<li><strong>简单透明</strong>：代码量不大，每个扩展方法都清晰可查，遇到问题直接看源码比翻文档快</li>
+<li><strong>零学习成本</strong>：所有方法命名都是自解释的，看一眼就知道干嘛用的</li>
+</ol>
+<hr>
+<h2 id="项目状态与路线图">项目状态与路线图</h2>
+<p>当前版本 <code>0.0.9</code>，2026年5月底初次发布，已有 150+ 扩展方法和 100+ 单元测试。</p>
+<p>后续计划：</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <code>Num</code> 扩展：货币格式化、范围生成、延迟</li>
+<li><input checked="" disabled="" type="checkbox"> <code>List</code> 扩展：<code>windowed</code>、<code>zip</code>、<code>groupBy</code></li>
+<li><input checked="" disabled="" type="checkbox"> <code>String</code> 扩展：百分比、Base64、URL 编码</li>
+<li><input disabled="" type="checkbox"> <strong>Iterable</strong> 扩展补充：更多懒加载操作</li>
+<li><input disabled="" type="checkbox"> <strong>Duration</strong> 扩展：人类可读格式</li>
+<li><input disabled="" type="checkbox"> <strong>Null</strong> 扩展：<code>isNull</code> / <code>isNotNull</code> 顶层函数</li>
+<li><input disabled="" type="checkbox"> <strong>更多本地化</strong> 日期格式</li>
+</ul>
+<p>欢迎提 Issue 或 PR 贡献你常用的扩展方法。</p>
+<hr>
+<h2 id="结语">结语</h2>
+<p><code>dart_common_extensions</code> 不是什么惊天动地的项目，它是一个<strong>工具箱</strong>——把每天写 Dart / Flutter 时那些&quot;又来一遍&quot;的操作封装起来，让代码更短、更清晰、更安全。</p>
+<p>项目是完全开源的（MIT 协议），欢迎 Star、Issue 和 PR：</p>
+<p>👉 <a href="https://github.com/ceeyang/dart_common_extensions">github.com/ceeyang/dart_common_extensions</a></p>
+<p>如果你也在写 Dart / Flutter，不妨试一试，加一行依赖就能省下不少样板代码。</p>
+]]></content:encoded></item><item><title>开源邀请归因系统 share-installs：自托管延迟深度链接匹配方案</title><link>https://ceeyang.com/posts/2026-06-01-share-installs-guide/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2026-06-01-share-installs-guide/</guid><description>分享一个开源自托管的邀请码 &amp;amp; 延迟深度链接归因系统——share-installs。用户点击邀请链接并安装 App 后，首次启动时邀请码自动识别回填。</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<p>你有没有遇到过这种场景：</p>
+<blockquote>
+<p>用户 A 分享了一个邀请链接给用户 B。用户 B 在手机上点击链接，跳转到 App Store 下载了 App。安装打开后——<strong>邀请码呢？</strong></p>
+</blockquote>
+<p>传统方案要么依赖复杂的 Deep Link 配置（Universal Link / App Links），要么需要接入 Firebase Dynamic Links 这类第三方服务。前者配置繁琐，后者有被 deprecate 的风险。</p>
+<p>这就是我开源 <strong>share-installs</strong> 的原因。</p>
+<hr>
+<h2 id="什么是-share-installs">什么是 share-installs？</h2>
+<p><strong>share-installs</strong> 是一个开源、自托管的 <strong>邀请码 &amp; 延迟深度链接归因系统</strong>。</p>
+<p>核心能力只有一句话：<strong>用户点击邀请链接并安装 App 后，首次启动时邀请码会自动识别并回填——即使点击时 App 尚未安装。</strong></p>
+<p>项目地址：<a href="https://github.com/ceeyang/share-installs">github.com/ceeyang/share-installs</a></p>
+<pre tabindex="0"><code>⭐ 核心功能：浏览器指纹 → 后端匹配 → App 启动自动回填
+🖥️ 三端 SDK：Web（TypeScript）+ iOS（Swift）+ Android（Kotlin）
+🐳 一键部署：Docker Compose / Kubernetes / 裸机
+🔐 自托管：数据存在你自己的服务器上
+</code></pre><hr>
+<h2 id="工作原理">工作原理</h2>
+<p>整个流程分为四个阶段：</p>
+<pre tabindex="0"><code>[阶段 1] 用户 A 分享邀请链接
+         │
+         ▼
+[阶段 2] 用户 B 点击链接 → 你的落地页
+         │  JS SDK 上报浏览器指纹到后端
+         ▼
+[阶段 3] 跳转 App Store / Play Store
+         │
+         ▼
+[阶段 4] 用户 B 安装并打开 App
+         │  移动 SDK 上报设备指纹
+         ▼
+         后端匹配指纹 → 返回邀请码
+         │
+         ▼
+         App 自动填入邀请码 ✓
+</code></pre><p><strong>关键技术点：</strong></p>
+<ol>
+<li><strong>指纹匹配</strong>：浏览器和设备的特征组合（时区、语言、屏幕尺寸、硬件参数等）被视为同一用户的指纹</li>
+<li><strong>时间窗口</strong>：默认 72 小时内，点击事件可被匹配</li>
+<li><strong>置信度阈值</strong>：模糊匹配默认 0.75，可配置</li>
+</ol>
+<p><strong>职责边界：</strong> share-installs 只负责指纹收集和匹配。邀请码的生成、跳转商店、使用次数统计等业务逻辑由你的系统处理。</p>
+<hr>
+<h2 id="快速启动">快速启动</h2>
+<h3 id="docker-一键启动推荐">Docker 一键启动（推荐）</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone https://github.com/ceeyang/share-installs.git
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> share-installs
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 使用默认配置启动全部服务</span>
+</span></span><span class="line"><span class="cl">docker compose up --build
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 验证</span>
+</span></span><span class="line"><span class="cl">curl http://localhost:6066/api/health
+</span></span><span class="line"><span class="cl"><span class="c1"># {&#34;status&#34;:&#34;ok&#34;,&#34;version&#34;:&#34;1.0.0&#34;,&#34;timestamp&#34;:&#34;...&#34;}</span>
+</span></span></code></pre></div><h3 id="本地调试模式docker-基础设施--本地代码热重载">本地调试模式（Docker 基础设施 + 本地代码热重载）</h3>
+<p>最适合有断点调试需求的日常开发：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 1. 启动数据库 + 缓存</span>
+</span></span><span class="line"><span class="cl">docker compose up db redis -d
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 2. 安装依赖</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> backend <span class="o">&amp;&amp;</span> npm install
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 3. 初始化数据库</span>
+</span></span><span class="line"><span class="cl">npm run db:generate
+</span></span><span class="line"><span class="cl">npx prisma migrate dev --name init
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 4. 启动热重载开发服务器</span>
+</span></span><span class="line"><span class="cl">npm run dev
+</span></span><span class="line"><span class="cl"><span class="c1"># 服务运行在 http://localhost:6066</span>
+</span></span></code></pre></div><h3 id="环境变量快速参考">环境变量快速参考</h3>
+<table>
+  <thead>
+      <tr>
+          <th>变量</th>
+          <th>默认值</th>
+          <th>说明</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>MULTI_TENANT</code></td>
+          <td><code>false</code></td>
+          <td>自部署模式 / SaaS 模式</td>
+      </tr>
+      <tr>
+          <td><code>ADMIN_SECRET</code></td>
+          <td>空（不鉴权）</td>
+          <td>项目管理端点保护密钥</td>
+      </tr>
+      <tr>
+          <td><code>FINGERPRINT_MATCH_THRESHOLD</code></td>
+          <td><code>0.75</code></td>
+          <td>匹配最低置信度</td>
+      </tr>
+      <tr>
+          <td><code>FINGERPRINT_MATCH_TTL_HOURS</code></td>
+          <td><code>72</code></td>
+          <td>匹配时间窗口（小时）</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="sdk-集成">SDK 集成</h2>
+<h3 id="web-端邀请落地页">Web 端（邀请落地页）</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-typescript" data-lang="typescript"><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">ShareInstallsSDK</span> <span class="p">}</span> <span class="kr">from</span> <span class="s1">&#39;@share-installs/js-sdk&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">sdk</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">ShareInstallsSDK</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">apiBaseUrl</span><span class="o">:</span> <span class="s1">&#39;https://你的域名/api&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 从 URL 提取邀请码
+</span></span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">inviteCode</span> <span class="o">=</span> <span class="nx">location</span><span class="p">.</span><span class="nx">pathname</span><span class="p">.</span><span class="nx">split</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">).</span><span class="nx">pop</span><span class="p">()</span><span class="o">!</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 上报指纹
+</span></span></span><span class="line"><span class="cl"><span class="k">await</span> <span class="nx">sdk</span><span class="p">.</span><span class="nx">trackClick</span><span class="p">(</span><span class="nx">inviteCode</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">customData</span><span class="o">:</span> <span class="p">{</span> <span class="nx">campaign</span><span class="o">:</span> <span class="s1">&#39;summer2024&#39;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 然后由你的代码跳转 App Store / Play Store
+</span></span></span></code></pre></div><h3 id="iosswift">iOS（Swift）</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">import</span> <span class="nc">ShareInstallsSDK</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 在 AppDelegate 或 @main App 中初始化</span>
+</span></span><span class="line"><span class="cl"><span class="n">ShareInstallsSDK</span><span class="p">.</span><span class="n">configure</span><span class="p">(</span><span class="n">with</span><span class="p">:</span> <span class="n">ShareInstallsConfiguration</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">apiBaseURL</span><span class="p">:</span> <span class="n">URL</span><span class="p">(</span><span class="n">string</span><span class="p">:</span> <span class="s">&#34;https://你的域名/api&#34;</span><span class="p">)</span><span class="o">!</span>
+</span></span><span class="line"><span class="cl"><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 首次启动后 resolve</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="kd">let</span> <span class="nv">result</span> <span class="p">=</span> <span class="k">try</span> <span class="n">await</span> <span class="n">ShareInstallsSDK</span><span class="p">.</span><span class="n">shared</span><span class="p">.</span><span class="n">resolveDeferred</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// result.inviteCode — 邀请码</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// result.customData — 落地页传入的自定义数据</span>
+</span></span><span class="line"><span class="cl">    <span class="n">applyInviteCode</span><span class="p">(</span><span class="n">result</span><span class="p">.</span><span class="n">inviteCode</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h3 id="androidkotlin">Android（Kotlin）</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="line"><span class="cl"><span class="c1">// 在 Application.onCreate 中初始化
+</span></span></span><span class="line"><span class="cl"><span class="nc">ShareInstallsSDK</span><span class="p">.</span><span class="n">configure</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">context</span> <span class="p">=</span> <span class="n">applicationContext</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">configuration</span> <span class="p">=</span> <span class="n">ShareInstallsConfiguration</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">        <span class="n">apiBaseUrl</span> <span class="p">=</span> <span class="s2">&#34;https://你的域名/api&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 首次启动后 resolve
+</span></span></span><span class="line"><span class="cl"><span class="k">val</span> <span class="py">result</span> <span class="p">=</span> <span class="nc">ShareInstallsSDK</span><span class="p">.</span><span class="n">instance</span><span class="p">.</span><span class="n">resolveDeferred</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="n">result</span> <span class="o">!=</span> <span class="k">null</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">applyInviteCode</span><span class="p">(</span><span class="n">result</span><span class="p">.</span><span class="n">inviteCode</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<h2 id="部署选项">部署选项</h2>
+<table>
+  <thead>
+      <tr>
+          <th>方式</th>
+          <th>适用场景</th>
+          <th>复杂度</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Docker Compose</td>
+          <td>测试 &amp; 自托管</td>
+          <td>⭐</td>
+      </tr>
+      <tr>
+          <td>Docker Dev</td>
+          <td>日常开发调试</td>
+          <td>⭐⭐</td>
+      </tr>
+      <tr>
+          <td>Docker Compose（生产）</td>
+          <td>小型生产部署</td>
+          <td>⭐⭐</td>
+      </tr>
+      <tr>
+          <td>裸机（Node.js + PG + Redis）</td>
+          <td>已有基础设施</td>
+          <td>⭐⭐⭐</td>
+      </tr>
+      <tr>
+          <td>Kubernetes + Terraform（AWS）</td>
+          <td>生产环境</td>
+          <td>⭐⭐⭐⭐</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="项目结构一览">项目结构一览</h2>
+<pre tabindex="0"><code>share-installs/
+├── backend/           # Express + Prisma + Redis REST API
+├── sdk/
+│   ├── ios/           # Swift SDK（SPM + CocoaPods）
+│   ├── android/       # Kotlin SDK
+│   └── js/            # TypeScript Web SDK（npm）
+├── landing/           # Next.js 邀请落地页（可选）
+├── dashboard/         # 管理仪表盘
+├── docs/              # 架构 &amp; 集成文档
+├── infrastructure/
+│   ├── k8s/           # Kubernetes manifests
+│   └── terraform/     # AWS 基础设施（EKS + RDS）
+├── test/              # 内存测试服务器 &amp; 测试页面
+├── docker-compose.yml
+└── docker-compose.dev.yml
+</code></pre><p><strong>后端技术栈：</strong></p>
+<ul>
+<li><strong>运行时</strong>：Node.js + TypeScript</li>
+<li><strong>框架</strong>：Express</li>
+<li><strong>ORM</strong>：Prisma</li>
+<li><strong>缓存</strong>：Redis（用于指纹匹配加速 + 限流）</li>
+<li><strong>数据库</strong>：PostgreSQL</li>
+</ul>
+<hr>
+<h2 id="适用场景">适用场景</h2>
+<ul>
+<li><strong>社交裂变</strong>：App 用户邀请好友注册，自动归因</li>
+<li><strong>活动推广</strong>：通过邀请链接分发优惠券码</li>
+<li><strong>内测分发</strong>：控制邀请名额，追踪安装来源</li>
+<li><strong>渠道归因</strong>：区分不同推广渠道的下载来源</li>
+</ul>
+<hr>
+<h2 id="与其他方案对比">与其他方案对比</h2>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>share-installs</th>
+          <th>Firebase Dynamic Links</th>
+          <th>Branch.io</th>
+          <th>AppsFlyer</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>开源</strong></td>
+          <td>✅</td>
+          <td>❌</td>
+          <td>❌</td>
+          <td>❌</td>
+      </tr>
+      <tr>
+          <td><strong>自托管</strong></td>
+          <td>✅</td>
+          <td>❌</td>
+          <td>❌</td>
+          <td>❌</td>
+      </tr>
+      <tr>
+          <td><strong>免费</strong></td>
+          <td>✅</td>
+          <td>✅（有额度）</td>
+          <td>❌</td>
+          <td>❌</td>
+      </tr>
+      <tr>
+          <td><strong>多端 SDK</strong></td>
+          <td>Web/iOS/Android</td>
+          <td>Web/iOS/Android</td>
+          <td>Web/iOS/Android</td>
+          <td>Web/iOS/Android</td>
+      </tr>
+      <tr>
+          <td><strong>部署复杂度</strong></td>
+          <td>低（Docker）</td>
+          <td>零（托管）</td>
+          <td>零（托管）</td>
+          <td>零（托管）</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>选择建议：</strong> 如果你的数据合规要求严格、不想依赖第三方服务、或者想完全控制归因逻辑，share-installs 是一个轻量且可扩展的选择。</p>
+<hr>
+<h2 id="结语">结语</h2>
+<p>share-installs 是一个小而美的项目——它只做一件事，但把它做扎实了。从指纹采集、存储匹配、到多端 SDK，整个链路完整闭环。</p>
+<p>项目是完全开源的（Apache 2.0 协议），欢迎 Star、Issue 和 PR：</p>
+<p>👉 <a href="https://github.com/ceeyang/share-installs">https://github.com/ceeyang/share-installs</a></p>
+<p>如果你有类似的场景需要处理邀请归因，不妨试试自部署一个，5 分钟就能跑起来。</p>
+]]></content:encoded></item></channel></rss>

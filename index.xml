@@ -1,1 +1,1662 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Cee Yang</title><link>https://ceeyang.com/</link><description>Recent content on Cee Yang</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 03 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ceeyang.com/index.xml" rel="self" type="application/rss+xml"/><item><title>dart_common_extensions：一套 Dart 常用扩展方法集合</title><link>https://ceeyang.com/posts/2026-06-03-dart-common-extensions-intro/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2026-06-03-dart-common-extensions-intro/</guid><description>开源了一套 Dart 扩展方法库：方便日常开发中处理日期格式化、字符串校验、列表操作、Map 变换等常见场景，减少样板代码。</description></item><item><title>开源邀请归因系统 share-installs：自托管延迟深度链接匹配方案</title><link>https://ceeyang.com/posts/2026-06-01-share-installs-guide/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2026-06-01-share-installs-guide/</guid><description>分享一个开源自托管的邀请码 &amp;amp; 延迟深度链接归因系统——share-installs。用户点击邀请链接并安装 App 后，首次启动时邀请码自动识别回填。</description></item><item><title>2021国庆旅游攻略</title><link>https://ceeyang.com/posts/2021-09-28-2021%E5%9B%BD%E5%BA%86%E6%97%85%E8%A1%8C%E6%94%BB%E7%95%A5/</link><pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2021-09-28-2021%E5%9B%BD%E5%BA%86%E6%97%85%E8%A1%8C%E6%94%BB%E7%95%A5/</guid><description>昨夜做了一个梦,梦里遇见了你,我便迟迟不愿醒来。</description></item><item><title>Swift Debug Print</title><link>https://ceeyang.com/posts/2019-08-10-swift-debug-print/</link><pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2019-08-10-swift-debug-print/</guid><description>Swift Debug Print</description></item><item><title>UITextView+Placeholder</title><link>https://ceeyang.com/posts/2019-08-08-uitextview%E6%89%A9%E5%B1%95%E6%B7%BB%E5%8A%A0placeholder/</link><pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2019-08-08-uitextview%E6%89%A9%E5%B1%95%E6%B7%BB%E5%8A%A0placeholder/</guid><description>UITextView 扩展 Placeholder</description></item><item><title>iOS UITabBarController 嵌套 UINavigationController</title><link>https://ceeyang.com/posts/2018-09-18-ios-tabbar-%E5%B5%8C%E5%A5%97-navbar/</link><pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2018-09-18-ios-tabbar-%E5%B5%8C%E5%A5%97-navbar/</guid><description>iOS UITabBarController 嵌套 UINavigationController</description></item><item><title>5分钟带你看完 WWDC 2018</title><link>https://ceeyang.com/posts/2018-06-05-5%E5%88%86%E9%92%9F%E5%B8%A6%E4%BD%A0%E7%9C%8B%E5%AE%8C-wwdc-2018/</link><pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2018-06-05-5%E5%88%86%E9%92%9F%E5%B8%A6%E4%BD%A0%E7%9C%8B%E5%AE%8C-wwdc-2018/</guid><description>WWDC 2018 Keynote 全记录</description></item><item><title>Xcode命令行工具管理</title><link>https://ceeyang.com/posts/2018-05-05-xcode%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7%E7%AE%A1%E7%90%86/</link><pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2018-05-05-xcode%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7%E7%AE%A1%E7%90%86/</guid><description>如何切换Xcode命令行工具</description></item><item><title>Swift 4.2 新特性</title><link>https://ceeyang.com/posts/2018-11-09-swift4.2%E6%96%B0%E7%89%B9%E6%80%A7/</link><pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2018-11-09-swift4.2%E6%96%B0%E7%89%B9%E6%80%A7/</guid><description>本文介绍 Swift 4.2 的一些新特性</description></item><item><title>Git 快速入门教程</title><link>https://ceeyang.com/posts/2017-06-25-git-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</link><pubDate>Sun, 25 Jun 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2017-06-25-git-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</guid><description>Git 快速入门教程</description></item><item><title>岁月静好</title><link>https://ceeyang.com/posts/2017-06-25-foryou001/</link><pubDate>Sun, 25 Jun 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2017-06-25-foryou001/</guid><description>纵然相思入骨，纵然万劫不复，我也只愿你眉眼如初，风华如故。</description></item><item><title>说说近来近况与计划</title><link>https://ceeyang.com/posts/2017-06-25-%E8%AF%B4%E8%AF%B4%E6%9C%80%E8%BF%91%E7%9A%84%E8%BF%91%E5%86%B5%E5%90%A7/</link><pubDate>Sun, 25 Jun 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2017-06-25-%E8%AF%B4%E8%AF%B4%E6%9C%80%E8%BF%91%E7%9A%84%E8%BF%91%E5%86%B5%E5%90%A7/</guid><description>总是想写点什么，但又不知道写什么，随笔写点咯。</description></item><item><title>iOS11上手体验</title><link>https://ceeyang.com/posts/2017-6-6-ios11%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C/</link><pubDate>Thu, 08 Jun 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2017-6-6-ios11%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C/</guid><description>WWDC发布iOS11，让我们一起来看看吧。</description></item><item><title>I have a dream</title><link>https://ceeyang.com/posts/2017-01-09-i-have-a-dream/</link><pubDate>Mon, 09 Jan 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2017-01-09-i-have-a-dream/</guid><description>I have a dream,find someone we love each other.</description></item><item><title>Leave me</title><link>https://ceeyang.com/posts/2017-01-09-about-leave/</link><pubDate>Mon, 09 Jan 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2017-01-09-about-leave/</guid><description>I have a dream,find someone we love each other.</description></item><item><title>勇气</title><link>https://ceeyang.com/posts/2017-1-7-%E5%8B%87%E6%B0%94/</link><pubDate>Sat, 07 Jan 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2017-1-7-%E5%8B%87%E6%B0%94/</guid><description>I will love you with all of my courage in my life,if I have any chance.</description></item><item><title>深夜独白</title><link>https://ceeyang.com/posts/2017-08-26-%E6%B7%B1%E5%A4%9C%E7%8B%AC%E7%99%BD/</link><pubDate>Fri, 06 Jan 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2017-08-26-%E6%B7%B1%E5%A4%9C%E7%8B%AC%E7%99%BD/</guid><description>深夜独白</description></item><item><title>随笔</title><link>https://ceeyang.com/posts/2017-1-7-%E9%9A%8F%E7%AC%94/</link><pubDate>Fri, 06 Jan 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2017-1-7-%E9%9A%8F%E7%AC%94/</guid><description>随笔，记录生活的点点滴滴</description></item><item><title>App热修复详解</title><link>https://ceeyang.com/posts/2017-1-5-app-hotfix%E7%83%AD%E4%BF%AE%E5%A4%8D%E8%AF%A6%E8%A7%A3/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2017-1-5-app-hotfix%E7%83%AD%E4%BF%AE%E5%A4%8D%E8%AF%A6%E8%A7%A3/</guid><description>App Hotfix(热修复)详解</description></item><item><title>快速添加圆角和描边</title><link>https://ceeyang.com/posts/2016-12-01-%E5%BF%AB%E9%80%9F%E6%B7%BB%E5%8A%A0%E5%9C%86%E8%A7%92%E5%92%8C%E6%8F%8F%E8%BE%B9/</link><pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2016-12-01-%E5%BF%AB%E9%80%9F%E6%B7%BB%E5%8A%A0%E5%9C%86%E8%A7%92%E5%92%8C%E6%8F%8F%E8%BE%B9/</guid><description>iOS 为图片添加圆角和描边的几种方式</description></item><item><title>About</title><link>https://ceeyang.com/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ceeyang.com/about/</guid><description>Hey, this is Cee Yang.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Cee Yang</title><link>https://ceeyang.com/</link><description>Recent content on Cee Yang</description><image><title>Cee Yang</title><url>https://ceeyang.com/images/og-cover.png</url><link>https://ceeyang.com/images/og-cover.png</link></image><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 03 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ceeyang.com/index.xml" rel="self" type="application/rss+xml"/><item><title>dart_common_extensions：一套 Dart 常用扩展方法集合</title><link>https://ceeyang.com/posts/2026-06-03-dart-common-extensions-intro/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2026-06-03-dart-common-extensions-intro/</guid><description>开源了一套 Dart 扩展方法库：方便日常开发中处理日期格式化、字符串校验、列表操作、Map 变换等常见场景，减少样板代码。</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<p>写 Dart / Flutter 时，你一定遇到过这些场景：</p>
+<blockquote>
+<p>字符串转 int 要写 <code>int.parse(s)</code>，还担心抛异常；日期格式化到处写 <code>DateFormat</code>；列表想要个 <code>chunked</code> 还得自己写循环；Map 想取个不存在的 key 要加一大堆 <code>containsKey</code> 判断……</p>
+</blockquote>
+<p>这些小操作本身不难，但每天写十几次，代码就变得啰嗦且容易出错。</p>
+<p>这就是我开源 <strong>dart_common_extensions</strong> 的原因。</p>
+<p>项目地址：<a href="https://github.com/ceeyang/dart_common_extensions">github.com/ceeyang/dart_common_extensions</a><br>
+Pub 地址：<a href="https://pub.dev/packages/dart_common_extensions">pub.dev/packages/dart_common_extensions</a></p>
+<pre tabindex="0"><code>⭐ 150+ 扩展方法，覆盖 String / DateTime / List / Map / Num / Enum / Object
+📦 零运行时依赖（仅 decimal + intl）
+🧪 100+ 单元测试
+📄 完整 API 文档 + 示例代码
+</code></pre><hr>
+<h2 id="安装">安装</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">dependencies</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">dart_common_extensions</span><span class="p">:</span><span class="w"> </span><span class="l">^0.0.9</span><span class="w">
+</span></span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Flutter 项目</span>
+</span></span><span class="line"><span class="cl">flutter pub get
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 纯 Dart 项目</span>
+</span></span><span class="line"><span class="cl">dart pub get
+</span></span></code></pre></div><hr>
+<h2 id="核心功能一览">核心功能一览</h2>
+<h3 id="-object-extensions--函数式编程小工具">📎 Object Extensions — 函数式编程小工具</h3>
+<p>Kotlin 开发者会非常熟悉 <code>let</code> 和 <code>also</code>，Dart 里也能用了：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="c1">// let：对非空对象执行操作并返回结果
+</span></span></span><span class="line"><span class="cl"><span class="kd">final</span> <span class="n">length</span> <span class="o">=</span> <span class="n">userInput</span><span class="o">?</span><span class="p">.</span><span class="n">let</span><span class="p">((</span><span class="n">it</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">it</span><span class="p">.</span><span class="n">length</span><span class="p">)</span> <span class="o">??</span> <span class="m">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// also：对对象执行副作用并返回对象本身
+</span></span></span><span class="line"><span class="cl"><span class="n">someObject</span><span class="p">.</span><span class="n">also</span><span class="p">((</span><span class="n">it</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">print</span><span class="p">(</span><span class="s1">&#39;Processing: </span><span class="si">$</span><span class="n">it</span><span class="s1">&#39;</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 空安全判断
+</span></span></span><span class="line"><span class="cl"><span class="n">print</span><span class="p">(</span><span class="n">someObject</span><span class="p">.</span><span class="n">isNull</span><span class="p">);</span>    <span class="c1">// true / false
+</span></span></span><span class="line"><span class="cl"><span class="n">print</span><span class="p">(</span><span class="n">someObject</span><span class="p">.</span><span class="n">isNotNull</span><span class="p">);</span> <span class="c1">// true / false
+</span></span></span></code></pre></div><h3 id="-string-extensions--字符串处理的瑞士军刀">🧵 String Extensions — 字符串处理的瑞士军刀</h3>
+<p>这是这个包里<strong>最常用的部分</strong>。类型转换、校验、格式化、大小写变换，一行搞定：</p>
+<p><strong>类型转换：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="s1">&#39;12&#39;</span><span class="p">.</span><span class="n">toInt</span><span class="p">;</span>                          <span class="c1">// 12
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;12.34&#39;</span><span class="p">.</span><span class="n">toDouble</span><span class="p">;</span>                    <span class="c1">// 12.34
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;2023-01-01&#39;</span><span class="p">.</span><span class="n">toDate</span><span class="p">;</span>                 <span class="c1">// DateTime(2023, 1, 1)
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;{&#34;key&#34;:&#34;value&#34;}&#39;</span><span class="p">.</span><span class="n">toJson</span><span class="p">;</span>            <span class="c1">// {key: value}
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;1,2,3&#39;</span><span class="p">.</span><span class="n">toIntList</span><span class="p">;</span>                   <span class="c1">// [1, 2, 3]
+</span></span></span></code></pre></div><p><strong>校验方法：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="s1">&#39;13912345678&#39;</span><span class="p">.</span><span class="n">isChineseMobile</span><span class="p">;</span>       <span class="c1">// true
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;user@example.com&#39;</span><span class="p">.</span><span class="n">isEmail</span><span class="p">;</span>          <span class="c1">// true
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;192.168.1.1&#39;</span><span class="p">.</span><span class="n">isIP</span><span class="p">;</span>                  <span class="c1">// true
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;{&#34;a&#34;:1}&#39;</span><span class="p">.</span><span class="n">isJson</span><span class="p">;</span>                    <span class="c1">// true
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;SGVsbG8=&#39;</span><span class="p">.</span><span class="n">isBase64</span><span class="p">;</span>                 <span class="c1">// true
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;https://example.com&#39;</span><span class="p">.</span><span class="n">isValidUrl</span><span class="p">;</span>    <span class="c1">// true（支持 localhost、IP、自定义端口）
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;AFFE&#39;</span><span class="p">.</span><span class="n">isValidHex</span><span class="p">;</span>                   <span class="c1">// true
+</span></span></span></code></pre></div><p><strong>大小写转换：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="s1">&#39;hello_world&#39;</span><span class="p">.</span><span class="n">toCamelCase</span><span class="p">;</span>           <span class="c1">// helloWorld
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;helloWorld&#39;</span><span class="p">.</span><span class="n">toSnakeCase</span><span class="p">;</span>            <span class="c1">// hello_world
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;hello-world&#39;</span><span class="p">.</span><span class="n">toKebabCase</span><span class="p">;</span>           <span class="c1">// hello-world
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;hello world&#39;</span><span class="p">.</span><span class="n">toTitleCase</span><span class="p">;</span>           <span class="c1">// Hello World
+</span></span></span></code></pre></div><p><strong>字符串操作：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="s1">&#39;This is a long text&#39;</span><span class="p">.</span><span class="n">truncate</span><span class="p">(</span><span class="m">10</span><span class="p">);</span>  <span class="c1">// &#39;This is a ...&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;user@example.com&#39;</span><span class="p">.</span><span class="n">substringBefore</span><span class="p">(</span><span class="s1">&#39;@&#39;</span><span class="p">);</span> <span class="c1">// &#39;user&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;hello&#39;</span><span class="p">.</span><span class="n">capitalize</span><span class="p">;</span>                  <span class="c1">// &#39;Hello&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;Hello World&#39;</span><span class="p">.</span><span class="n">removeAllSpaces</span><span class="p">;</span>       <span class="c1">// &#39;HelloWorld&#39;
+</span></span></span></code></pre></div><h3 id="-datetime-extensions--日期时间不头疼">📅 DateTime Extensions — 日期时间不头疼</h3>
+<p><strong>格式化：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="kd">final</span> <span class="n">now</span> <span class="o">=</span> <span class="n">DateTime</span><span class="p">.</span><span class="n">now</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">ymd</span><span class="p">;</span>              <span class="c1">// &#34;2026-07-15&#34;
+</span></span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">dmy</span><span class="p">;</span>              <span class="c1">// &#34;15-07-2026&#34;
+</span></span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">iso8601</span><span class="p">;</span>          <span class="c1">// &#34;2026-07-15T12:00:00&#34;
+</span></span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">fullDateTime</span><span class="p">;</span>     <span class="c1">// &#34;2026-07-15 12:00:00&#34;
+</span></span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">monthYear</span><span class="p">;</span>        <span class="c1">// &#34;July 2026&#34;
+</span></span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">shortDate</span><span class="p">;</span>        <span class="c1">// &#34;7/15/2026&#34;（locale dependent）
+</span></span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">longDate</span><span class="p">;</span>         <span class="c1">// &#34;July 15, 2026&#34;（locale dependent）
+</span></span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">time</span><span class="p">;</span>             <span class="c1">// &#34;12:00:00&#34;
+</span></span></span></code></pre></div><p>字符串也可以直接格式化：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="s1">&#39;2023-01-01&#39;</span><span class="p">.</span><span class="n">ymd</span><span class="p">;</span>                    <span class="c1">// &#34;2023-01-01&#34;
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;2023-01-01&#39;</span><span class="p">.</span><span class="n">fullDateTime</span><span class="p">;</span>           <span class="c1">// &#34;2023-01-01 00:00:00&#34;
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;1672531200000&#39;</span><span class="p">.</span><span class="n">ymd</span><span class="p">;</span>                 <span class="c1">// &#34;2023-01-01&#34;（时间戳也支持）
+</span></span></span></code></pre></div><p><strong>日期计算：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">startOfDay</span><span class="p">;</span>                      <span class="c1">// 当天 00:00:00.000
+</span></span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">endOfDay</span><span class="p">;</span>                        <span class="c1">// 当天 23:59:59.999
+</span></span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">isToday</span><span class="p">;</span>                         <span class="c1">// true / false
+</span></span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">nextDay</span><span class="p">;</span>                         <span class="c1">// 明天
+</span></span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">isLeapYear</span><span class="p">;</span>                      <span class="c1">// 是否闰年
+</span></span></span><span class="line"><span class="cl"><span class="n">now</span><span class="p">.</span><span class="n">daysInMonth</span><span class="p">;</span>                     <span class="c1">// 当月天数
+</span></span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 工作日计算
+</span></span></span><span class="line"><span class="cl"><span class="n">DateTime</span> <span class="n">friday</span> <span class="o">=</span> <span class="n">DateTime</span><span class="p">(</span><span class="m">2023</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">6</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">friday</span><span class="p">.</span><span class="n">addBusinessDays</span><span class="p">(</span><span class="m">1</span><span class="p">);</span>           <span class="c1">// 下周一（跳过周末）
+</span></span></span><span class="line"><span class="cl"><span class="n">friday</span><span class="p">.</span><span class="n">subtractBusinessDays</span><span class="p">(</span><span class="m">1</span><span class="p">);</span>      <span class="c1">// 上周四
+</span></span></span><span class="line"><span class="cl"><span class="n">DateTime</span><span class="p">(</span><span class="m">2023</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="m">7</span><span class="p">).</span><span class="n">isWeekend</span><span class="p">;</span>      <span class="c1">// true（周六）
+</span></span></span></code></pre></div><h3 id="-list--iterable-extensions--集合操作大补全">📋 List &amp; Iterable Extensions — 集合操作大补全</h3>
+<p><strong>安全访问：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="p">[</span><span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">,</span> <span class="s1">&#39;c&#39;</span><span class="p">].</span><span class="n">safeElementAt</span><span class="p">(</span><span class="m">5</span><span class="p">);</span>    <span class="c1">// null（不抛异常）
+</span></span></span><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">4</span><span class="p">,</span> <span class="m">5</span><span class="p">].</span><span class="n">firstWhereOrNull</span><span class="p">((</span><span class="n">e</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">e</span> <span class="o">&gt;</span> <span class="m">10</span><span class="p">);</span> <span class="c1">// null
+</span></span></span></code></pre></div><p><strong>分组与变换：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">4</span><span class="p">,</span> <span class="m">5</span><span class="p">].</span><span class="n">chunked</span><span class="p">(</span><span class="m">2</span><span class="p">);</span>         <span class="c1">// [[1, 2], [3, 4], [5]]
+</span></span></span><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">4</span><span class="p">].</span><span class="n">windowed</span><span class="p">(</span><span class="m">2</span><span class="p">);</span>           <span class="c1">// [[1, 2], [2, 3], [3, 4]]
+</span></span></span><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">].</span><span class="n">zip</span><span class="p">([</span><span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">]);</span>             <span class="c1">// [[1, &#39;a&#39;], [2, &#39;b&#39;]]
+</span></span></span><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">].</span><span class="n">mapIndexed</span><span class="p">((</span><span class="n">i</span><span class="p">,</span> <span class="n">e</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="s1">&#39;</span><span class="si">$</span><span class="n">i</span><span class="s1">: </span><span class="si">$</span><span class="n">e</span><span class="s1">&#39;</span><span class="p">);</span> <span class="c1">// [&#39;0: 1&#39;, &#39;1: 2&#39;, &#39;2: 3&#39;]
+</span></span></span></code></pre></div><p><strong>统计聚合：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">4</span><span class="p">].</span><span class="n">sum</span><span class="p">;</span>                   <span class="c1">// 10
+</span></span></span><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">4</span><span class="p">].</span><span class="n">average</span><span class="p">;</span>               <span class="c1">// 2.5
+</span></span></span><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">4</span><span class="p">].</span><span class="n">max</span><span class="p">;</span>                   <span class="c1">// 4
+</span></span></span><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">4</span><span class="p">].</span><span class="n">min</span><span class="p">;</span>                   <span class="c1">// 1
+</span></span></span><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">4</span><span class="p">].</span><span class="n">count</span><span class="p">((</span><span class="n">i</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">i</span> <span class="o">&gt;</span> <span class="m">2</span><span class="p">);</span>  <span class="c1">// 2
+</span></span></span></code></pre></div><p><strong>实用方法：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">].</span><span class="n">random</span><span class="p">;</span>                   <span class="c1">// 随机元素
+</span></span></span><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">].</span><span class="n">shuffled</span><span class="p">;</span>                 <span class="c1">// 打乱后的新列表
+</span></span></span><span class="line"><span class="cl"><span class="p">[</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">].</span><span class="n">groupBy</span><span class="p">((</span><span class="n">e</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">e</span><span class="p">.</span><span class="n">isEven</span> <span class="o">?</span> <span class="s1">&#39;even&#39;</span> <span class="o">:</span> <span class="s1">&#39;odd&#39;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// {&#39;odd&#39;: [1, 3], &#39;even&#39;: [2]}
+</span></span></span><span class="line"><span class="cl"><span class="p">[</span><span class="kc">null</span><span class="p">,</span> <span class="kc">null</span><span class="p">].</span><span class="n">isAllNull</span><span class="p">;</span>             <span class="c1">// true
+</span></span></span></code></pre></div><h3 id="-map-extensions--安全又灵活">🗺️ Map Extensions — 安全又灵活</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="kd">var</span> <span class="n">map</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;first&#39;</span><span class="o">:</span> <span class="m">1</span><span class="p">,</span> <span class="s1">&#39;second&#39;</span><span class="o">:</span> <span class="m">2</span><span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">map</span><span class="p">.</span><span class="n">getOrDefault</span><span class="p">(</span><span class="s1">&#39;third&#39;</span><span class="p">,</span> <span class="m">0</span><span class="p">);</span>       <span class="c1">// 0（不抛异常）
+</span></span></span><span class="line"><span class="cl"><span class="n">map</span><span class="p">.</span><span class="n">getOrNull</span><span class="p">(</span><span class="s1">&#39;third&#39;</span><span class="p">);</span>             <span class="c1">// null
+</span></span></span><span class="line"><span class="cl"><span class="n">map</span><span class="p">.</span><span class="n">toJsonString</span><span class="p">();</span>                 <span class="c1">// &#39;{&#34;first&#34;: 1, &#34;second&#34;: 2}&#39;
+</span></span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 过滤
+</span></span></span><span class="line"><span class="cl"><span class="n">map</span><span class="p">.</span><span class="n">pick</span><span class="p">([</span><span class="s1">&#39;first&#39;</span><span class="p">]);</span>                <span class="c1">// {&#39;first&#39;: 1}
+</span></span></span><span class="line"><span class="cl"><span class="n">map</span><span class="p">.</span><span class="n">omit</span><span class="p">([</span><span class="s1">&#39;first&#39;</span><span class="p">]);</span>                <span class="c1">// {&#39;second&#39;: 2}
+</span></span></span><span class="line"><span class="cl"><span class="n">map</span><span class="p">.</span><span class="n">filterKeys</span><span class="p">((</span><span class="n">k</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">k</span><span class="p">.</span><span class="n">startsWith</span><span class="p">(</span><span class="s1">&#39;f&#39;</span><span class="p">));</span> <span class="c1">// {&#39;first&#39;: 1}
+</span></span></span><span class="line"><span class="cl"><span class="n">map</span><span class="p">.</span><span class="n">filterValues</span><span class="p">((</span><span class="n">v</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">v</span> <span class="o">&gt;</span> <span class="m">1</span><span class="p">);</span>     <span class="c1">// {&#39;second&#39;: 2}
+</span></span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 合并
+</span></span></span><span class="line"><span class="cl"><span class="p">{</span><span class="s1">&#39;a&#39;</span><span class="o">:</span> <span class="m">1</span><span class="p">}.</span><span class="n">merge</span><span class="p">({</span><span class="s1">&#39;a&#39;</span><span class="o">:</span> <span class="m">2</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="o">:</span> <span class="m">3</span><span class="p">});</span>  <span class="c1">// {&#39;a&#39;: 2, &#39;b&#39;: 3}
+</span></span></span><span class="line"><span class="cl"><span class="p">{</span><span class="s1">&#39;a&#39;</span><span class="o">:</span> <span class="m">1</span><span class="p">}.</span><span class="n">merge</span><span class="p">({</span><span class="s1">&#39;a&#39;</span><span class="o">:</span> <span class="m">2</span><span class="p">},</span> <span class="p">(</span><span class="n">v1</span><span class="p">,</span> <span class="n">v2</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">v1</span> <span class="o">+</span> <span class="n">v2</span><span class="p">);</span> <span class="c1">// {&#39;a&#39;: 3}
+</span></span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 变换
+</span></span></span><span class="line"><span class="cl"><span class="p">{</span><span class="s1">&#39;a&#39;</span><span class="o">:</span> <span class="m">1</span><span class="p">}.</span><span class="n">mapKeys</span><span class="p">((</span><span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">k</span><span class="p">.</span><span class="n">toUpperCase</span><span class="p">());</span> <span class="c1">// {&#39;A&#39;: 1}
+</span></span></span><span class="line"><span class="cl"><span class="p">{</span><span class="s1">&#39;a&#39;</span><span class="o">:</span> <span class="m">1</span><span class="p">}.</span><span class="n">mapValues</span><span class="p">((</span><span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">v</span> <span class="o">+</span> <span class="m">1</span><span class="p">);</span>         <span class="c1">// {&#39;a&#39;: 2}
+</span></span></span></code></pre></div><h3 id="-num-extensions--数字也可以有语法糖">🔢 Num Extensions — 数字也可以有语法糖</h3>
+<p><strong>时间 Duration：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="m">5.</span><span class="n">seconds</span><span class="p">;</span>            <span class="c1">// Duration(seconds: 5)
+</span></span></span><span class="line"><span class="cl"><span class="m">1.5</span><span class="p">.</span><span class="n">days</span><span class="p">;</span>             <span class="c1">// Duration(hours: 36)
+</span></span></span><span class="line"><span class="cl"><span class="m">60.</span><span class="n">secondsDuration</span><span class="p">;</span>   <span class="c1">// 0:01:00.000000
+</span></span></span><span class="line"><span class="cl"><span class="kd">await</span> <span class="m">5.</span><span class="n">secondsDelay</span><span class="p">();</span> <span class="c1">// 延迟 5 秒
+</span></span></span></code></pre></div><p><strong>格式化：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="m">1024.</span><span class="n">toFileSize</span><span class="p">();</span>              <span class="c1">// &#34;1.00 KB&#34;
+</span></span></span><span class="line"><span class="cl"><span class="m">123456.78</span><span class="p">.</span><span class="n">toCurrency</span><span class="p">(</span><span class="nl">symbol:</span> <span class="s1">&#39;€&#39;</span><span class="p">);</span> <span class="c1">// &#34;€123,456.78&#34;
+</span></span></span><span class="line"><span class="cl"><span class="m">1234.567</span><span class="p">.</span><span class="n">toMoney</span><span class="p">(</span><span class="nl">decimalDigits:</span> <span class="m">1</span><span class="p">);</span> <span class="c1">// &#34;1,234.6&#34;
+</span></span></span><span class="line"><span class="cl"><span class="m">255.</span><span class="n">toHexString</span><span class="p">;</span>                <span class="c1">// &#34;ff&#34;
+</span></span></span><span class="line"><span class="cl"><span class="m">10.</span><span class="n">toBinaryString</span><span class="p">;</span>              <span class="c1">// &#34;1010&#34;
+</span></span></span><span class="line"><span class="cl"><span class="m">0.1234</span><span class="p">.</span><span class="n">toPercentage</span><span class="p">();</span>          <span class="c1">// &#34;12.34%&#34;
+</span></span></span></code></pre></div><p><strong>数学：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="m">1.</span><span class="n">rangeTo</span><span class="p">(</span><span class="m">5</span><span class="p">);</span>                   <span class="c1">// [1, 2, 3, 4, 5]
+</span></span></span><span class="line"><span class="cl"><span class="m">5.</span><span class="n">rangeTo</span><span class="p">(</span><span class="m">1</span><span class="p">);</span>                   <span class="c1">// [5, 4, 3, 2, 1]
+</span></span></span><span class="line"><span class="cl"><span class="m">1.</span><span class="n">sumTo</span><span class="p">(</span><span class="m">5</span><span class="p">);</span>                     <span class="c1">// 15
+</span></span></span><span class="line"><span class="cl"><span class="m">2.</span><span class="n">power</span><span class="p">(</span><span class="m">3</span><span class="p">);</span>                     <span class="c1">// 8
+</span></span></span><span class="line"><span class="cl"><span class="m">5.</span><span class="n">isPrime</span><span class="p">;</span>                      <span class="c1">// true
+</span></span></span><span class="line"><span class="cl"><span class="m">2.</span><span class="n">isEven</span><span class="p">;</span>                       <span class="c1">// true
+</span></span></span></code></pre></div><h3 id="-enum-extensions--循环导航">🔁 Enum Extensions — 循环导航</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="n">enum</span> <span class="n">Status</span> <span class="p">{</span> <span class="n">active</span><span class="p">,</span> <span class="n">inactive</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">Status</span><span class="p">.</span><span class="n">active</span><span class="p">.</span><span class="n">next</span><span class="p">(</span><span class="n">Status</span><span class="p">.</span><span class="n">values</span><span class="p">);</span>    <span class="c1">// Status.inactive
+</span></span></span><span class="line"><span class="cl"><span class="n">Status</span><span class="p">.</span><span class="n">inactive</span><span class="p">.</span><span class="n">previous</span><span class="p">(</span><span class="n">Status</span><span class="p">.</span><span class="n">values</span><span class="p">);</span> <span class="c1">// Status.active
+</span></span></span></code></pre></div><p>特别适合分页状态机、步骤导航等场景。</p>
+<hr>
+<h2 id="为什么自己造这个轮子">为什么自己造这个轮子？</h2>
+<p>Dart 生态中其实不缺扩展库，比如 <code>dartx</code>、<code>basics</code>、<code>supercharged</code> 等。选择自建一个，有几个原因：</p>
+<ol>
+<li><strong>按需定制</strong>：只收录日常真的会用到的扩展，不做大而全的&quot;百宝箱&quot;</li>
+<li><strong>中文友好</strong>：内置了 <code>isChinese</code>、<code>isChineseMobile</code> 等中文场景校验</li>
+<li><strong>简单透明</strong>：代码量不大，每个扩展方法都清晰可查，遇到问题直接看源码比翻文档快</li>
+<li><strong>零学习成本</strong>：所有方法命名都是自解释的，看一眼就知道干嘛用的</li>
+</ol>
+<hr>
+<h2 id="项目状态与路线图">项目状态与路线图</h2>
+<p>当前版本 <code>0.0.9</code>，2026年5月底初次发布，已有 150+ 扩展方法和 100+ 单元测试。</p>
+<p>后续计划：</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <code>Num</code> 扩展：货币格式化、范围生成、延迟</li>
+<li><input checked="" disabled="" type="checkbox"> <code>List</code> 扩展：<code>windowed</code>、<code>zip</code>、<code>groupBy</code></li>
+<li><input checked="" disabled="" type="checkbox"> <code>String</code> 扩展：百分比、Base64、URL 编码</li>
+<li><input disabled="" type="checkbox"> <strong>Iterable</strong> 扩展补充：更多懒加载操作</li>
+<li><input disabled="" type="checkbox"> <strong>Duration</strong> 扩展：人类可读格式</li>
+<li><input disabled="" type="checkbox"> <strong>Null</strong> 扩展：<code>isNull</code> / <code>isNotNull</code> 顶层函数</li>
+<li><input disabled="" type="checkbox"> <strong>更多本地化</strong> 日期格式</li>
+</ul>
+<p>欢迎提 Issue 或 PR 贡献你常用的扩展方法。</p>
+<hr>
+<h2 id="结语">结语</h2>
+<p><code>dart_common_extensions</code> 不是什么惊天动地的项目，它是一个<strong>工具箱</strong>——把每天写 Dart / Flutter 时那些&quot;又来一遍&quot;的操作封装起来，让代码更短、更清晰、更安全。</p>
+<p>项目是完全开源的（MIT 协议），欢迎 Star、Issue 和 PR：</p>
+<p>👉 <a href="https://github.com/ceeyang/dart_common_extensions">github.com/ceeyang/dart_common_extensions</a></p>
+<p>如果你也在写 Dart / Flutter，不妨试一试，加一行依赖就能省下不少样板代码。</p>
+]]></content:encoded></item><item><title>开源邀请归因系统 share-installs：自托管延迟深度链接匹配方案</title><link>https://ceeyang.com/posts/2026-06-01-share-installs-guide/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2026-06-01-share-installs-guide/</guid><description>分享一个开源自托管的邀请码 &amp;amp; 延迟深度链接归因系统——share-installs。用户点击邀请链接并安装 App 后，首次启动时邀请码自动识别回填。</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<p>你有没有遇到过这种场景：</p>
+<blockquote>
+<p>用户 A 分享了一个邀请链接给用户 B。用户 B 在手机上点击链接，跳转到 App Store 下载了 App。安装打开后——<strong>邀请码呢？</strong></p>
+</blockquote>
+<p>传统方案要么依赖复杂的 Deep Link 配置（Universal Link / App Links），要么需要接入 Firebase Dynamic Links 这类第三方服务。前者配置繁琐，后者有被 deprecate 的风险。</p>
+<p>这就是我开源 <strong>share-installs</strong> 的原因。</p>
+<hr>
+<h2 id="什么是-share-installs">什么是 share-installs？</h2>
+<p><strong>share-installs</strong> 是一个开源、自托管的 <strong>邀请码 &amp; 延迟深度链接归因系统</strong>。</p>
+<p>核心能力只有一句话：<strong>用户点击邀请链接并安装 App 后，首次启动时邀请码会自动识别并回填——即使点击时 App 尚未安装。</strong></p>
+<p>项目地址：<a href="https://github.com/ceeyang/share-installs">github.com/ceeyang/share-installs</a></p>
+<pre tabindex="0"><code>⭐ 核心功能：浏览器指纹 → 后端匹配 → App 启动自动回填
+🖥️ 三端 SDK：Web（TypeScript）+ iOS（Swift）+ Android（Kotlin）
+🐳 一键部署：Docker Compose / Kubernetes / 裸机
+🔐 自托管：数据存在你自己的服务器上
+</code></pre><hr>
+<h2 id="工作原理">工作原理</h2>
+<p>整个流程分为四个阶段：</p>
+<pre tabindex="0"><code>[阶段 1] 用户 A 分享邀请链接
+         │
+         ▼
+[阶段 2] 用户 B 点击链接 → 你的落地页
+         │  JS SDK 上报浏览器指纹到后端
+         ▼
+[阶段 3] 跳转 App Store / Play Store
+         │
+         ▼
+[阶段 4] 用户 B 安装并打开 App
+         │  移动 SDK 上报设备指纹
+         ▼
+         后端匹配指纹 → 返回邀请码
+         │
+         ▼
+         App 自动填入邀请码 ✓
+</code></pre><p><strong>关键技术点：</strong></p>
+<ol>
+<li><strong>指纹匹配</strong>：浏览器和设备的特征组合（时区、语言、屏幕尺寸、硬件参数等）被视为同一用户的指纹</li>
+<li><strong>时间窗口</strong>：默认 72 小时内，点击事件可被匹配</li>
+<li><strong>置信度阈值</strong>：模糊匹配默认 0.75，可配置</li>
+</ol>
+<p><strong>职责边界：</strong> share-installs 只负责指纹收集和匹配。邀请码的生成、跳转商店、使用次数统计等业务逻辑由你的系统处理。</p>
+<hr>
+<h2 id="快速启动">快速启动</h2>
+<h3 id="docker-一键启动推荐">Docker 一键启动（推荐）</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone https://github.com/ceeyang/share-installs.git
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> share-installs
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 使用默认配置启动全部服务</span>
+</span></span><span class="line"><span class="cl">docker compose up --build
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 验证</span>
+</span></span><span class="line"><span class="cl">curl http://localhost:6066/api/health
+</span></span><span class="line"><span class="cl"><span class="c1"># {&#34;status&#34;:&#34;ok&#34;,&#34;version&#34;:&#34;1.0.0&#34;,&#34;timestamp&#34;:&#34;...&#34;}</span>
+</span></span></code></pre></div><h3 id="本地调试模式docker-基础设施--本地代码热重载">本地调试模式（Docker 基础设施 + 本地代码热重载）</h3>
+<p>最适合有断点调试需求的日常开发：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 1. 启动数据库 + 缓存</span>
+</span></span><span class="line"><span class="cl">docker compose up db redis -d
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 2. 安装依赖</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> backend <span class="o">&amp;&amp;</span> npm install
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 3. 初始化数据库</span>
+</span></span><span class="line"><span class="cl">npm run db:generate
+</span></span><span class="line"><span class="cl">npx prisma migrate dev --name init
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 4. 启动热重载开发服务器</span>
+</span></span><span class="line"><span class="cl">npm run dev
+</span></span><span class="line"><span class="cl"><span class="c1"># 服务运行在 http://localhost:6066</span>
+</span></span></code></pre></div><h3 id="环境变量快速参考">环境变量快速参考</h3>
+<table>
+  <thead>
+      <tr>
+          <th>变量</th>
+          <th>默认值</th>
+          <th>说明</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>MULTI_TENANT</code></td>
+          <td><code>false</code></td>
+          <td>自部署模式 / SaaS 模式</td>
+      </tr>
+      <tr>
+          <td><code>ADMIN_SECRET</code></td>
+          <td>空（不鉴权）</td>
+          <td>项目管理端点保护密钥</td>
+      </tr>
+      <tr>
+          <td><code>FINGERPRINT_MATCH_THRESHOLD</code></td>
+          <td><code>0.75</code></td>
+          <td>匹配最低置信度</td>
+      </tr>
+      <tr>
+          <td><code>FINGERPRINT_MATCH_TTL_HOURS</code></td>
+          <td><code>72</code></td>
+          <td>匹配时间窗口（小时）</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="sdk-集成">SDK 集成</h2>
+<h3 id="web-端邀请落地页">Web 端（邀请落地页）</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-typescript" data-lang="typescript"><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">ShareInstallsSDK</span> <span class="p">}</span> <span class="kr">from</span> <span class="s1">&#39;@share-installs/js-sdk&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">sdk</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">ShareInstallsSDK</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">apiBaseUrl</span><span class="o">:</span> <span class="s1">&#39;https://你的域名/api&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 从 URL 提取邀请码
+</span></span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">inviteCode</span> <span class="o">=</span> <span class="nx">location</span><span class="p">.</span><span class="nx">pathname</span><span class="p">.</span><span class="nx">split</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">).</span><span class="nx">pop</span><span class="p">()</span><span class="o">!</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 上报指纹
+</span></span></span><span class="line"><span class="cl"><span class="k">await</span> <span class="nx">sdk</span><span class="p">.</span><span class="nx">trackClick</span><span class="p">(</span><span class="nx">inviteCode</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">customData</span><span class="o">:</span> <span class="p">{</span> <span class="nx">campaign</span><span class="o">:</span> <span class="s1">&#39;summer2024&#39;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 然后由你的代码跳转 App Store / Play Store
+</span></span></span></code></pre></div><h3 id="iosswift">iOS（Swift）</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">import</span> <span class="nc">ShareInstallsSDK</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 在 AppDelegate 或 @main App 中初始化</span>
+</span></span><span class="line"><span class="cl"><span class="n">ShareInstallsSDK</span><span class="p">.</span><span class="n">configure</span><span class="p">(</span><span class="n">with</span><span class="p">:</span> <span class="n">ShareInstallsConfiguration</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">apiBaseURL</span><span class="p">:</span> <span class="n">URL</span><span class="p">(</span><span class="n">string</span><span class="p">:</span> <span class="s">&#34;https://你的域名/api&#34;</span><span class="p">)</span><span class="o">!</span>
+</span></span><span class="line"><span class="cl"><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 首次启动后 resolve</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="kd">let</span> <span class="nv">result</span> <span class="p">=</span> <span class="k">try</span> <span class="n">await</span> <span class="n">ShareInstallsSDK</span><span class="p">.</span><span class="n">shared</span><span class="p">.</span><span class="n">resolveDeferred</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// result.inviteCode — 邀请码</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// result.customData — 落地页传入的自定义数据</span>
+</span></span><span class="line"><span class="cl">    <span class="n">applyInviteCode</span><span class="p">(</span><span class="n">result</span><span class="p">.</span><span class="n">inviteCode</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h3 id="androidkotlin">Android（Kotlin）</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="line"><span class="cl"><span class="c1">// 在 Application.onCreate 中初始化
+</span></span></span><span class="line"><span class="cl"><span class="nc">ShareInstallsSDK</span><span class="p">.</span><span class="n">configure</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">context</span> <span class="p">=</span> <span class="n">applicationContext</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">configuration</span> <span class="p">=</span> <span class="n">ShareInstallsConfiguration</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">        <span class="n">apiBaseUrl</span> <span class="p">=</span> <span class="s2">&#34;https://你的域名/api&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 首次启动后 resolve
+</span></span></span><span class="line"><span class="cl"><span class="k">val</span> <span class="py">result</span> <span class="p">=</span> <span class="nc">ShareInstallsSDK</span><span class="p">.</span><span class="n">instance</span><span class="p">.</span><span class="n">resolveDeferred</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="n">result</span> <span class="o">!=</span> <span class="k">null</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">applyInviteCode</span><span class="p">(</span><span class="n">result</span><span class="p">.</span><span class="n">inviteCode</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<h2 id="部署选项">部署选项</h2>
+<table>
+  <thead>
+      <tr>
+          <th>方式</th>
+          <th>适用场景</th>
+          <th>复杂度</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Docker Compose</td>
+          <td>测试 &amp; 自托管</td>
+          <td>⭐</td>
+      </tr>
+      <tr>
+          <td>Docker Dev</td>
+          <td>日常开发调试</td>
+          <td>⭐⭐</td>
+      </tr>
+      <tr>
+          <td>Docker Compose（生产）</td>
+          <td>小型生产部署</td>
+          <td>⭐⭐</td>
+      </tr>
+      <tr>
+          <td>裸机（Node.js + PG + Redis）</td>
+          <td>已有基础设施</td>
+          <td>⭐⭐⭐</td>
+      </tr>
+      <tr>
+          <td>Kubernetes + Terraform（AWS）</td>
+          <td>生产环境</td>
+          <td>⭐⭐⭐⭐</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="项目结构一览">项目结构一览</h2>
+<pre tabindex="0"><code>share-installs/
+├── backend/           # Express + Prisma + Redis REST API
+├── sdk/
+│   ├── ios/           # Swift SDK（SPM + CocoaPods）
+│   ├── android/       # Kotlin SDK
+│   └── js/            # TypeScript Web SDK（npm）
+├── landing/           # Next.js 邀请落地页（可选）
+├── dashboard/         # 管理仪表盘
+├── docs/              # 架构 &amp; 集成文档
+├── infrastructure/
+│   ├── k8s/           # Kubernetes manifests
+│   └── terraform/     # AWS 基础设施（EKS + RDS）
+├── test/              # 内存测试服务器 &amp; 测试页面
+├── docker-compose.yml
+└── docker-compose.dev.yml
+</code></pre><p><strong>后端技术栈：</strong></p>
+<ul>
+<li><strong>运行时</strong>：Node.js + TypeScript</li>
+<li><strong>框架</strong>：Express</li>
+<li><strong>ORM</strong>：Prisma</li>
+<li><strong>缓存</strong>：Redis（用于指纹匹配加速 + 限流）</li>
+<li><strong>数据库</strong>：PostgreSQL</li>
+</ul>
+<hr>
+<h2 id="适用场景">适用场景</h2>
+<ul>
+<li><strong>社交裂变</strong>：App 用户邀请好友注册，自动归因</li>
+<li><strong>活动推广</strong>：通过邀请链接分发优惠券码</li>
+<li><strong>内测分发</strong>：控制邀请名额，追踪安装来源</li>
+<li><strong>渠道归因</strong>：区分不同推广渠道的下载来源</li>
+</ul>
+<hr>
+<h2 id="与其他方案对比">与其他方案对比</h2>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>share-installs</th>
+          <th>Firebase Dynamic Links</th>
+          <th>Branch.io</th>
+          <th>AppsFlyer</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>开源</strong></td>
+          <td>✅</td>
+          <td>❌</td>
+          <td>❌</td>
+          <td>❌</td>
+      </tr>
+      <tr>
+          <td><strong>自托管</strong></td>
+          <td>✅</td>
+          <td>❌</td>
+          <td>❌</td>
+          <td>❌</td>
+      </tr>
+      <tr>
+          <td><strong>免费</strong></td>
+          <td>✅</td>
+          <td>✅（有额度）</td>
+          <td>❌</td>
+          <td>❌</td>
+      </tr>
+      <tr>
+          <td><strong>多端 SDK</strong></td>
+          <td>Web/iOS/Android</td>
+          <td>Web/iOS/Android</td>
+          <td>Web/iOS/Android</td>
+          <td>Web/iOS/Android</td>
+      </tr>
+      <tr>
+          <td><strong>部署复杂度</strong></td>
+          <td>低（Docker）</td>
+          <td>零（托管）</td>
+          <td>零（托管）</td>
+          <td>零（托管）</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>选择建议：</strong> 如果你的数据合规要求严格、不想依赖第三方服务、或者想完全控制归因逻辑，share-installs 是一个轻量且可扩展的选择。</p>
+<hr>
+<h2 id="结语">结语</h2>
+<p>share-installs 是一个小而美的项目——它只做一件事，但把它做扎实了。从指纹采集、存储匹配、到多端 SDK，整个链路完整闭环。</p>
+<p>项目是完全开源的（Apache 2.0 协议），欢迎 Star、Issue 和 PR：</p>
+<p>👉 <a href="https://github.com/ceeyang/share-installs">https://github.com/ceeyang/share-installs</a></p>
+<p>如果你有类似的场景需要处理邀请归因，不妨试试自部署一个，5 分钟就能跑起来。</p>
+]]></content:encoded></item><item><title>2021国庆旅游攻略</title><link>https://ceeyang.com/posts/2021-09-28-2021%E5%9B%BD%E5%BA%86%E6%97%85%E8%A1%8C%E6%94%BB%E7%95%A5/</link><pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2021-09-28-2021%E5%9B%BD%E5%BA%86%E6%97%85%E8%A1%8C%E6%94%BB%E7%95%A5/</guid><description>昨夜做了一个梦,梦里遇见了你,我便迟迟不愿醒来。</description><content:encoded><![CDATA[<h2 id="2021国庆旅行计划">2021国庆旅行计划</h2>
+<ul>
+<li>
+<p>到成都南约50分钟，入站等需要提前一个半小时，总约 1.5 小时</p>
+</li>
+<li>
+<p>到成都东约70分钟，入站等需要提前一个半小时，总约 2 小时</p>
+</li>
+<li>
+<p>到犀浦站约100分钟，入站等需要提前一个半小时，总约 2.5 小时</p>
+</li>
+<li>
+<p>成都南到峨眉山无票</p>
+</li>
+<li>
+<p>成都东到峨眉山 1.5 个小时</p>
+<ul>
+<li>成都东 11：00 ~ 12：23，需 9 点出门</li>
+<li>成都东 12：11 ~ 13：34，需 10 点出门 *</li>
+<li>成都东 13：15 ~ 14：18，需 11 点出门 *</li>
+<li>成都东 13：50 ~ 15：17，需 11：30 点出门</li>
+</ul>
+</li>
+<li>
+<p>犀浦到都江堰 30 分钟</p>
+</li>
+</ul>
+<h3 id="峨眉山计划">峨眉山计划：</h3>
+<pre><code>报国寺-清音寺/万年寺-雷洞坪-索道-金顶-日出/云海
+</code></pre>
+<ol>
+<li>09:00 ~ 11:00 点出门前往成都东站</li>
+<li>11:00 ~ 12:23 成都东出发 到 达峨眉山站</li>
+<li>12:30 ~ 13:00 午饭时间</li>
+<li>13:00 ~ 14:00 乘坐公共交通到达报国寺车站</li>
+<li>14:00 ~ 14:30 报国寺游玩儿</li>
+</ol>
+<ul>
+<li>万年寺路线</li>
+</ul>
+<blockquote>
+<ul>
+<li>14:30 ~ 15:30 观光车到达万年寺</li>
+<li>15:30 ~ 16:00 万年寺,万年索道</li>
+<li>14:20 ~ 16:30 到达雷洞坪, 2.0小时</li>
+<li>16:30 ~ 17:30 入住酒店,雷洞坪购物街, 1.0 小时</li>
+<li>17:30 ~ 19:30 晚饭时间, 1.0 小时</li>
+<li>19:30 ~ 晚上早点休息, 次日需凌晨 4:30 起床看日出</li>
+</ul>
+</blockquote>
+<ul>
+<li>清音寺路线</li>
+</ul>
+<blockquote>
+<ul>
+<li>14:30 ~ 15:00 观光车到达清音寺, 0.5 小时</li>
+<li>15:00 ~ 15:30 清音寺,一线天观光, 0.5 小时</li>
+<li>15:30 ~ 17:30 到达雷洞坪, 2.0小时</li>
+<li>17:30 ~ 18:30 入住酒店,雷洞坪购物街, 1.0 小时</li>
+<li>18:30 ~ 19:30 晚饭时间, 1.0 小时</li>
+<li>19:30 ~ 晚上早点休息, 次日需凌晨 4:30 起床看日出</li>
+</ul>
+</blockquote>
+<ol start="12">
+<li>04:30 ~ 05:30 起床早餐</li>
+<li>05:30 ~ 06:30 到达接引殿,  1.0 小时</li>
+<li>06:30 ~ 07:30 缆车排队预计 1 小时, 缆车 20 分钟, 下缆车走路 10 分钟到金顶</li>
+<li>07:30 ~ 09:00 看日出,观云海</li>
+<li>08:30 ~ 09:30 乘坐缆车返回接引殿</li>
+<li>09:30 ~ 10:30 返回雷洞坪, 回酒店提行李</li>
+<li>10:30 ~ 12:00 观光车到达峨眉山出口</li>
+<li>12:00 ~ 开始返程</li>
+</ol>
+<p>共计 1.5 天</p>
+<ul>
+<li>优点: 可观日出,看云海</li>
+<li>缺点: 第二天需要早起, 时间稍微会有点儿赶, 峨眉山其他景区来不及逛</li>
+</ul>
+<h3 id="青城山计划">青城山计划:</h3>
+<pre><code>青城山-都江堰
+</code></pre>
+<ol>
+<li>09:00 ~ 11:30 点出门前往犀浦高铁站</li>
+<li>11:30 ~ 12:00 犀浦出发 到 青城山</li>
+<li>12:00 ~ 13:00 午饭时间</li>
+<li>13:00 ~ 15:00 青城山前山 2.0 小时</li>
+<li>15:00 ~ 16:00 前往都江堰</li>
+<li>16:00 ~ 19:00 都江堰风景区  3.0 小时</li>
+<li>19:00 ~ 20:00 吃完饭,领略都江堰夜景</li>
+</ol>
+<ul>
+<li>20:00 ~ 入住酒店到次日</li>
+</ul>
+<blockquote>
+<ul>
+<li>次日返程, 泡温泉, 睡懒觉</li>
+<li>次日中午十二点之前到家</li>
+</ul>
+</blockquote>
+<ul>
+<li>20:00 ~ 开始返程</li>
+</ul>
+<blockquote>
+<ul>
+<li>21:00 ~ 21:36 余票三张</li>
+<li>21:36 ~ 23:20 到家, 1.5 小时</li>
+</ul>
+</blockquote>
+<ul>
+<li>次日返回需要 1.5 天, 时间充裕, 可以睡懒觉, 泡温泉</li>
+<li>当日返回需要 1.0 天, 时间稍微比较赶, 第二天可以在附近逛逛或者好好休息</li>
+</ul>
+<h3 id="成都市区计划">成都市区计划:</h3>
+<pre><code>宽窄巷子-武侯祠-锦里-音乐剧  逛街/买衣服/小吃
+</code></pre>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">时间</th>
+          <th style="text-align: left">目的地</th>
+          <th style="text-align: center">耗时</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">09:00 ~ 10:00</td>
+          <td style="text-align: left">出发前往宽窄巷子</td>
+          <td style="text-align: center">1.0 小时</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">10:00 ~ 12:00</td>
+          <td style="text-align: left">宽窄巷子</td>
+          <td style="text-align: center">2.0 小时</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">12:00 ~ 14:00</td>
+          <td style="text-align: left">武侯祠</td>
+          <td style="text-align: center">2.0 小时</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">14:00 ~ 16:30</td>
+          <td style="text-align: left">锦里</td>
+          <td style="text-align: center">2.5 小时</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">16:30 ~ 19:30</td>
+          <td style="text-align: left">到达牛王庙,吃晚饭</td>
+          <td style="text-align: center">1.0 小时</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">19:30 ~ 21:00</td>
+          <td style="text-align: left">音乐会结束</td>
+          <td style="text-align: center">1.5 小时</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">21:00 ~ 22:00</td>
+          <td style="text-align: left">到家</td>
+          <td style="text-align: center">1.0 小时</td>
+      </tr>
+  </tbody>
+</table>
+]]></content:encoded></item><item><title>Swift Debug Print</title><link>https://ceeyang.com/posts/2019-08-10-swift-debug-print/</link><pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2019-08-10-swift-debug-print/</guid><description>Swift Debug Print</description><content:encoded><![CDATA[<h2 id="自定义-swift-控制台输出">自定义 swift 控制台输出</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// </span><span class="cs">MARK:</span><span class="c1"> - Debug Print -</span>
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">func</span> <span class="nf">print</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;(</span><span class="kc">_</span> <span class="n">message</span><span class="p">:</span> <span class="n">T</span><span class="p">,</span> <span class="n">fileName</span><span class="p">:</span> <span class="nb">String</span> <span class="p">=</span> <span class="kc">#file</span><span class="p">,</span> <span class="n">methodName</span><span class="p">:</span> <span class="nb">String</span> <span class="p">=</span> <span class="kc">#function</span><span class="p">,</span> <span class="n">line</span><span class="p">:</span> <span class="nb">Int</span> <span class="p">=</span> <span class="kc">#line</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="cp">#if</span> <span class="cp">DEBUG</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">let</span> <span class="nv">printInfo</span> <span class="p">=</span>
+</span></span><span class="line"><span class="cl">    <span class="s">&#34;&#34;&#34;
+</span></span></span><span class="line"><span class="cl"><span class="s">    </span><span class="se">\n</span><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">    =================================================================================================================================================
+</span></span></span><span class="line"><span class="cl"><span class="s">    【File    Name】: </span><span class="si">\(</span><span class="n">fileName</span><span class="p">.</span><span class="bp">split</span><span class="si">(</span><span class="s">&#34;/&#34;</span><span class="si">)</span><span class="p">.</span><span class="bp">last</span> <span class="p">??</span>  <span class="s">&#34;&#34;</span><span class="si">)</span><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">    【FunctionName】: </span><span class="si">\(</span><span class="n">methodName</span><span class="si">)</span><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">    【Fuction Line】: </span><span class="si">\(</span><span class="n">line</span><span class="si">)</span><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">    【Print   Time】: </span><span class="si">\(</span><span class="n">Date</span><span class="si">())</span><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">    【   Message  】:
+</span></span></span><span class="line"><span class="cl"><span class="s">    </span><span class="si">\(</span><span class="n">message</span><span class="si">)</span><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">    =================================================================================================================================================
+</span></span></span><span class="line"><span class="cl"><span class="s">    </span><span class="se">\n</span><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">    &#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="bp">print</span><span class="p">(</span><span class="n">printInfo</span><span class="p">,</span> <span class="n">separator</span><span class="p">:</span> <span class="s">&#34;&#34;</span><span class="p">,</span> <span class="n">terminator</span><span class="p">:</span> <span class="s">&#34;&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="cp">#endif</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>]]></content:encoded></item><item><title>UITextView+Placeholder</title><link>https://ceeyang.com/posts/2019-08-08-uitextview%E6%89%A9%E5%B1%95%E6%B7%BB%E5%8A%A0placeholder/</link><pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2019-08-08-uitextview%E6%89%A9%E5%B1%95%E6%B7%BB%E5%8A%A0placeholder/</guid><description>UITextView 扩展 Placeholder</description><content:encoded><![CDATA[<h2 id="swift-uitextview-扩展-placeholder">Swift UITextView 扩展 Placeholder</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">import</span> <span class="nc">UIKit</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">fileprivate</span> <span class="kd">var</span> <span class="nv">kTextViewPlaceholderLabel</span> <span class="p">:</span> <span class="nb">Int</span> <span class="p">=</span> <span class="mh">0x2019_00</span>
+</span></span><span class="line"><span class="cl"><span class="n">fileprivate</span> <span class="kd">var</span> <span class="nv">kTextViewPlaceholder</span>      <span class="p">:</span> <span class="nb">Int</span> <span class="p">=</span> <span class="mh">0x2019_01</span>
+</span></span><span class="line"><span class="cl"><span class="n">fileprivate</span> <span class="kd">var</span> <span class="nv">kTextViewPlaceholderColor</span> <span class="p">:</span> <span class="nb">Int</span> <span class="p">=</span> <span class="mh">0x2019_02</span>
+</span></span><span class="line"><span class="cl"><span class="n">fileprivate</span> <span class="kd">var</span> <span class="nv">kTextViewPlaceholderFont</span>  <span class="p">:</span> <span class="nb">Int</span> <span class="p">=</span> <span class="mh">0x2019_03</span>
+</span></span><span class="line"><span class="cl"><span class="n">fileprivate</span> <span class="kd">var</span> <span class="nv">kTextViewPlaceholderKeys</span>  <span class="p">:</span> <span class="nb">Int</span> <span class="p">=</span> <span class="mh">0x2019_04</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">extension</span> <span class="nc">UITextView</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 占位符</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">x_placeholder</span><span class="p">:</span> <span class="nb">String</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">get</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="kd">let</span> <span class="nv">placeholder</span> <span class="p">=</span> <span class="n">objc_getAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholder</span><span class="p">)</span> <span class="k">as</span><span class="p">?</span> <span class="nb">String</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">placeholder</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="s">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">set</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">objc_setAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholder</span><span class="p">,</span> <span class="n">newValue</span><span class="p">,</span> <span class="p">.</span><span class="n">OBJC_ASSOCIATION_RETAIN</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">x_placeholderLabel</span><span class="p">.</span><span class="n">text</span> <span class="p">=</span> <span class="n">newValue</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 占位符颜色</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">x_placeholderColor</span><span class="p">:</span> <span class="n">UIColor</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">get</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="kd">let</span> <span class="nv">placeholderColor</span> <span class="p">=</span> <span class="n">objc_getAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderColor</span><span class="p">)</span> <span class="k">as</span><span class="p">?</span> <span class="n">UIColor</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">placeholderColor</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">UIColor</span><span class="p">.</span><span class="n">subTitleColor</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">set</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">objc_setAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderColor</span><span class="p">,</span> <span class="n">newValue</span><span class="p">,</span> <span class="p">.</span><span class="n">OBJC_ASSOCIATION_RETAIN</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">x_placeholderLabel</span><span class="p">.</span><span class="n">textColor</span> <span class="p">=</span> <span class="n">newValue</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 占位符字体</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">x_placeholderFont</span><span class="p">:</span> <span class="n">UIFont</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">get</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="kd">let</span> <span class="nv">placeholderFont</span> <span class="p">=</span> <span class="n">objc_getAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderColor</span><span class="p">)</span> <span class="k">as</span><span class="p">?</span> <span class="n">UIFont</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">placeholderFont</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">UIFont</span><span class="p">.</span><span class="n">systemFont</span><span class="p">(</span><span class="n">ofSize</span><span class="p">:</span> <span class="mi">12</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">set</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">objc_setAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderColor</span><span class="p">,</span> <span class="n">newValue</span><span class="p">,</span> <span class="p">.</span><span class="n">OBJC_ASSOCIATION_RETAIN</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">x_placeholderLabel</span><span class="p">.</span><span class="n">font</span> <span class="p">=</span> <span class="n">newValue</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 占位符 标签</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">@IBInspectable</span> <span class="kd">var</span> <span class="nv">x_placeholderLabel</span><span class="p">:</span> <span class="n">UILabel</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">get</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="kd">var</span> <span class="nv">_placeholderLabel</span> <span class="p">=</span> <span class="n">UILabel</span><span class="p">(</span><span class="n">font</span><span class="p">:</span> <span class="kc">self</span><span class="p">.</span><span class="n">font</span> <span class="p">??</span> <span class="n">UIFont</span><span class="p">.</span><span class="n">systemFont</span><span class="p">(</span><span class="n">ofSize</span><span class="p">:</span> <span class="mi">12</span><span class="p">),</span> <span class="n">color</span><span class="p">:</span> <span class="p">.</span><span class="n">subTitleColor</span><span class="p">,</span> <span class="n">alignment</span><span class="p">:</span> <span class="p">.</span><span class="kr">left</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="kd">let</span> <span class="nv">label</span> <span class="p">=</span> <span class="n">objc_getAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderLabel</span><span class="p">)</span> <span class="k">as</span><span class="p">?</span> <span class="n">UILabel</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">_placeholderLabel</span> <span class="p">=</span> <span class="n">label</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">objc_setAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderLabel</span><span class="p">,</span> <span class="n">_placeholderLabel</span><span class="p">,</span> <span class="p">.</span><span class="n">OBJC_ASSOCIATION_RETAIN</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="n">addPlaceholderLabelToSuperView</span><span class="p">(</span><span class="n">label</span><span class="p">:</span> <span class="n">_placeholderLabel</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="n">_placeholderLabel</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">set</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">objc_setAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderLabel</span><span class="p">,</span> <span class="n">newValue</span><span class="p">,</span> <span class="p">.</span><span class="n">OBJC_ASSOCIATION_RETAIN</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">addPlaceholderLabelToSuperView</span><span class="p">(</span><span class="n">label</span><span class="p">:</span> <span class="n">newValue</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 是否需要添加占位符到父视图</span>
+</span></span><span class="line"><span class="cl">    <span class="n">fileprivate</span> <span class="kd">var</span> <span class="nv">x_placeHolderNeedAddToSuperView</span><span class="p">:</span> <span class="nb">Bool</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">get</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="kd">let</span> <span class="nv">isAdded</span> <span class="p">=</span> <span class="n">objc_getAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderKeys</span><span class="p">)</span> <span class="k">as</span><span class="p">?</span> <span class="nb">Bool</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">isAdded</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">set</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">objc_setAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderKeys</span><span class="p">,</span> <span class="n">newValue</span><span class="p">,</span> <span class="p">.</span><span class="n">OBJC_ASSOCIATION_RETAIN</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 添加占位符到父视图</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">///</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">/// - Parameter label: 占位符 标签</span>
+</span></span><span class="line"><span class="cl">    <span class="n">fileprivate</span> <span class="kd">func</span> <span class="nf">addPlaceholderLabelToSuperView</span><span class="p">(</span><span class="n">label</span><span class="p">:</span> <span class="n">UILabel</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">guard</span> <span class="n">x_placeHolderNeedAddToSuperView</span> <span class="k">else</span> <span class="p">{</span> <span class="k">return</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="n">x_placeHolderNeedAddToSuperView</span> <span class="p">=</span> <span class="kc">false</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">NotificationCenter</span><span class="p">.</span><span class="k">default</span><span class="p">.</span><span class="n">addObserver</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="n">selector</span><span class="p">:</span> <span class="k">#selector</span><span class="p">(</span><span class="n">x_textChange</span><span class="p">(</span><span class="n">noti</span><span class="p">:)),</span> <span class="n">name</span><span class="p">:</span> <span class="n">UITextView</span><span class="p">.</span><span class="n">textDidChangeNotification</span><span class="p">,</span> <span class="n">object</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">addSubview</span><span class="p">(</span><span class="n">label</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">label</span><span class="p">.</span><span class="n">snp</span><span class="p">.</span><span class="n">makeConstraints</span> <span class="p">{</span> <span class="p">(</span><span class="n">make</span><span class="p">)</span> <span class="k">in</span>
+</span></span><span class="line"><span class="cl">            <span class="n">make</span><span class="p">.</span><span class="n">edges</span><span class="p">.</span><span class="n">equalToSuperview</span><span class="p">().</span><span class="n">inset</span><span class="p">(</span><span class="n">UIEdgeInsets</span><span class="p">(</span><span class="n">top</span><span class="p">:</span> <span class="mi">7</span><span class="p">,</span> <span class="kr">left</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="n">bottom</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="kr">right</span><span class="p">:</span> <span class="mi">0</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 编辑事件</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">@objc</span> <span class="n">fileprivate</span> <span class="kd">func</span> <span class="nf">x_textChange</span><span class="p">(</span><span class="n">noti</span><span class="p">:</span> <span class="n">NSNotification</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">let</span> <span class="nv">isEmpty</span> <span class="p">=</span> <span class="n">text</span><span class="p">.</span><span class="bp">isEmpty</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">print</span><span class="p">(</span><span class="s">&#34;text:</span><span class="si">\(</span><span class="nb">String</span><span class="si">(</span><span class="n">describing</span><span class="p">:</span> <span class="n">text</span><span class="si">))</span><span class="se">\n</span><span class="s">isEmpty:</span><span class="si">\(</span><span class="bp">isEmpty</span><span class="si">)</span><span class="s">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">x_placeholderLabel</span><span class="p">.</span><span class="n">text</span> <span class="p">=</span> <span class="bp">isEmpty</span> <span class="p">?</span> <span class="n">x_placeholder</span> <span class="p">:</span> <span class="s">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">x_placeholderLabel</span><span class="p">.</span><span class="n">isHidden</span> <span class="p">=</span> <span class="o">!</span><span class="bp">isEmpty</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>]]></content:encoded></item><item><title>iOS UITabBarController 嵌套 UINavigationController</title><link>https://ceeyang.com/posts/2018-09-18-ios-tabbar-%E5%B5%8C%E5%A5%97-navbar/</link><pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2018-09-18-ios-tabbar-%E5%B5%8C%E5%A5%97-navbar/</guid><description>iOS UITabBarController 嵌套 UINavigationController</description><content:encoded><![CDATA[<h1 id="ios-uitabbarcontroller-嵌套-uinavigationcontroller">iOS UITabBarController 嵌套 UINavigationController</h1>
+<pre><code>本文处理两个问题:
+1. 自定义导航按钮后, 滑动返回手势失效问题
+2. TabBar 嵌套 NavigationBar 的 TabBar 显示隐藏错乱等问题
+</code></pre>
+<h2 id="主要思路">主要思路</h2>
+<ol>
+<li>使用 UITabBarController 作为 Window 的 rootViewController</li>
+<li>自定义 UINavigationController 控制器, 全局控制 tabbar 的显示与隐藏</li>
+<li>添加自定义控制器为 UINavigationController 的 root 控制器</li>
+<li>UITabBarController 添加每个 UINavigationController 控制器</li>
+</ol>
+<h2 id="直接上代码">直接上代码</h2>
+<p>自定义的 UITabBarController :</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">import</span> <span class="nc">UIKit</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">HomeTabBarController</span><span class="p">:</span> <span class="n">UITabBarController</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kc">super</span><span class="p">.</span><span class="n">viewDidLoad</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="n">createChildController</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 通过自定义方法添加所有子控制器</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">func</span> <span class="nf">createChildController</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">addChildVC</span><span class="p">(</span><span class="n">childVc</span><span class="p">:</span> <span class="n">HomeViewController</span><span class="p">(),</span> <span class="n">title</span><span class="p">:</span> <span class="s">&#34;首页&#34;</span><span class="p">,</span> <span class="n">image</span><span class="p">:</span> <span class="s">&#34;IMG_Home&#34;</span><span class="p">,</span> <span class="n">selectedImage</span><span class="p">:</span> <span class="s">&#34;IMG_Home_Selected&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">addChildVC</span><span class="p">(</span><span class="n">childVc</span><span class="p">:</span> <span class="n">MoreViewController</span><span class="p">(),</span> <span class="n">title</span><span class="p">:</span> <span class="s">&#34;应用&#34;</span><span class="p">,</span> <span class="n">image</span><span class="p">:</span> <span class="s">&#34;IMG_More&#34;</span><span class="p">,</span> <span class="n">selectedImage</span><span class="p">:</span> <span class="s">&#34;IMG_More_Selected&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">addChildVC</span><span class="p">(</span><span class="n">childVc</span><span class="p">:</span> <span class="n">MineViewController</span><span class="p">(),</span> <span class="n">title</span><span class="p">:</span> <span class="s">&#34;我的&#34;</span><span class="p">,</span> <span class="n">image</span><span class="p">:</span> <span class="s">&#34;IMG_Mine&#34;</span><span class="p">,</span> <span class="n">selectedImage</span><span class="p">:</span> <span class="s">&#34;IMG_Mine_Selected&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 自定义添加子控制器</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">func</span> <span class="nf">addChildVC</span><span class="p">(</span><span class="n">childVc</span><span class="p">:</span> <span class="n">UIViewController</span><span class="p">,</span> <span class="n">title</span><span class="p">:</span><span class="nb">String</span><span class="p">,</span> <span class="n">image</span><span class="p">:</span> <span class="nb">String</span><span class="p">,</span> <span class="n">selectedImage</span><span class="p">:</span> <span class="nb">String</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">let</span> <span class="nv">nav</span> <span class="p">=</span> <span class="n">HomeNavigationController</span><span class="p">(</span><span class="n">rootViewController</span><span class="p">:</span> <span class="n">childVc</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">let</span> <span class="nv">normalImage</span> <span class="p">=</span> <span class="n">UIImage</span><span class="p">(</span><span class="n">named</span><span class="p">:</span> <span class="n">image</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">let</span> <span class="nv">selectedImage</span> <span class="p">=</span> <span class="n">UIImage</span><span class="p">(</span><span class="n">named</span><span class="p">:</span> <span class="n">selectedImage</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">nav</span><span class="p">.</span><span class="n">navigationItem</span><span class="p">.</span><span class="n">title</span> <span class="p">=</span> <span class="n">title</span>
+</span></span><span class="line"><span class="cl">        <span class="n">nav</span><span class="p">.</span><span class="n">tabBarItem</span> <span class="p">=</span> <span class="n">tabbarItem</span><span class="p">(</span><span class="n">with</span><span class="p">:</span> <span class="n">title</span><span class="p">,</span> <span class="n">normalImage</span><span class="p">:</span> <span class="n">normalImage</span><span class="p">!,</span> <span class="n">selectedImage</span><span class="p">:</span> <span class="n">selectedImage</span><span class="p">!)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">addChildViewController</span><span class="p">(</span><span class="n">nav</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 快捷创建 UITabBarItem</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">func</span> <span class="nf">tabbarItem</span><span class="p">(</span><span class="n">with</span> <span class="n">title</span><span class="p">:</span> <span class="nb">String</span><span class="p">,</span> <span class="n">normalImage</span><span class="p">:</span> <span class="n">UIImage</span><span class="p">,</span> <span class="n">selectedImage</span><span class="p">:</span> <span class="n">UIImage</span><span class="p">)</span> <span class="p">-&gt;</span> <span class="n">UITabBarItem</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">let</span> <span class="nv">image</span> <span class="p">=</span> <span class="n">normalImage</span><span class="p">.</span><span class="n">withRenderingMode</span><span class="p">(.</span><span class="n">alwaysOriginal</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">let</span> <span class="nv">_selectedImage</span> <span class="p">=</span> <span class="n">selectedImage</span><span class="p">.</span><span class="n">withRenderingMode</span><span class="p">(.</span><span class="n">alwaysOriginal</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">let</span> <span class="nv">tabBarItem</span> <span class="p">=</span> <span class="n">UITabBarItem</span><span class="p">(</span><span class="n">title</span><span class="p">:</span> <span class="n">title</span><span class="p">,</span> <span class="n">image</span><span class="p">:</span> <span class="n">image</span><span class="p">,</span> <span class="n">selectedImage</span><span class="p">:</span> <span class="n">_selectedImage</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">tabBarItem</span><span class="p">.</span><span class="n">setTitleTextAttributes</span><span class="p">([</span><span class="n">NSAttributedStringKey</span><span class="p">.</span><span class="n">foregroundColor</span><span class="p">:</span> <span class="n">UIColor</span><span class="p">.</span><span class="n">mainColor</span><span class="p">],</span> <span class="k">for</span><span class="p">:</span> <span class="p">.</span><span class="n">selected</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">tabBarItem</span><span class="p">.</span><span class="n">setTitleTextAttributes</span><span class="p">([</span><span class="n">NSAttributedStringKey</span><span class="p">.</span><span class="n">foregroundColor</span><span class="p">:</span> <span class="n">UIColor</span><span class="p">.</span><span class="n">tabbarNormalColor</span><span class="p">],</span> <span class="k">for</span><span class="p">:</span> <span class="p">.</span><span class="n">normal</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">tabBarItem</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">override</span> <span class="kd">func</span> <span class="nf">didReceiveMemoryWarning</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kc">super</span><span class="p">.</span><span class="n">didReceiveMemoryWarning</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Dispose of any resources that can be recreated.</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">//让图片和文字在 iPad 下仍然保持上下排列</span>
+</span></span><span class="line"><span class="cl"><span class="kd">extension</span> <span class="nc">UITabBar</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">override</span> <span class="n">open</span> <span class="kd">var</span> <span class="nv">traitCollection</span><span class="p">:</span> <span class="n">UITraitCollection</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">UIDevice</span><span class="p">.</span><span class="n">current</span><span class="p">.</span><span class="n">userInterfaceIdiom</span> <span class="p">==</span> <span class="p">.</span><span class="n">pad</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="n">UITraitCollection</span><span class="p">(</span><span class="n">horizontalSizeClass</span><span class="p">:</span> <span class="p">.</span><span class="n">compact</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="kc">super</span><span class="p">.</span><span class="n">traitCollection</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>自定义的 UINavigationController :</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">import</span> <span class="nc">UIKit</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">HomeNavigationController</span><span class="p">:</span> <span class="n">UINavigationController</span><span class="p">,</span> <span class="n">UIGestureRecognizerDelegate</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kc">super</span><span class="p">.</span><span class="n">viewDidLoad</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1">/// 自定义返回按钮后返回手势失效</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">/// 手动实现返回手势代理</span>
+</span></span><span class="line"><span class="cl">        <span class="n">interactivePopGestureRecognizer</span><span class="p">?.</span><span class="n">delegate</span> <span class="p">=</span> <span class="kc">self</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">override</span> <span class="kd">func</span> <span class="nf">didReceiveMemoryWarning</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kc">super</span><span class="p">.</span><span class="n">didReceiveMemoryWarning</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Dispose of any resources that can be recreated.</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">override</span> <span class="kd">func</span> <span class="nf">pushViewController</span><span class="p">(</span><span class="kc">_</span> <span class="n">viewController</span><span class="p">:</span> <span class="n">UIViewController</span><span class="p">,</span> <span class="n">animated</span><span class="p">:</span> <span class="nb">Bool</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1">/// 如果当前控制器的子控制器个数大于等于1, 说明推出的控制器为子控制器</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">childViewControllers</span><span class="p">.</span><span class="bp">count</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="c1">/// 自定义返回按钮</span>
+</span></span><span class="line"><span class="cl">            <span class="kd">let</span> <span class="nv">backBtn</span> <span class="p">=</span> <span class="n">UIButton</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">            <span class="n">backBtn</span><span class="p">.</span><span class="n">setImage</span><span class="p">(</span><span class="n">UIImage</span><span class="p">(</span><span class="n">named</span><span class="p">:</span> <span class="s">&#34;IMG_Back&#34;</span><span class="p">),</span> <span class="k">for</span><span class="p">:</span> <span class="p">.</span><span class="n">normal</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">backBtn</span><span class="p">.</span><span class="n">addTarget</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="n">action</span><span class="p">:</span> <span class="k">#selector</span><span class="p">(</span><span class="n">backButtonDidClick</span><span class="p">),</span> <span class="k">for</span><span class="p">:</span> <span class="p">.</span><span class="n">touchUpInside</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">viewController</span><span class="p">.</span><span class="n">navigationItem</span><span class="p">.</span><span class="n">leftBarButtonItem</span> <span class="p">=</span> <span class="n">UIBarButtonItem</span><span class="p">(</span><span class="n">customView</span><span class="p">:</span> <span class="n">backBtn</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="c1">/// 子控制器隐藏  bottomBar</span>
+</span></span><span class="line"><span class="cl">            <span class="n">viewController</span><span class="p">.</span><span class="n">hidesBottomBarWhenPushed</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="kc">super</span><span class="p">.</span><span class="n">pushViewController</span><span class="p">(</span><span class="n">viewController</span><span class="p">,</span> <span class="n">animated</span><span class="p">:</span> <span class="n">animated</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 返回按钮点击事件</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">@objc</span> <span class="kd">func</span> <span class="nf">backButtonDidClick</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">popViewController</span><span class="p">(</span><span class="n">animated</span><span class="p">:</span> <span class="kc">true</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 滑动返回手势</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">func</span> <span class="nf">gestureRecognizer</span><span class="p">(</span><span class="kc">_</span> <span class="n">gestureRecognizer</span><span class="p">:</span> <span class="n">UIGestureRecognizer</span><span class="p">,</span> <span class="n">shouldReceive</span> <span class="n">touch</span><span class="p">:</span> <span class="n">UITouch</span><span class="p">)</span> <span class="p">-&gt;</span> <span class="nb">Bool</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1">/// 判断是否需要滑动返回手势</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">gestureRecognizer</span> <span class="p">==</span> <span class="n">navigationController</span><span class="p">?.</span><span class="n">interactivePopGestureRecognizer</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="n">navigationController</span><span class="p">!.</span><span class="n">childViewControllers</span><span class="p">.</span><span class="bp">count</span> <span class="o">&gt;</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1">/// 解决当前控制器为根控制器的时候, 返回手势卡屏的问题</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">childViewControllers</span><span class="p">.</span><span class="bp">count</span> <span class="p">==</span> <span class="mi">1</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="kc">false</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>]]></content:encoded></item><item><title>5分钟带你看完 WWDC 2018</title><link>https://ceeyang.com/posts/2018-06-05-5%E5%88%86%E9%92%9F%E5%B8%A6%E4%BD%A0%E7%9C%8B%E5%AE%8C-wwdc-2018/</link><pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2018-06-05-5%E5%88%86%E9%92%9F%E5%B8%A6%E4%BD%A0%E7%9C%8B%E5%AE%8C-wwdc-2018/</guid><description>WWDC 2018 Keynote 全记录</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<p>一年一度的 WWDC（苹果全球开发者大会）于北京时间 6月5日 凌晨1点开幕。废话不多说，来看看这次WWDC 都有哪些亮点吧!</p>
+<h2 id="ios-12-和-arkit-20">iOS 12 和 ARKit 2.0</h2>
+<blockquote>
+<p>关键词：官方防沉迷最为致命</p>
+</blockquote>
+<h3 id="ios-12">iOS 12</h3>
+<p>iOS 12 相较于 iOS 11 并没有太多UI上的变动，刚更新完 bate 版本的 iOS 12，完全感觉不到这是个新系统。</p>
+<p>iOS 12 主要是对安全和性能的优化，iOS 12 在旧设备上的运行速度比 iOS 11更块，程序加载速度快了一倍。（PS：看来苹果并没有放弃旧设备）</p>
+<p><img loading="lazy" src="https://cdn.mos.cms.futurecdn.net/RdxhPVv8fAyM6oHsRgF6dH-650-80.png"></p>
+<h3 id="arkit-20">ARKit 2.0</h3>
+<p>Apple 与 皮克斯 合作开发了一种用于共享AR内容的新文件格式，新的 AR 格式名为 USDZ。</p>
+<p>作为一个含着金苹果出生的新生儿，USDZ 一开始就得到了 Adobe Creative Cloud （包括 Photoshop CC、InDesign CC、Illustrator CC、Dreamweaver CC、Premiere Pro CC）套件的支持。</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-10.jpg"></p>
+<p>同时，面向开发者的开发套件 ARKit 则升级到了二代，主要提升了面部跟踪、渲染能力、3D 探测和共享体验等能力。</p>
+<p>随后展示了一款名为 Measure 的 App，可使用AR查看物品大小。</p>
+<p><img loading="lazy" src="https://cdn.mos.cms.futurecdn.net/4tbGCxGUGsH9VwSLsfMDK5-650-80.png"></p>
+<p>最后为了演示新的 AR 能力和效果，苹果请来了乐高的创意总监来捧场。这是一个真实的乐高积木建筑物为基础，最多四个人可以用苹果 AR 应用进行游戏，可以在真实环境中模拟出各种虚拟的形象和建筑。</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-9.jpg">
+<img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-11.jpg"></p>
+<h3 id="相册优化">相册优化</h3>
+<p>iOS 12 的相册将大大提升搜索性能，系统不仅会提出搜索建议，还会帮你按主题整理照片。</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-13.jpg"></p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-14.jpg"></p>
+<h3 id="siri变得更聪明">Siri变得更聪明</h3>
+<p>iOS 12 中，苹果为 Siri 提供了更加高效的操作，让它可以操作各个应用内部的功能，并且能在锁屏界面建议用户下一步的行动。</p>
+<p>苹果还发布了一款名为「Shortcuts」的应用，它允许用户自定义 Siri 搜索指令，支持通过拖拽来快速编辑指令，同时还提供了一个指令库供用户下载现成的命令，就像是为 Siri 打造的 Workflow 自动化工具。</p>
+<p><img loading="lazy" src="https://cdn.sspai.com/2018-06-04-Artboard.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1"></p>
+<p>看到这里，相比熟悉苹果的朋友大概明白了，Siri 的本次改进，很可能是源于它收购的效率神器 Workflow，堪称一个用 Siri 唤醒的 Workflow。</p>
+<h3 id="原生应用大更新">原生应用大更新</h3>
+<p>iOS 12 中，不少原生应用都得到了更新。</p>
+<ul>
+<li>iBooks 更名为 <strong>Apple Books</strong>，采用类似 App Store 的新界面设计。</li>
+<li>新闻应用（News）在 iPad 上新添加了侧边栏，方便浏览，也突出策划内容。</li>
+<li>语音备忘录现在支持 iCloud 了</li>
+<li>股市的界面重构，可以看到股票全天走势，并打通 News 应用，方便看财经新闻；</li>
+</ul>
+<h3 id="carplay-开放了">CarPlay 开放了</h3>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-21.jpg"></p>
+<p>CarPlay 变得更加开放了，曾经被苹果狠心抛弃的 Google Maps 和 Google 的干儿子地图 Waze，以及来自东方的神秘力量高德地图成为首批 CarPlay 支持的第三方导航，从此“志玲姐姐为您导航”将可以常伴林肯领航者车主左右，中国梦和美国梦一起实现。</p>
+<h3 id="防手机沉迷---划重点">防手机沉迷 - 划重点！</h3>
+<p>本次 iOS 12 的重点就是：<strong>防沉迷！</strong></p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-25.jpg"></p>
+<p>鉴于手机上瘾成为了一个社会议题，今年 Google 和苹果都不约而同地将“防沉迷”加入到了系统更新当中：</p>
+<ul>
+<li>**Do Not Disturb（别吵我）**功能将关掉手机的视觉通知，在夜深人静想起她或梦见她的时候，来了邮件也不会亮屏刺破夜的静谧和黑暗</li>
+<li>Deliver Quietly（安静通知）则是将消息推送静默化、不显示在锁屏，也不出声，也不会在 app 右上角标红</li>
+<li><strong>Grouped Notifications（分组通知</strong>）可以将某一类型的通知归组，微信群聊消息不再有轰炸的感觉</li>
+<li>**Reports（应用报告）**可以用周报告的形式，告诉用户用什么应用最多，哪个应用通知最多，每天起床第一个打开的是什么应用等等</li>
+<li><strong>App Limits（应用限制</strong>）可以给某个应用规定使用时间，当然这不是强制性的，用户可以突破限制继续“吃鸡”</li>
+<li><strong>Allowances（零用钱？）</strong> 是家长限制孩子使用应用的新特性</li>
+</ul>
+<h3 id="imessage-和-feactime">iMessage 和 FeacTime</h3>
+<p>Animoji 新增了 4 个新表情（幽灵，考拉，老虎和霸王龙），用户还可以为自己量身定做 Animoji ，并用到各种场景——这就是全新的 Memoji 技术</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-26.jpg"></p>
+<p><img loading="lazy" src="https://cdn.sspai.com/2018/06/05/67b6fba3d36bdd7caf09bec94dcb157b.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1"></p>
+<p>iOS 版 <strong>FaceTime</strong> 迎来了群聊功能，最多支持 32 人同时聊天，成员可以随时加入或离开聊天。聊天界面用瀑布流的形式呈现，正在说话的成员窗口会自动放大。macOS 版 FaceTime 同样也得到了更新。</p>
+<p><img loading="lazy" src="https://cdn.sspai.com/2018-06-04-Screen%20Shot%202018-06-05%20at%202.00.58%20AM.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1"></p>
+<h2 id="tvos">tvOS</h2>
+<blockquote>
+<p>关键词：优化试听体验</p>
+</blockquote>
+<p>tvOS 今年的变化比较小，更新主要集中在了影视资源以及细节优化上。</p>
+<p>Apple TV 4K 将支持杜比全景声和杜比视界，让你在家里也能获得电影院般的听觉体验。</p>
+<p><img loading="lazy" src="https://cdn.sspai.com/2018-06-04-Screen%20Shot%202018-06-05%20at%202.26.21%20AM.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1"></p>
+<h2 id="watchos-5">watchOS 5</h2>
+<blockquote>
+<p>关键词：运动进行到底</p>
+</blockquote>
+<p>随着 Apple Watch 成长的，还有它的操作系统 watchOS，这一次 watchOS 升级到了第五代。</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-31.jpg"></p>
+<p>Apple Watch 的功能朝着运动的方向发展，此次 watchOS 5 的更新，也以运动为主。</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-35.jpg"></p>
+<p>watchOS 5 的一个小惊喜是让 Apple Watch 成为了对讲机，这个应用名为 Walkie Talkie（对讲机）。</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-38.jpg"></p>
+<p>Apple Watch 早就支持了 Apple Pay，不过在通知上，Apple Watch 显然可以做得更多，比如值机和给滴滴师傅付款评分，手表不再只是个通知器，也能做些轻交互。</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-51.jpg"></p>
+<p>还有 Apple Watch 可以浏览网页了~</p>
+<h2 id="macos-mojave">macOS Mojave</h2>
+<blockquote>
+<p>关键词：夜间模式、全新的App Store</p>
+</blockquote>
+<p><img loading="lazy" src="https://cdn.sspai.com/2018-06-04-macOS01.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1"></p>
+<p>对于大多数人来说，macOS 更新最大的悬念，是新系统叫什么名字。</p>
+<p>答案是：<strong>macOS Mojave</strong>，Mojave 中译名是莫哈韦沙漠，位于在美国加利福尼亚西南，出于洛杉矶和拉斯维加斯之间。</p>
+<p>在 Mojave 这版系统中，苹果加入了一套适应暗光环境下使用的夜间主题，并对 Mac App Store 的交互界面进行了重塑，整个系统的改变甚至连库克都称为是苹果的一次 “巨大的跨越”。</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-89.jpg"></p>
+<h3 id="夜间模式--动态桌面">夜间模式 / 动态桌面</h3>
+<p>不少用户会在暗光环境下使用电脑，即便是将屏幕亮度调到最低，也难免会因为白底色为主的主题而感到刺眼。在这次更新中，macOS Mojave 新增加了一套暗色主题，不同于目前将菜单和程序栏调成暗色的选项，新系统上的是一套全局暗色主题，即便是在文件夹、应用里都是以黑色为主色呈现。</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-63.jpg"></p>
+<p>另外，系统可根据时间变化对桌面进行自动调整，日间使用时系统为正常主题；夜间使用时系统则自动切换至暗色模式主题。此时，台下的开发者们爆发出了一阵欢呼，大概是这个主题能够提升程序员朋友夜间加班的幸福感吧。</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-63.jpg"></p>
+<h3 id="智能分类">智能分类</h3>
+<p>macOS 会跟据文件类型和标签对桌面的文件进行自动分类整理，从此再也不用担心满桌面都是文件了。</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-82.jpg"></p>
+<p><img loading="lazy" src="https://cdn.sspai.com/2018-06-04-macOS04.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1"></p>
+<h3 id="快速查看升级">快速查看升级</h3>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-92.jpg"></p>
+<p>访达在这次系统上的更新并不多，只是针对图片查看增添了 “图库视图” 功能。通过 “图库视图”，用户可更加便捷快速地浏览到访达文件夹内的图片内容，与此同时功能内部也内置了图片元数据显示窗，用户可以借助数据窗口了解到图片的相关详情，并且可对图片进行快速编辑操作。</p>
+<h3 id="截图录屏操作---类似ios">截图/录屏操作 - 类似iOS</h3>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-93.jpg"></p>
+<p>此次 macOS Mojave 加入了 “系统级” 的截屏功能，用户也可以在截屏后对截屏图片进行简单的标记。不过实际上，目前不少社交软件其实都已经具备了截图 + 标记的相关功能，且在体验上也相当不错。</p>
+<h3 id="安全权限">安全权限</h3>
+<p>当我们在 iOS 系统上打开刚下载的应用程序时，系统会弹出弹窗，提示是否允许程序访问用户信息和手机硬件。而这次苹果也将相关的安全控制策略从 iOS “搬” 到了 macOS 上，当用户打开某个网址或程序时，系统会弹出 “是否允许访问” 的弹窗以获得用户批准。这也可能是为了呼应最近越发严格的隐私政策。</p>
+<h3 id="在-macos-上运行的几款-ios-程序">在 macOS 上运行的几款 iOS 程序</h3>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-84.jpg"></p>
+<p>将 iOS 的应用程序搬到 macOS 上运行是不少玩家曾经有过的想法。此次苹果在新版的 macOS 系统上加入了 iOS 端的新闻、股市、家、语音备忘录四个程序，用户可以在桌面系统上通过这几款应用阅读新闻、控制家庭设备等等。</p>
+<p>在发布会的最后，苹果否认了将对 iOS 和 macOS 进行合并的传闻，但考虑到 iOS 平台有非常庞大的应用数量，他们也希望其中的部分应用能来到 macOS。于是苹果在发布会上为大家提前预览了一个准备多年的项目，macOS 将可以使用 iOS 的 UIKit 框架进行开发，以降低开发多平台应用的成本。</p>
+<p><img loading="lazy" src="https://cdn.sspai.com/2018-06-04-Screen%20Shot%202018-06-05%20at%203.08.05%20AM.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1"></p>
+<p>比如这次 macOS Mojave 中新增的 4 款应用——News、股票、语音备忘录、家庭——均采用了这种新技术。</p>
+<h3 id="全新的-mac-app-store">全新的 Mac App Store</h3>
+<p><img loading="lazy" src="https://cdn.sspai.com/2018-06-04-macOS09.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1"></p>
+<p>在 iOS 11 对 Mac App Store 进行了重新设计后，macOS Mojave 也迎来了全新设计的 Mac App Store。新版拥有与 iOS 上 App Store 类似的发现页，里面能看到每日编辑推荐和一些 App 的使用技巧。进入 App 页面后，你可以看到视频预览和与 iOS 类似的评分系统。为了方便用户评分，新版 macOS 还加入了和 iOS 一样的 App 内打分功能。此外，苹果还宣布包括 Office 365 和 Adobe Lightroom CC 在内的一批重量级 App 将在今年稍后登录 Mac App Store。</p>
+<h2 id="结语">结语</h2>
+<p>是的，这次的 WWDC 只有软件，没有新的电子设备发布，没有新 iPad Pro、没有 iPhone SE2、没有带八代酷睿的新 MacBook，唯一能和“硬件”沾上边的就是一个新的彩虹表带。</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-56.jpg"></p>
+<p>时至今日，苹果生态已经日趋完善了，大概苹果的产品经理们也想不出什么石破天惊的功能让大家 wow 一声了，有的只是细节层面的改进。作为看客和用户，也只能接受这样的现实了。</p>
+<p>对了，那个可以四个人一起玩的乐高积木和 AR 应用，倒是可以考虑买来玩一下，不要一边说没有新东西，一边又对新东西视而不见。</p>
+<p>对于 iOS 开发者来说，macOS 将可以使用 iOS 的 UIKit 框架进行开发是一个值得关注的点。</p>
+<h3 id="参考">参考</h3>
+<ul>
+<li><a href="https://developer.apple.com/videos/play/wwdc2018/101/">WWDC 2018 Keynote</a></li>
+<li><a href="https://www.techradar.com/news/apple-wwdc-2018-keynote">Apple WWDC 2018: what&rsquo;s new? All the announcements from the keynote</a></li>
+<li><a href="http://www.ifanr.com/1043270">iOS 加入「防沉迷」，macOS 有了暗色主题，今年的 WWDC 重点都在系统上</a></li>
+<li><a href="https://sspai.com/post/44816">苹果 WWDC 2018：最全总结看这里，不错过任何重点</a></li>
+</ul>
+]]></content:encoded></item><item><title>Xcode命令行工具管理</title><link>https://ceeyang.com/posts/2018-05-05-xcode%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7%E7%AE%A1%E7%90%86/</link><pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2018-05-05-xcode%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7%E7%AE%A1%E7%90%86/</guid><description>如何切换Xcode命令行工具</description><content:encoded><![CDATA[<h2 id="安装">安装</h2>
+<pre><code>xcode-select --install
+</code></pre>
+<p><img loading="lazy" src="https://upload-images.jianshu.io/upload_images/545662-f9031dfcce085f8f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/459"></p>
+<h2 id="xcode版本切换">Xcode版本切换</h2>
+<h3 id="显示当前使用的xocde版本">显示当前使用的xocde版本</h3>
+<pre><code>$ xcode-select --print-path
+</code></pre>
+<h3 id="选择xcode中的默认版本">选择Xcode中的默认版本</h3>
+<pre><code>$ sudo xcode-select -switch /Applications/Xcode.app
+</code></pre>
+]]></content:encoded></item><item><title>Swift 4.2 新特性</title><link>https://ceeyang.com/posts/2018-11-09-swift4.2%E6%96%B0%E7%89%B9%E6%80%A7/</link><pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2018-11-09-swift4.2%E6%96%B0%E7%89%B9%E6%80%A7/</guid><description>本文介绍 Swift 4.2 的一些新特性</description><content:encoded><![CDATA[<h3 id="private-权限扩大">private 权限扩大</h3>
+<p>在 Swift 4 中，<code>extension</code> 可以读取 <code>private</code> 变量了。</p>
+<p>Swift 3 中，如果将主体函数的变量定义为 <code>private</code>，则其 <code>extension</code> 无法读取此变量，必须将其改为 <code>filePrivate</code> 才可以。</p>
+<h3 id="单向区间">单向区间</h3>
+<p>单向区间是一个新的类型，主要分两种：确定上限和确定下限的区间。直接用字面量定义大概可以写成 <code>…6</code>和 <code>2…</code></p>
+<p>例如</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">intArr</span> <span class="p">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">arr1</span> <span class="p">=</span> <span class="n">intArr</span><span class="p">[...</span><span class="mi">3</span><span class="p">]</span> 	<span class="c1">// [0, 1, 2, 3]</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">arr2</span> <span class="p">=</span> <span class="n">intArr</span><span class="p">[</span><span class="mf">3.</span><span class="p">..]</span> 	<span class="c1">// [3, 4]</span>
+</span></span></code></pre></div><h3 id="字符串改动">字符串改动</h3>
+<h4 id="string-操作简化了">String 操作简化了</h4>
+<p><code>String</code> 许多要通过 <code>.characters</code> 进行的操作，可以直接用 String 进行操作了。</p>
+<p>例如：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">greeting</span> <span class="p">=</span> <span class="s">&#34;Hello, 😜!&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// No need to drill down to .characters</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">n</span> <span class="p">=</span> <span class="n">greeting</span><span class="p">.</span><span class="bp">count</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">endOfSentence</span> <span class="p">=</span> <span class="n">greeting</span><span class="p">.</span><span class="n">index</span><span class="p">(</span><span class="n">of</span><span class="p">:</span> <span class="s">&#34;!&#34;</span><span class="p">)</span><span class="o">!</span>
+</span></span></code></pre></div><h4 id="新增-substring-类型">新增 Substring 类型</h4>
+<p>swift 4 为字符串片段新增了一个叫 <code>Substring</code> 的类型。</p>
+<p>当你创建一个字符串的片段时，会产生一个 <code>Substring</code> 实例。<code>Substring</code> 与 <code>String</code> 用法相同， 因为子串和原字符串共享内存，所以对子串的操作快速而且高效。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">greeting</span> <span class="p">=</span> <span class="s">&#34;Hi there! It&#39;s nice to meet you! 👋&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">endOfSentence</span> <span class="p">=</span> <span class="n">greeting</span><span class="p">.</span><span class="n">index</span><span class="p">(</span><span class="n">of</span><span class="p">:</span> <span class="s">&#34;!&#34;</span><span class="p">)</span><span class="o">!</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 产生 Substring 实例</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">firstSentence</span> <span class="p">=</span> <span class="n">greeting</span><span class="p">[...</span><span class="n">endOfSentence</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// firstSentence == &#34;Hi there!&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// `Substring` 与 `String` 用法相同</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">shoutingSentence</span> <span class="p">=</span> <span class="n">firstSentence</span><span class="p">.</span><span class="n">uppercased</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// shoutingSentence == &#34;HI THERE!&#34;</span>
+</span></span></code></pre></div><p>但是要注意一个 <code>Substring</code> 保留从其生成的完整的 <code>String</code>值。 当您传递一个看似很小的 <code>Substring</code> 时，这可能导致意外的高内存开销。所以使用 <code>Substring</code>时，最好转化为 <code>String</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">newString</span> <span class="p">=</span> <span class="nb">String</span><span class="p">(</span><span class="n">substring</span><span class="p">)</span>
+</span></span></code></pre></div><h4 id="换行可以不用-n了">换行可以不用 <code>\n</code>了！</h4>
+<p>Swift 3，字符串换行要插入 <code>\n</code>。
+例如：</p>
+<p><img loading="lazy" src="https://ws4.sinaimg.cn/large/006tNc79gy1fjdam0wvhhj305d0283yf.jpg"></p>
+<p>在 Swift 4 可以这样操作:</p>
+<p><img loading="lazy" src="https://ws2.sinaimg.cn/large/006tNc79gy1fjdas2yri4j303q0260sm.jpg"></p>
+<p>用两个 <code>“”“</code> 包裹起来的字符串会自动添加 <code>\n</code> 换行，更加直观了。注意：换行与缩进参照的是第二个 <code>“”“</code> 号的位置。</p>
+<p>嗯，我觉得OK！</p>
+<h4 id="支持-unicode-9">支持 Unicode 9</h4>
+<p>Swift 4 支持 Unicode 9，<a href="https://oleb.net/blog/2016/12/emoji-4-0/">为现代表情符号修正了一些问题</a>。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">family1</span> <span class="p">=</span> <span class="s">&#34;👨‍👩‍👧‍👦&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">family2</span> <span class="p">=</span> <span class="s">&#34;👨\u{200D}👩\u{200D}👧\u{200D}👦&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">family1</span> <span class="p">==</span> <span class="n">family2</span> <span class="c1">// → true</span>
+</span></span></code></pre></div><p>居然还有这种操作~</p>
+<h3 id="新增-keypath-数据类型">新增 KeyPath 数据类型</h3>
+<p>KeyPath 是 Swift 4 新增加的数据类型。</p>
+<p>定义两个结构体 <code>Person</code>与<code>Book</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">struct</span> <span class="nc">Person</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">name</span><span class="p">:</span> <span class="nb">String</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">struct</span> <span class="nc">Book</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">title</span><span class="p">:</span> <span class="nb">String</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">authors</span><span class="p">:</span> <span class="p">[</span><span class="n">Person</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">primaryAuthor</span><span class="p">:</span> <span class="n">Person</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">authors</span><span class="p">.</span><span class="bp">first</span><span class="p">!</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">abelson</span> <span class="p">=</span> <span class="n">Person</span><span class="p">(</span><span class="n">name</span><span class="p">:</span> <span class="s">&#34;Harold Abelson&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">sussman</span> <span class="p">=</span> <span class="n">Person</span><span class="p">(</span><span class="n">name</span><span class="p">:</span> <span class="s">&#34;Gerald Jay Sussman&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">book</span> <span class="p">=</span> <span class="n">Book</span><span class="p">(</span><span class="n">title</span><span class="p">:</span> <span class="s">&#34;Structure and Interpretation of Computer Programs&#34;</span><span class="p">,</span> <span class="n">authors</span><span class="p">:</span> <span class="p">[</span><span class="n">abelson</span><span class="p">,</span> <span class="n">sussman</span><span class="p">])</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="n">book</span><span class="p">[</span><span class="n">keyPath</span><span class="p">:</span> <span class="err">\</span><span class="n">Book</span><span class="p">.</span><span class="n">title</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="n">book</span><span class="p">[</span><span class="n">keyPath</span><span class="p">:</span> <span class="err">\</span><span class="n">Book</span><span class="p">.</span><span class="n">primaryAuthor</span><span class="p">.</span><span class="n">name</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 相当与</span>
+</span></span><span class="line"><span class="cl"><span class="n">book</span><span class="p">.</span><span class="n">title</span>
+</span></span><span class="line"><span class="cl"><span class="n">book</span><span class="p">.</span><span class="n">primaryAuthor</span><span class="p">.</span><span class="n">name</span>
+</span></span></code></pre></div><p>这里 <code>\Book.title</code> 与 <code>\Book.primaryAuthor.name</code> 就是 KeyPath.</p>
+<p>KeyPath 可以用 <code>.appending</code> 拼接</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">authorKeyPath</span> <span class="p">=</span> <span class="err">\</span><span class="n">Book</span><span class="p">.</span><span class="n">primaryAuthor</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">nameKeyPath</span> <span class="p">=</span> <span class="n">authorKeyPath</span><span class="p">.</span><span class="n">appending</span><span class="p">(</span><span class="n">path</span><span class="p">:</span> <span class="err">\</span><span class="p">.</span><span class="n">name</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// nameKeyPath = \Book.primaryAuthor.name</span>
+</span></span></code></pre></div><h3 id="新增--swapat-函数">新增  <code>swapAt()</code> 函数</h3>
+<p>Swift 4 引入了一种在集合中交换两个元素的新方法: <code>swapAt()</code></p>
+<p>Swift 3 交换集合中的元素的用 <code>swap()</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">var</span> <span class="nv">numbers</span> <span class="p">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="bp">swap</span><span class="p">(&amp;</span><span class="n">numbers</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="p">&amp;</span><span class="n">numbers</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// numbers = [2,1,3,4,5]</span>
+</span></span></code></pre></div><p>Swift 4 中可以直接用</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">var</span> <span class="nv">numbers</span> <span class="p">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="n">numbers</span><span class="p">.</span><span class="n">swapAt</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// numbers = [2,1,3,4,5]</span>
+</span></span></code></pre></div><h3 id="其他改动">其他改动</h3>
+<p>其他改动如：<strong>新的整数协议</strong>、<strong>泛型下标</strong>、<strong>NSNumber bridging</strong>等</p>
+<p>可以参考：<a href="https://github.com/ole/whats-new-in-swift-4">whats new in swift4</a></p>
+]]></content:encoded></item><item><title>Git 快速入门教程</title><link>https://ceeyang.com/posts/2017-06-25-git-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</link><pubDate>Sun, 25 Jun 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2017-06-25-git-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</guid><description>Git 快速入门教程</description><content:encoded><![CDATA[<h1 id="git-使用教程">Git 使用教程</h1>
+<h2 id="一git-的安装">一、Git 的安装</h2>
+<h6 id="windows版本-">Windows版本 :</h6>
+<p>直接前往git官网下载<a href="http://msysgit.github.io/">msysgit安装包</a>进行安装即可，安装流程和一般的windows软件的安装流程差不多，没什么区别。</p>
+<h6 id="mac版本">Mac版本:</h6>
+<p>Mac已经自带了git，无需安装。</p>
+<h2 id="二配置git提交的用户名和邮件">二、配置Git提交的用户名和邮件</h2>
+<p>这样做的目的是为了在git的log日志里面可以清楚的区分出每次的提交人是谁，以防日后出了问题能够立马清晰准确的定位出是哪个屌丝挖的坑，操作步骤：</p>
+<h5 id="打开-git-控制台">打开 git 控制台：</h5>
+<ul>
+<li>Windows：随便在哪个空白位置右键，然后 <code>git bash</code>，调出git的命令控制台。</li>
+<li>Mac：随便打开一个你喜欢的终端即可(<strong>Terminal</strong>, <strong>Iterm2</strong> 等)。</li>
+</ul>
+<h5 id="然后输入以下命令">然后输入以下命令：</h5>
+<pre tabindex="0"><code>$ git config --global user.name &#34;Your Name（用户名）&#34;
+$ git config --global user.email &#34;email@example.com（邮箱）&#34;
+</code></pre><p>这里简单的说明一下，加上<code>--global</code>参数是表示配置的全局范围，针对所有的git项目而言的，当然也可以分别给某一个项目配置，进入到某个项目里面，去掉<code>–-global</code>参数即可。</p>
+<h2 id="三生成-sshkey">三、生成 SSHKey</h2>
+<p>Git推荐使用SSH协议传输文件（代码），会生成一个公钥和私钥，公钥配置在服务端，每次可以省去验证，方便快捷。当然使用https协议也是可以的，只不过是每次都需要输入用户名和密码，相对来说比较繁琐。</p>
+<h5 id="步骤">步骤:</h5>
+<p>任意空白处右键调出<code>git Bash</code>命令控制台，如果是Mac系统，打开终端就行了，输入以下命令：</p>
+<pre tabindex="0"><code>$ ssh-keygen -t rsa -C &#34;youremail@example.com&#34;
+</code></pre><p>然后一路回车，使用默认值即可，应该是需要3个回车的，设置密码为空(注意按3个回车的时候别输入其他的，不然设置的密码不为空，你就等着每次提交输入密码吧)。</br>
+如果一切顺利的话，可以在用户主目录里找到.ssh目录，里面有 <strong>id_rsa</strong> 和 <strong>id_rsa.pub</strong> 两个文件，这两个就是SSH Key的秘钥对，<strong>id_rsa</strong> 是私钥，不能泄露出去，<strong>id_rsa.pub</strong> 是公钥，可以放心地告诉任何人。</br>
+一般这个 <strong>id_rsa.pub</strong> 里面的内容是要配到git服务器上面的（由统一的人去管理），然后我们就可以从服务器上面拿代码和提交代码了。Mac系统默认目录为<code>~/.ssh</code>。</p>
+<h2 id="四获取代码与提交代码">四、获取代码与提交代码</h2>
+<p>首先给大家介绍几个概念，一个是本地 <strong>worksapce</strong> 工作区，一个是 <strong>stash</strong> 暂存区，一个是 <strong>localRepository</strong> 本地库，一个是 <strong>remoteRepository</strong> 远程库。</p>
+<ul>
+<li>从git服务器下载代码到本地</li>
+</ul>
+<pre tabindex="0"><code>git clone git@github.com:ceeyang/ceeyang.github.io.git
+</code></pre><ul>
+<li>查看本地分支和远程分支，其中<code>-a</code>参数查看远程分支</li>
+</ul>
+<pre tabindex="0"><code>git branch
+git branch -a
+</code></pre><ul>
+<li>创建本地分支</li>
+</ul>
+<pre tabindex="0"><code>git brnach newBranch
+</code></pre><ul>
+<li>切换本地分支</li>
+</ul>
+<pre tabindex="0"><code>git checkout newBranch
+</code></pre><ul>
+<li>创建本地新分支并切换到该分支</li>
+</ul>
+<pre tabindex="0"><code>git checkout -b newBranch
+</code></pre><ul>
+<li>基于本地分支创建远程分支</li>
+</ul>
+<pre tabindex="0"><code>git push origin newBranch
+</code></pre><ul>
+<li>删除分支（注意：删除分支需要先切换到其他的分支，如<code>master</code>分支，再执行删除操作）</li>
+</ul>
+<pre tabindex="0"><code>git checkout master
+git branch -d dev
+</code></pre><ul>
+<li>创建分支并且切换分支
+基于远程分支创建本地分支并且切换到该本地分支，基于远程 dev 分支在本地创建一个 dev 分支，并且切换到 dev 分支。</li>
+</ul>
+<pre tabindex="0"><code>// 1
+git checkout -b  newBranch origin/newBranch  
+// 2
+git checkout -b newBranch
+// 3
+git checkout newBranch
+</code></pre><ul>
+<li>暂存本地工作区的修改</li>
+</ul>
+<pre tabindex="0"><code>git add README.MD
+</code></pre><p>通常使用用（&quot;<code>.</code>&ldquo;代表所有文件，注意&rdquo;<code>.</code>&ldquo;前面的空格）</p>
+<pre tabindex="0"><code>git add .
+</code></pre><ul>
+<li>提交暂存区的内容到本地库中</li>
+</ul>
+<pre tabindex="0"><code>git commit -m &#34;注释&#34;
+</code></pre><ul>
+<li>抓取远程库最新提交的代码,</li>
+</ul>
+<pre tabindex="0"><code>git fetch origin dev
+</code></pre><p>或者：</p>
+<pre tabindex="0"><code>git fetch
+</code></pre><p><code>git fetch</code>是简写(git 会自动搜索和当前分支名相同的远程分支名)</p>
+<ul>
+<li>将本地修改与远程进行合并此时，若遇到冲突，需要先手动解决冲突，再执行合并。</li>
+</ul>
+<pre tabindex="0"><code>git rebase origin/dev
+</code></pre><p>这个时候如果出现了冲突，就先解决冲突，冲突解决完之后，需先缓存到本地工作区，然后执行合并。</p>
+<pre tabindex="0"><code>git add .
+git rebase --continue
+</code></pre><ul>
+<li>安装changeId自动生成hook
+ 
+注意：如果使用了<code>gerrit</code>代码审查工具，提交的时候就必须要先生成这个<code>changID</code>值，如果没有这个<code>changID</code>,则不能到<code>gerrit</code>代码审核工具中进行代码审核操作了。而<code>gerrit</code>代码审查工具的存在就没有意义了。
+操作步骤：进入到工作空间（<code>workspace</code>）中的仓库目录，输入如下命令：</li>
+</ul>
+<pre tabindex="0"><code>scp -p -P 29418 username@www.dreamtech.com.cn:hooks/commit-msg .git/hooks/
+</code></pre><ul>
+<li>将本地仓库中的代码push推送到远程仓库中
+这里需要注意：
+我们也可以直接用命令<code>git push origin dev</code>将代码直接<code>push</code>到远程代码仓库，但是由于现在我们这边是使用了<code>gerrit</code>代码审查工具，所有不能直接这样推送，必须使用<code>git push origin head:refs/for/dev</code> 这个命令将代码推送到<code>gerrit</code>服务器上，然后我们再登录到<code>gerrit</code>中（会有一个web页面供我们操作）进行审核之后，执行最后合并，此时如果报错的话 有可能是因为你的<code>changID</code>没有生成，使用之前介绍的命令生成<code>changID</code>。</li>
+</ul>
+<pre tabindex="0"><code>git push origin HEAD:refs/for/dev
+</code></pre><p>或者:</p>
+<pre tabindex="0"><code>git push origin head:refs/for/dev
+</code></pre><ul>
+<li>登录到<code>gerrit</code>服务器中，进行代码审核，然后执行合并（这一步先不管，专人统一审核，合并提交代码到远程中央仓库）</li>
+</ul>
+<h2 id="五撤销修改">五、撤销修改</h2>
+<ul>
+<li>场景一：当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，使用</li>
+</ul>
+<pre tabindex="0"><code>git checkout -- filename
+</code></pre><p>通常用（&rdquo;.&ldquo;代表所有文件，注意&rdquo;.&ldquo;前面的空格）</p>
+<pre tabindex="0"><code>git checkout -- .
+</code></pre><ul>
+<li>场景二：当你不但改乱了工作区的某个文件的内容，而且还提交到了暂存区（在本地执行了<code>commit</code>提交，但是还没有<code>commit</code>提交到远程服务器）时，想丢弃修改，分两步：</li>
+</ul>
+<p>第一步: 使用命令:</p>
+<pre tabindex="0"><code>git reset HEAD filename
+</code></pre><p>或者使用<code>.</code>代替全部：</p>
+<pre tabindex="0"><code>git reset HEAD .
+</code></pre><p>就又回到了场景一.</p>
+<p>第二步: 再按照场景一的步骤操作.</p>
+<ul>
+<li>场景三：已经提交了和不合适的修改带版本库时，想要撤销本次修改，则可以使用版本回退，但是前提是还没有推送push到远程库</li>
+</ul>
+<p>版本回退见下面介绍</p>
+<h2 id="六版本回退">六、版本回退</h2>
+<p><code>HEAD</code>指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令</p>
+<pre tabindex="0"><code>git  reset  --soft commit_id
+</code></pre><p>或者</p>
+<pre tabindex="0"><code>git reset --soft HEAD^
+</code></pre><p>穿梭前，用<code>git log</code>可以查看提交历史，以便确定要回退到哪个版本。
+要重返未来，用<code>git reflog</code>查看命令历史，以便确定要回到未来的哪个版本。</p>
+<hr>
+<h2 id="七stash-暂存">七、Stash 暂存</h2>
+<p>关于<code>git Stash</code>的详细解释，适用场合，这里做一个说明：
+当前工作区内容已被修改，但是并未完成。这时 Boss 来了，说前面的分支上面有一个 Bug ，需要立即修复。可是我又不想提交目前的修改，因为修改没有完成。但是，不提交的话，又没有办法<code>checkout</code>到另外的分支。此时用<code>git Stash</code>就相当于备份当前工作区了。然后在<code>Checkout</code>过去修改，就能够达到保存当前工作区，并及时恢复的作用。
+之后，另一个版本的 bug 修复完毕之后，再使用<code>checkout</code>切换回之前的分支，然后再使用<code>git stash pop</code>命令或者<code>git stash apply</code>命令就又可以恢复回来了。</p>
+<pre tabindex="0"><code>git stash save &#34;备注说明&#34;
+</code></pre><p>备份当前的工作区的内容，从最近的一次提交中读取相关内容，让工作区保证和上次提交的内容一致。同时，将当前的工作区内容保存到Git栈中。</p>
+<pre tabindex="0"><code>git stash pop stashId
+</code></pre><p>从Git栈中读取最近一次保存的内容，恢复工作区的相关内容。由于可能存在多个<code>Stash</code>的内容，所以用栈来管理，<code>pop</code>会从最近的一个stash中读取内容并恢复。</p>
+<pre tabindex="0"><code>git stash list
+</code></pre><p>显示Git栈内的所有备份，可以利用这个列表来决定从那个地方恢复。</p>
+<pre tabindex="0"><code>git stash clear
+</code></pre><p>清空Git栈。此时使用gitg等图形化工具会发现，原来stash的哪些节点都消失了。</p>
+<h2 id="八git如何放弃所有本地修改">八、git如何放弃所有本地修改</h2>
+<pre tabindex="0"><code>git checkout .
+</code></pre><p>放弃本地所有修改的。没有的提交的，都返回到原来的状态 </p>
+<pre tabindex="0"><code>git stash .
+</code></pre><p>把所有没有提交的修改暂存到<code>stash</code>里面。可用<code>git stash pop</code>恢复。 </p>
+<pre tabindex="0"><code>git reset --hard HASH
+</code></pre><p>返回到某个节点，不保留修改。</p>
+<pre tabindex="0"><code>git reset --soft HASH
+</code></pre><p>返回到某个节点。保留修改</p>
+<h2 id="九git只更新远程库中的单个或者指定的文件">九、Git只更新远程库中的单个或者指定的文件</h2>
+<p>在开发过程中，我们有的时候并不需要更新远程所有的文件，而只需要更新某一个或者说特定的文件，如何操作呢？
+<strong>SVN</strong> 更新单个文件只需要<code>svn up file/to/updat</code>，非常简单，而且没有任何歧义。
+但是<strong>git</strong>由于在远程服务器和本地都有一个代码库，这样只更新单个文件的话比<strong>SVN</strong>稍微要麻烦一点。</p>
+<ul>
+<li>如果想拿远程git服务器上的最新版本（或者某个特定版本）去覆盖本地的修改，可以使用<code>git pull</code>命令，但是这样会全面更新本地代码库和工作拷贝。</li>
+<li>如果想放弃本地工作拷贝所做的修改，可以使用 <code>git checkout filePath</code>命令，但该命令只能用本地库覆盖你的工作拷贝，并不能取得远程版本的更新。
+所以，正确的方法应该是先更新本地库（但是不更新工作拷贝），然后用本地库来更新单个的工作拷贝文件。</li>
+</ul>
+<blockquote>
+<p>例如：假设说开发小伙A在本地新增或者是修改了某个文件file1,然后提交到远程库了，之后开发小伙B想要拿到这个file1文件，（注意场景：这里是只想拿到这一个文件file1，小伙A有可能提交了多个文件），那么小伙B这边可以这么做：</p>
+</blockquote>
+<blockquote>
+<ol>
+<li>第一步，抓取远程库最新修改：<code>git fetch</code></li>
+<li>第二步，指定某个文件进行更新: <code>git checkout origin/dev -- filePath</code></li>
+</ol>
+</blockquote>
+<h2 id="十分支的合并">十、分支的合并</h2>
+<p>假设我们当前的版本有一个<code>master</code>主干分支，同时还有一个<code>dev</code>开发分支，因为通常情况下我们做开发都是在<code>dev</code>分支下进行的开发，之后开发完成后需要将<code>dev</code>分支开发的功能同步到<code>master</code>主干分支上，也就是合并到<code>master</code>分支上，那么怎么操作呢？</p>
+<p>1.首先切换到需要合并的分支上，打个比方说：现在我们需要将<code>dev</code>分支合并到<code>master</code>主干分支，第一步：首先我们需要切换到<code>master</code>主干分支上 :</p>
+<pre tabindex="0"><code>git checkout master
+</code></pre><p>2.为了保证当前的本地<code>master</code>分支的内容与远程服务器中<code>master</code>分支的内容保持同步，我们需要先同步代码:</p>
+<pre tabindex="0"><code>git pull origin master
+</code></pre><p>通常我们会拆成两个步骤来完成：</p>
+<pre tabindex="0"><code>git fetch origin master
+</code></pre><p>或者</p>
+<pre tabindex="0"><code>git fetch
+git rebase origin/master
+</code></pre><p>3.将dev分支合并到当前master分支</p>
+<pre tabindex="0"><code>git merge dev
+</code></pre><p>或者</p>
+<pre tabindex="0"><code>git merge --no-ff dev
+</code></pre><p>4.此时如果在合并的过程中出现了冲突，则需要先解决冲突，解决方法同 <strong>svn</strong> 差不多</p>
+<p>5.冲突解决完之后，再继续执行合并操作</p>
+<pre tabindex="0"><code>git add -A
+git rebase --continue
+</code></pre><p>6.合并成功之后，我们再将master分支push推送到远程库中即可</p>
+<pre tabindex="0"><code>git push origin master
+</code></pre><hr>
+<h2 id="十一如何合并某个分支中的一个或者是几个commits提交">十一、如何合并某个分支中的一个或者是几个commit（s）提交</h2>
+<p><code>git cherry-pick</code>可以选择某一个分支中的一个或者是几个<code>commit(s)</code>来进行合并操作。在实际应用中，我们可能会遇到这样的情况：</p>
+<p>假设现在我们有个稳定版本的分支叫做<code>release</code>，另外还有一个开发版本的分支叫做<code>dev</code>，然后我们在<code>dev</code>开发分支里面修改了一些东西（新增了几个个功能，或者是修复了几个bug等等），之后 <strong><code>commit</code></strong> 了几个（这里注意是几个）更新操作（也就是提交到了本地库），但是后来我们发现同样需要在<code>release</code>分支上同步应用某个更新，我们不能直接将<code>release分</code>支和<code>dev</code>分支执行合并，因为这样将会导致稳定版本混乱，但是确实又想增加一个<code>dev</code>分支中的某个功能到<code>release</code>分支中来，那么这时我们就可以使用<code>cherry-pick</code>命令来解决这个问题了，就是对已经存在的commit进行再次<code>commit</code>（提交）操作。简单用法：</p>
+<pre tabindex="0"><code>git cherry-pick &lt;commit_id&gt;
+</code></pre><p>注意：当执行完<code>cherry-pick</code>以后，将会生成一个新的提交，这个新的提交的哈希值和原来的不一致，但标识名是一样的。</p>
+<p>1.首先，切换到dev开发分支</p>
+<pre tabindex="0"><code>git checkout dev
+</code></pre><p>2.然后找到<code>dev</code>分支的<strong>commitId 38361a6</strong>（说明：本来commitId是38361a68138140827b31b72f8bbfd88b3705d77a这么多位，但是可以只取前7位就行了。使用<code>git log</code>命令可以查看提交的 <strong>commitId</strong>）</p>
+<pre tabindex="0"><code>git log
+commit 38361a68138140827b31b72f8bbfd88b3705d77a
+</code></pre><p>3.之后再次切换回 <strong>release</strong> 分支</p>
+<pre tabindex="0"><code>git checkout release
+</code></pre><p>4.更新一下 <strong>release</strong> 版本的代码，保持与远程仓库的同步</p>
+<pre tabindex="0"><code>git fetch origin release
+git rebase orgin/release
+</code></pre><p>5.执行<code>cherry-pick</code>命令，同步 <strong>dev</strong> 分支的修改代码</p>
+<pre tabindex="0"><code>git cherry-pick 38361a6
+</code></pre><p>6.如果顺利，就会出现下面这段提示，当然也有可能不出现这段提示，只要没报冲突，则说明代码同步成功了。</p>
+<pre tabindex="0"><code>Finished one cherry-pick
+# On branch old_cc
+# Your branch is ahead of &#39;origin/old_cc&#39; by 3 commits.
+</code></pre><p>7.如果在<code>cherry-pick</code>的过程中出现了冲突就手动解决冲突，解决完冲突之后根据提示继续执行同步。</p>
+<pre tabindex="0"><code>git add -A 
+git cherry-pick --continue
+</code></pre><p>8.最后push到远程仓库。</p>
+<pre tabindex="0"><code>git push origin release
+</code></pre><hr>
+<h2 id="十二一个完整的团队开发流程">十二、一个完整的团队开发流程</h2>
+<p>1.克隆远程仓库</p>
+<pre tabindex="0"><code>git clone ssh://xxx@www.dreamtech.com:12256/xxx
+</code></pre><p>2.切换到对应分支:<code>git checkout dev</code>、<code>git checkout -b dev</code> or <code>git checkout -b dev origin/dev</code></p>
+<pre tabindex="0"><code>git checkout -b dev origin/dev
+</code></pre><p>3.查看当前分支状态，查看提交。</p>
+<pre tabindex="0"><code>git status
+git log
+</code></pre><p>4.添加 <strong>commit msg</strong> ,一个项目只需要添加一次即可。</p>
+<pre tabindex="0"><code>scp -p -P 29418 username@www.dreamtech.com.cn:hooks/commit-msg .git/hooks/
+</code></pre><p>5.当本地修改后，缓存本地文件。添加 commit msg。</p>
+<pre tabindex="0"><code>git add -A 或者 git add .
+git commit -m &#34;注释&#34;
+</code></pre><p>6.抓取远程提交，合并本地代码。</p>
+<pre tabindex="0"><code>git fetch origin dev
+git rebase origin/dev
+</code></pre><p>这个时候如果出现冲突，注意出现冲突只可能会是在合并(<code>rebase</code>)时出现冲突，那我们就直接解决冲突即可，解决完之后,再依次执行：</p>
+<pre tabindex="0"><code>git add -A
+git rebase --continue
+</code></pre><p>9.推送到远程仓库。</p>
+<pre tabindex="0"><code>git push origin HEAD:refs/for/dev
+</code></pre><p>或者如果远程库（<code>gerrit</code>仓库）只是一个空的仓库的话，这就需要先将本地库的代码关联到<code>gerrit</code>远程库（即将本地库与远程库建立映射关系），之后再推送上去。执行以下命令：</p>
+<pre tabindex="0"><code class="language- " data-lang=" ">git remote add origin ssh://xxx@www.dreamtech.com:12256/xxx
+git push -u origin HEAD:refs/for/master
+</code></pre><p>这里加了<code>-u</code>参数，首次推送的话需要加上这个-u参数，以后都不需要了。</p>
+]]></content:encoded></item><item><title>岁月静好</title><link>https://ceeyang.com/posts/2017-06-25-foryou001/</link><pubDate>Sun, 25 Jun 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2017-06-25-foryou001/</guid><description>纵然相思入骨，纵然万劫不复，我也只愿你眉眼如初，风华如故。</description><content:encoded><![CDATA[<p>若我只是你一红尘过客，</p>
+<p>愿我不曾扰你</p>
+<p>愿岁月静好。</p>
+<hr>
+<p>一个人，一杯咖啡，一台电脑，一下午。</p>
+<p>在悠扬的旋律中将自己的心事铺开，往事如似水流年，在眼前一幕幕滑过，或清晰如画，或淡淡如烟。</p>
+<p>很是感谢这些年你的陪伴，我将倾尽我所有，为博与你共赴余生。</p>
+<p>如果终将无法相濡以沫，那就相忘于江湖吧。</p>
+<p>我会记得你，祝岁月静好。</p>
+]]></content:encoded></item><item><title>说说近来近况与计划</title><link>https://ceeyang.com/posts/2017-06-25-%E8%AF%B4%E8%AF%B4%E6%9C%80%E8%BF%91%E7%9A%84%E8%BF%91%E5%86%B5%E5%90%A7/</link><pubDate>Sun, 25 Jun 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2017-06-25-%E8%AF%B4%E8%AF%B4%E6%9C%80%E8%BF%91%E7%9A%84%E8%BF%91%E5%86%B5%E5%90%A7/</guid><description>总是想写点什么，但又不知道写什么，随笔写点咯。</description><content:encoded><![CDATA[<pre><code>时间过得太快，转眼已经是六月底了。离今年自己的目标好远。
+
+一直想写点东西，却不知道怎么写，要如何才能养成写作的好习惯。
+
+最近玩的心思太重了。还记得是某天，在公司上班听歌，突然想再走一朝江湖了，然后去玩儿了倩女。
+</code></pre>
+<p>也差不就是那个时间开始玩儿到现在，大概是三个月前吧。一直玩儿到现在。我也不知道自己在写啥，思绪很乱。</p>
+<pre><code>从今年的1月1号开始，基本都是下班就走，不加班，周末不加班，没了刚出来的那种拼搏的动力了。
+</code></pre>
+<p>沉沦了半年，去年说的今年要跳槽也没跳，一直没去学习新的知识，知识拿着现有的用，缺啥找啥，感觉也没认真复习。
+今天才醒悟时间过去了一半，不能再这样沉沦下去了，该好好规划一下了。</p>
+<pre><code>首先不能再继续玩儿了，玩儿得心不能太重，多花时间在学习工作上。
+</code></pre>
+]]></content:encoded></item><item><title>iOS11上手体验</title><link>https://ceeyang.com/posts/2017-6-6-ios11%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C/</link><pubDate>Thu, 08 Jun 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2017-6-6-ios11%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C/</guid><description>WWDC发布iOS11，让我们一起来看看吧。</description><content:encoded><![CDATA[<p>WWDC2017于今天凌晨1点准时开始，说实话笔者等这一天等很久了。</p>
+<p>##以下是笔者的上手体验：</p>
+<ul>
+<li><a href="#0">系统界面的更新</a></li>
+</ul>
+<ol>
+<li>iMessage：通过iCloud将iMessage里的对话内容进行云端同步。</li>
+<li><a href="#1">Camera</a>：相机可以直接读取图片中的二维码，每张照片压缩率为此前的两倍，你会有更多空间存储照片，此外还可更好地分类，笔者测试了一下，拍一张照片是比以前用的内存小，各位内存吃紧的小伙伴有福利了。</li>
+<li><a href="#4">Control Center</a>：更多的功能将加入其中，改变音量大小等变为了模块式，界面优化明显。</li>
+<li>Siri：通过深度学习，可以理解你的言语，结合上下文进一步知晓你的兴趣爱好等，笔者对iOS9的 Siri有点小失望，这一代的估计不错，不过笔者来得及没体验，留个各位同学自己上手体验吧。</li>
+<li><a href="#7">Apple Music</a>：可以与朋友一同分享音乐，包括微信，QQ。</li>
+<li><a href="#8">App Store</a>：经过重新设计，内容将通过“今日推荐”、“游戏”、“App”三个标签页进行展示。</li>
+<li><a href="#9">Keyboard</a>：内置键盘加入中国的拼音输入，并且新增单手操作模式。</li>
+</ol>
+<ul>
+<li><a href="#10">Fiels</a>：属于 iOS 的文件管理器。不过貌似没啥用，不能获取其他 APP 的沙盒文件。</li>
+</ul>
+<p>###凌晨看完发布会直播，眼睛已经涩得不行，只能去睡觉，第二天体验新版的 iOS11 系统了，一大早来公司就下载了新系统安装，刚开始还不适应，不过感觉也还行。使用中发现许多 bug,不过毕竟是测试版，就不多做评价。下面笔者带你走进 iOS11，至于是否更新测试版本各位同学自己决定咯。</p>
+<h4 id="系统界面的更新"><h4 id="0">系统界面的更新</h4></h4>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-89f22bb32d743551.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-bb06699395d4615b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-9a4a239e38e15083.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p>　　顶部状态了的信号图标变了，变成安卓风格，个人觉得还是以前的小圆点好看，虽然笔者用的是表示信号强度的数字。以前锁屏界面的通知消息能够右滑清除，新版的系统好像不可以了。只能长安，或者重按，笔者用的 iPhone 7，带 3DTouch 的功能，重按后出现了上面的通知详情界面。上拉能显示历史通知消息，笔者这里把历史通知都删除了，看不到所以就没截图。不管是在通知消息上面右滑还是在空白处右滑都会打开相机。有点小小的不习惯啊。</p>
+<p>　　进入主页的动画效果也有改变。</p>
+<hr>
+<h4 id="camera照相机"><h4 id="1"> Camera：照相机</h4></h4>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-7c0f3436f456dfe1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-cbf0edacf405a6de.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p>　　哈哈，相机已经可以直接读取图片中的二维码了，也就是说拿着相机就可以扫描其他二维码，虽然整个过程需要打开浏览器，再打开各个 APP，过程比较繁琐，但这进步也是值得称赞的。不过笔者跳转到微信后没任何反应，哈哈，看来又是 bug 。期待后期的使用了。等等，听说安卓的早就可以了？安卓同学请略过QAQ。</p>
+<hr>
+<h4 id="control-center控制中心"><h4 id = "4"> Control Center：控制中心 <h4></h4>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-7fd4b10dd5234ffa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-9b97ee5ee4f9daa7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-0e275d2ee493a4a2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-c9db4c44d48d77ba.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p>　　控制中心可以自定义菜单，如图，笔者选了一些功能。笔者这里只提几点：点击 WiFi 后只能打开与关闭，重按也只能打开一个更多的页面，并不能在控制中心选择 WiFi，蓝牙也是如此。看以前暴露的视频，WiFi 和蓝牙是可以在控制中心选择的，但笔者没测试出来，或许是 bug 来着。字体大小按钮，可以将全局的字体整体放大缩小，拿 iPhone 当老年机的话笔者感觉这个功能会有点用。辅助功能里面新增几个选项：SOS，Pay，重新启动，SOS 创建临时急救方案，点一下自动拨打急救电话，貌似以前也有，现在提到控制中心了而已。其他几个也不多说。 计算器页面也重新做了次，各位同学不知意下如何。</p>
+<hr>
+<h4 id="apple-music苹果音乐"><h4 id = "7"> Apple Music：苹果音乐 <h4></h4>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-e214b931552eab83.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p>　　Apple Music 支持分享到 QQ 和微信，微博暂时还不能分享过去。</p>
+<hr>
+<h4 id="app-store苹果应用商店"><h4 id = "8"> App Store：苹果应用商店 <h4></h4>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-38081bad0379a4bd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-020013b2eb4d6507.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-982ef8907bd711dd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-677a26359cee8c64.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-26d4378c4a2756c8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p>　　App Store 界面大变样，转为你各人设置，根据平时爱好推荐新品。话说王者农药居然是在搜索榜第一位！</p>
+<hr>
+<h4 id="keyboard键盘添加中午输入并新增单手操作模式"><h4 id = "9"> Keyboard：键盘添加中午输入，并新增单手操作模式 <h4></h4>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-94de6a53f81b1583.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-143dac8800c82867.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-9258a1006ea01451.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p>　　哈哈，用惯了搜狗的笔者还是觉得有点鸡肋，仅仅是各人观点，勿喷。不知小伙伴们意下如何，哈哈。</p>
+<hr>
+<h4 id="fielsios-的文件管理器-"><h4 id = "10"> Fiels：iOS 的文件管理器 ：<h4></h4>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-6eb43cd106900af1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-9e91c2120c53ffd5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-74652a71626e8eb4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p>　　更新系统后会发现多了一个叫做 Files（文件）的 APP，打开使用了几下，出了不少 bug。不得不吐槽一下，除了能打开 iCloud Drive 上的备份文件之外，好像并没什么用。不能打开其他 APP 中的文件，QQ音乐啥的里面的音乐一首都搜索不到，AirDrop 上传到手机的文件也收不到，不知道这个管理器能干啥。或许是给土豪们用来管理 iCloud 的，哈哈。</p>
+<hr>
+<p>　　今早第一时间来就更新了新系统，使用中还是发现不少 bug,这里就不一一列出来了。笔者建议小伙伴们还是等待一段时间，等稳定了再安装新版本吧。</p>
+]]></content:encoded></item><item><title>I have a dream</title><link>https://ceeyang.com/posts/2017-01-09-i-have-a-dream/</link><pubDate>Mon, 09 Jan 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2017-01-09-i-have-a-dream/</guid><description>I have a dream,find someone we love each other.</description><content:encoded><![CDATA[<p>　　I have a dream.It&rsquo;s marry you.</p>
+<p>　　So much words wants to talk you.</p>
+<p>　　I miss you so much already and I haven’t even know you yet!</p>
+]]></content:encoded></item><item><title>Leave me</title><link>https://ceeyang.com/posts/2017-01-09-about-leave/</link><pubDate>Mon, 09 Jan 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2017-01-09-about-leave/</guid><description>I have a dream,find someone we love each other.</description><content:encoded>&lt;p>　　Stay with me or bring me away.&lt;/p>
+</content:encoded></item><item><title>勇气</title><link>https://ceeyang.com/posts/2017-1-7-%E5%8B%87%E6%B0%94/</link><pubDate>Sat, 07 Jan 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2017-1-7-%E5%8B%87%E6%B0%94/</guid><description>I will love you with all of my courage in my life,if I have any chance.</description><content:encoded><![CDATA[<pre><code>Finally I make up my mind
+You are the one I want to find
+How I wish I could stay by your side
+I promise wherever I will follow you
+Life is not easy as you told
+Hrer I am always trying to convince my soul
+Unwilling to hear you lose your hope
+If you love me tell me so
+I love you or te amo
+Above suspicion,you're my whole
+But you are irresolute
+When you hold me in your arms never never be apart
+I can feel you when you go so far your love is in my palm inside my heart
+Finally I make up my mind
+You are the one I want to find
+How I wish I could stay by your side
+I promise wherever I will follow you
+Life is not easy as you told
+Here I am always trying to convince my soul
+Unwilling to hear you lose your hope
+If you love me tell me so
+I love you or te amo
+Above suspicion, you're my whole
+But you are irresolute
+When you hold me in your arms never never be apart
+I can feel you when you go so far your love is in my palm inside my heart Maybe someday you have to go
+Let me be the first one to know
+I will give my diary to you
+Everyday I write it out of love, just for you
+</code></pre>
+<p><embed autostart="true" hidden="true" loop="true" src="http://data.5sing.kgimg.com/G032/M00/19/11/wIYBAFX0dyqAGVXtAFcBeBHNpIo979.mp3"></embed></p>
+]]></content:encoded></item><item><title>深夜独白</title><link>https://ceeyang.com/posts/2017-08-26-%E6%B7%B1%E5%A4%9C%E7%8B%AC%E7%99%BD/</link><pubDate>Fri, 06 Jan 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2017-08-26-%E6%B7%B1%E5%A4%9C%E7%8B%AC%E7%99%BD/</guid><description>深夜独白</description><content:encoded>&lt;hr>
+&lt;p>世事无常，总是让人琢磨不透。&lt;/p>
+</content:encoded></item><item><title>随笔</title><link>https://ceeyang.com/posts/2017-1-7-%E9%9A%8F%E7%AC%94/</link><pubDate>Fri, 06 Jan 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2017-1-7-%E9%9A%8F%E7%AC%94/</guid><description>随笔，记录生活的点点滴滴</description><content:encoded>&lt;pre>&lt;code>Sometimes I want to write someting,but when I make my tool ready,I had forgot what I want to say.
+People always are.
+
+You are the reason why I become stronger,but still you are my weakness.
+
+Finally I make my mind you are the one I want to find.
+
+I wanna do someting for you, but I cant't find the reason for you.
+&lt;/code>&lt;/pre>
+</content:encoded></item><item><title>App热修复详解</title><link>https://ceeyang.com/posts/2017-1-5-app-hotfix%E7%83%AD%E4%BF%AE%E5%A4%8D%E8%AF%A6%E8%A7%A3/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2017-1-5-app-hotfix%E7%83%AD%E4%BF%AE%E5%A4%8D%E8%AF%A6%E8%A7%A3/</guid><description>App Hotfix(热修复)详解</description><content:encoded><![CDATA[<h1 id="app-hotfix热修复详解">App Hotfix(热修复)详解</h1>
+<p>定义：</p>
+<p>　　从广义的角度理解，大家都比较认同 Hotfix 是在移动端不需要重新发版，通过在线更新对版本 Bug 的修复。</p>
+<h2 id="现在比较流行的热修复技术分为三种">现在比较流行的热修复技术分为三种：</h2>
+<h2 id="一使用jspatch进行热修复">一、使用JSPatch进行热修复：</h2>
+<blockquote>
+<p>　　Objective-C 是动态语言，OC上所有方法的调用/类的生成都通过 Objective-C Runtime 在运行时进行，我们可以通过类名和方法名反射得到相应的类和方法，也可以替换某个类的方法为新的实现，还可以新注册一个类，为类添加方法替换方法，通过这些即可实现动态修复 APP 技术。</p>
+</blockquote>
+<blockquote>
+<p>　　<a href="https://github.com/bang590/JSPatch">JSPatch</a>是一个在Github上的开源项目，<a href="https://github.com/bang590/JSPatch">JSPatch下载地址</a>。<a href="https://github.com/bang590/JSPatch">JSPatch</a> 的实现主要是通过 Objective-C的 runtime 原理,即利用JS传递字符串给OC，OC通过 Runtime 接口调用和替换OC方法。具体实现原理请参考作者的帖子：<a href="https://segmentfault.com/a/1190000003870981">JSPatch 实现原理详解 (整改版)</a>。</p>
+</blockquote>
+<blockquote>
+<p>　　<a href="http://bang590.github.io/JSPatchConvertor">OC转JS工具</a>,具体实现参考该<a href="http://www.jianshu.com/p/8cec322531ae">博客</a></p>
+</blockquote>
+<hr>
+<h3 id="大体实现思路如下">大体实现思路如下：</h3>
+<ol>
+<li><a href="#1">首先，开发者提供热修复脚本</a>；</li>
+<li><a href="#2">其次，要将脚本上传到后台，后台需要提供上传的操作页面</a>；</li>
+<li><a href="#3">然后，终端设备每次运行后请求获取最新的脚本文件</a>；</li>
+<li><a href="#4">最后，解析脚本文件，调用 JSPatch 引擎，执行脚本文件并修复</a>；</li>
+</ol>
+<h4 id="1开发者提供热修复脚本"><span id = "1">1、开发者提供热修复脚本:</span></h4>
+<p>脚本的书写：</p>
+<p>　　脚本书写也很简单，先用Objective-C将要需要更改的代码改好，然后根据需要修改的代码更改成js代码即可，具体书写方法请参照 <a href="https://github.com/bang590/JSPatch">JSPatch</a>使用说明，或者使用上面提供的<a href="http://bang590.github.io/JSPatchConvertor">OC转JS工具</a>。</p>
+<p>例如：</p>
+<p>　　OBjective-C代码，这里是需要修改的内容。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Objective-C" data-lang="Objective-C"><span class="line"><span class="cl"><span class="k">@implementation</span> <span class="nc">ViewController</span>
+</span></span><span class="line"><span class="cl"><span class="p">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">viewDidLoad</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="p">[</span><span class="nb">super</span> <span class="n">viewDidLoad</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="cm">/** 该代码在上线后的项目里面并没有
+</span></span></span><span class="line"><span class="cl"><span class="cm">        *  即在 APP 上线后又临时修改的。
+</span></span></span><span class="line"><span class="cl"><span class="cm">        *  添加或者修改我们需要改动代码，如无需改动，该方法不变，此处拿修改标题做测试，可以做很堵其他操作；
+</span></span></span><span class="line"><span class="cl"><span class="cm">        */</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">self</span><span class="p">.</span><span class="n">title</span> <span class="o">=</span> <span class="s">@&#34;Welcome to use JSPatchDemo&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">      <span class="cm">/**
+</span></span></span><span class="line"><span class="cl"><span class="cm">      * 省略其他代码
+</span></span></span><span class="line"><span class="cl"><span class="cm">      */</span>
+</span></span><span class="line"><span class="cl"><span class="k">@end</span>
+</span></span></code></pre></div><p>　　javascript代码：JS 属于链式语法，相信很多人都会，可以查看 JSPatch 的语法规则自己写，也可以通过<a href="http://bang590.github.io/JSPatchConvertor">OC转JS工具</a>将上面的代码转换成JS 代码</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">defineClass</span><span class="p">(</span><span class="s1">&#39;ViewController&#39;</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">viewDidLoad</span><span class="o">:</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">self</span><span class="p">.</span><span class="kr">super</span><span class="p">().</span><span class="nx">viewDidLoad</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="cm">/** 该代码在上线后的项目里面并没有
+</span></span></span><span class="line"><span class="cl"><span class="cm">         *  即在 APP 上线后又临时修改的。
+</span></span></span><span class="line"><span class="cl"><span class="cm">         *  添加或者修改我们需要改动代码，如无需改动，该方法不变，此处拿修改标题做测试，可以做很堵其他操作；
+</span></span></span><span class="line"><span class="cl"><span class="cm">         */</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">self</span><span class="p">.</span><span class="nx">setTitle</span><span class="p">(</span><span class="s2">&#34;Welcome to use JSPatchDemo&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span></code></pre></div><p>　　至此，热修复脚本已经编写完成。</p>
+<hr>
+<h4 id="2要将脚本上传到后台后台需要提供上传的操作页面"><span id = "2">2、要将脚本上传到后台，后台需要提供上传的操作页面:</span></h4>
+<p>　　此处需要后台配置，将上面已经写好的脚本放到服务器上面，并开发接口由APP 请求接口获取到脚本文件</p>
+<hr>
+<h4 id="3终端设备每次运行后请求获取最新的脚本文件"><span id = "3">3、终端设备每次运行后请求获取最新的脚本文件:</span></h4>
+<p>　　终端获取请求后台开发的接口，获取到脚本内容，可以根据当前版本与脚本编号判断当前脚本是否是最新脚本，如果是最新脚本，则执行脚本内容。</p>
+<hr>
+<h4 id="4解析脚本文件调用-jspatch-引擎执行脚本文件并修复"><span id = "4">4、解析脚本文件，调用 JSPatch 引擎，执行脚本文件并修复:</span></h4>
+<p>首先将JSPatch添加到项目中</p>
+<pre tabindex="0"><code>   pod &#39;JSPatch&#39;
+</code></pre><p>然后导入头文件<code>#import &quot;JSPatch.h&quot;</code>, 在程序启动的时候注册 JSPatch</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-OBjective-C" data-lang="OBjective-C"><span class="line"><span class="cl"><span class="k">@implementation</span> <span class="nc">AppDelegate</span>
+</span></span><span class="line"><span class="cl"><span class="p">-</span> <span class="p">(</span><span class="kt">BOOL</span><span class="p">)</span><span class="nf">application:</span><span class="p">(</span><span class="n">UIApplication</span> <span class="o">*</span><span class="p">)</span><span class="nv">application</span> <span class="nf">didFinishLaunchingWithOptions:</span><span class="p">(</span><span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">launchOptions</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">//此处作为演示，加载本地的 js 文件
+</span></span></span><span class="line"><span class="cl">    <span class="c1">//热修复功能一般是从服务器段请求下来，然后再经过版本判断等操作，再加载等。
+</span></span></span><span class="line"><span class="cl">    <span class="n">NSString</span> <span class="o">*</span> <span class="n">jsPath</span> <span class="o">=</span> <span class="p">[[</span><span class="n">NSBundle</span> <span class="n">mainBundle</span><span class="p">]</span> <span class="nl">pathForResource</span><span class="p">:</span><span class="s">@&#34;JSFileName&#34;</span> <span class="nl">ofType</span><span class="p">:</span><span class="s">@&#34;js&#34;</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">//在 js 文件存在的情况下，调用 JSPatch，如果js 文件不存在，程序会崩溃。
+</span></span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">([[</span><span class="n">NSFileManager</span> <span class="n">defaultManager</span><span class="p">]</span> <span class="nl">fileExistsAtPath</span><span class="p">:</span><span class="n">jsPath</span><span class="p">]</span> <span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">NSString</span> <span class="o">*</span><span class="n">scriptPatch</span> <span class="o">=</span> <span class="p">[</span><span class="n">NSString</span> <span class="nl">stringWithContentsOfFile</span><span class="p">:</span><span class="n">jsPath</span> <span class="nl">encoding</span><span class="p">:</span><span class="n">NSUTF8StringEncoding</span> <span class="nl">error</span><span class="p">:</span><span class="nb">nil</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="p">[</span><span class="n">JPEngine</span> <span class="n">startEngine</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="p">[</span><span class="n">JPEngine</span> <span class="nl">evaluateScript</span><span class="p">:</span><span class="n">scriptPatch</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>　　至此，利用JSPatch引擎进行 APP 热修复功能差不多就如此了，剩下的就是调试优化上诉各个环节。</p>
+<h2 id="二使用reactnative实现热修复">二、使用ReactNative实现热修复：</h2>
+<blockquote>
+<p>　　<a href="https://github.com/facebook/react-native">ReactNative</a>是facebook提供的一种开源框架，使用JS语法进行跨平台开发，深受开发者青睐。直接使用ReactNative实现热修复的好像不是很多，比较流行的是使用微软的CodePush。</p>
+</blockquote>
+<blockquote>
+<p>　　这个是<a href="http://microsoft.github.io/code-push/docs/getting-started.html">CodePush</a>的官方网站地址,这个是CodePush<a href="https://github.com/Microsoft/react-native-code-push#getting-started">GitHut</a>地址。具体实现参考该<a href="http://blog.csdn.net/u011151353/article/details/50688681">博客</a>，讲的特别详细，我就不具体讲解了。</p>
+</blockquote>
+<h2 id="三使用luawax打补丁的方案实现热修复">三、使用Lua+Wax打补丁的方案实现热修复：</h2>
+<blockquote>
+<p>　　由于 lua热修复框架多年不更新，此处省略。</p>
+</blockquote>
+]]></content:encoded></item><item><title>快速添加圆角和描边</title><link>https://ceeyang.com/posts/2016-12-01-%E5%BF%AB%E9%80%9F%E6%B7%BB%E5%8A%A0%E5%9C%86%E8%A7%92%E5%92%8C%E6%8F%8F%E8%BE%B9/</link><pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2016-12-01-%E5%BF%AB%E9%80%9F%E6%B7%BB%E5%8A%A0%E5%9C%86%E8%A7%92%E5%92%8C%E6%8F%8F%E8%BE%B9/</guid><description>iOS 为图片添加圆角和描边的几种方式</description><content:encoded><![CDATA[<h1 id="前言">前言</h1>
+<p>对于习惯使用Storyboard的人来说，设置圆角、描边是一件比较蛋疼的事，因为苹果没有在xcode的Interface Builder上直接提供修改控件的圆角，边框设置。</p>
+<p>我们来说说如何对某个控件进行圆角、描边处理：</p>
+<h1 id="初级">初级</h1>
+<p>对于一个初学者来说，如果要进行某个控件的圆角、描边设置，就要从Storyboard关联出属性，然后再对属性进行代码处理。</p>
+<p>如下代码：</p>
+<pre tabindex="0"><code>self.myButton.layer.cornerRadius = 20;
+self.myButton.layer.masksToBounds = YES;
+self.myButton.layer.borderWidth = 2;
+self.myButton.layer.borderColor = [UIColor blackColor].CGColor;
+</code></pre><p>这样不仅需要Storyboard关联出属性，还要写一堆代码对属性进行设置，不得不说实在麻烦~</p>
+<h1 id="中级">中级</h1>
+<p>更聪明的做法是使用Storyboard提供的Runtime Attributes为控件添加圆角描边。</p>
+<p>选中控件，然后在Runtime Attributes框中输入对应的<code>Key</code>与<code>Type</code>与<code>Value</code>,这样程序在运行时就会通过KVC为你的控件属性进行赋值。(不仅仅是圆角、描边~)</p>
+<p>如下图</p>
+<p><img loading="lazy" src="http://ww4.sinaimg.cn/large/7853084cgw1fabg89aeqkj207b08j74y.jpg"></p>
+<p>设置圆角、描边的Key为：</p>
+<pre tabindex="0"><code>layer.borderWidth
+layer.borderColorFromUIColor
+layer.cornerRadius
+clipsToBounds
+</code></pre><p>我这次在测试时，</p>
+<p>这样做不用关联出属性，但是需要输入大串字符串，也是不够方便。</p>
+<h1 id="高级">高级</h1>
+<p>创建UIView的分类，使用<code>IBInspectable</code>+ <code>IB_DESIGNABLE</code>关键字：</p>
+<pre tabindex="0"><code>#import &lt;UIKit/UIKit.h&gt;
+
+IB_DESIGNABLE
+
+@interface UIView (Inspectable)
+
+@property(nonatomic,assign) IBInspectable CGFloat cornerRadius;
+@property(nonatomic,assign) IBInspectable CGFloat borderWidth;
+@property(nonatomic,assign) IBInspectable UIColor *borderColor;
+
+@end
+</code></pre><pre tabindex="0"><code>#import &#34;UIView+Inspectable.h&#34;
+
+@implementation UIView (Inspectable)
+
+-(void)setCornerRadius:(CGFloat)cornerRadius{
+    self.layer.masksToBounds = YES;
+    self.layer.cornerRadius = cornerRadius;
+}
+-(void)setBorderColor:(UIColor *)borderColor{
+    self.layer.borderColor = borderColor.CGColor;
+}
+-(void)setBorderWidth:(CGFloat)borderWidth{
+    self.layer.borderWidth = borderWidth;
+}
+
+- (CGFloat)cornerRadius{
+    return self.layer.cornerRadius;
+}
+- (CGFloat)borderWidth{
+    return self.layer.borderWidth;
+}
+- (UIColor *)borderColor{
+    return [UIColor colorWithCGColor:self.layer.borderColor];
+}
+
+@end
+</code></pre><p>附上：<a href="https://github.com/qiubaiying/CircularAndStroke.git">GitHub地址</a></p>
+<h4 id="直接使用">直接使用</h4>
+<p>直接将这两个文件拖入项目中即可使用，在右边栏将会显示圆角和描边的属性设置</p>
+<p>如图：</p>
+<p><img loading="lazy" src="http://ww4.sinaimg.cn/large/7853084cgw1facfqugjtbj20mp07v401.jpg"></p>
+<h4 id="动态显示设置效果">动态显示设置效果</h4>
+<p>直接使用的话只有在运行时才能看到效果，</p>
+<p>例如要实时显示一个<code>UIBUtton</code>圆角、描边效果，需要创建一个类继承<code>UIButton</code></p>
+<pre tabindex="0"><code>#import &lt;UIKit/UIKit.h&gt;
+#import &#34;UIView+Inspectable.h&#34;
+
+@interface myButton : UIButton
+
+@end
+</code></pre><pre tabindex="0"><code>#import &#34;myButton.h&#34;
+
+@implementation myButton
+
+@end
+</code></pre><p>只要将button的Class选择该空白类即可</p>
+<p>关于<code>IBInspectable</code>与<code>IB_DESIGNABLE</code>的使用详情可以参考这篇文章<a href="http://www.jianshu.com/p/a90e44ba1f2b">《谈不完美的IBDesignable/IBInspectable可视化效果编程》</a></p>
+]]></content:encoded></item><item><title>About</title><link>https://ceeyang.com/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ceeyang.com/about/</guid><description>Hey, this is Cee Yang.</description><content:encoded><![CDATA[<p>积土成山，非斯须之作。</p>
+<p>个人简历请查看: <a href="https://ceeyang.com/Resume">https://ceeyang.com/Resume</a></p>
+]]></content:encoded></item></channel></rss>

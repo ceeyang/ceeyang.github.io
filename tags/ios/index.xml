@@ -1,1 +1,995 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>IOS on Cee Yang</title><link>https://ceeyang.com/tags/ios/</link><description>Recent content in IOS on Cee Yang</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ceeyang.com/tags/ios/index.xml" rel="self" type="application/rss+xml"/><item><title>开源邀请归因系统 share-installs：自托管延迟深度链接匹配方案</title><link>https://ceeyang.com/posts/2026-06-01-share-installs-guide/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2026-06-01-share-installs-guide/</guid><description>分享一个开源自托管的邀请码 &amp;amp; 延迟深度链接归因系统——share-installs。用户点击邀请链接并安装 App 后，首次启动时邀请码自动识别回填。</description></item><item><title>Swift Debug Print</title><link>https://ceeyang.com/posts/2019-08-10-swift-debug-print/</link><pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2019-08-10-swift-debug-print/</guid><description>Swift Debug Print</description></item><item><title>UITextView+Placeholder</title><link>https://ceeyang.com/posts/2019-08-08-uitextview%E6%89%A9%E5%B1%95%E6%B7%BB%E5%8A%A0placeholder/</link><pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2019-08-08-uitextview%E6%89%A9%E5%B1%95%E6%B7%BB%E5%8A%A0placeholder/</guid><description>UITextView 扩展 Placeholder</description></item><item><title>iOS UITabBarController 嵌套 UINavigationController</title><link>https://ceeyang.com/posts/2018-09-18-ios-tabbar-%E5%B5%8C%E5%A5%97-navbar/</link><pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2018-09-18-ios-tabbar-%E5%B5%8C%E5%A5%97-navbar/</guid><description>iOS UITabBarController 嵌套 UINavigationController</description></item><item><title>5分钟带你看完 WWDC 2018</title><link>https://ceeyang.com/posts/2018-06-05-5%E5%88%86%E9%92%9F%E5%B8%A6%E4%BD%A0%E7%9C%8B%E5%AE%8C-wwdc-2018/</link><pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2018-06-05-5%E5%88%86%E9%92%9F%E5%B8%A6%E4%BD%A0%E7%9C%8B%E5%AE%8C-wwdc-2018/</guid><description>WWDC 2018 Keynote 全记录</description></item><item><title>Xcode命令行工具管理</title><link>https://ceeyang.com/posts/2018-05-05-xcode%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7%E7%AE%A1%E7%90%86/</link><pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2018-05-05-xcode%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7%E7%AE%A1%E7%90%86/</guid><description>如何切换Xcode命令行工具</description></item><item><title>Swift 4.2 新特性</title><link>https://ceeyang.com/posts/2018-11-09-swift4.2%E6%96%B0%E7%89%B9%E6%80%A7/</link><pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2018-11-09-swift4.2%E6%96%B0%E7%89%B9%E6%80%A7/</guid><description>本文介绍 Swift 4.2 的一些新特性</description></item><item><title>iOS11上手体验</title><link>https://ceeyang.com/posts/2017-6-6-ios11%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C/</link><pubDate>Thu, 08 Jun 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2017-6-6-ios11%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C/</guid><description>WWDC发布iOS11，让我们一起来看看吧。</description></item><item><title>App热修复详解</title><link>https://ceeyang.com/posts/2017-1-5-app-hotfix%E7%83%AD%E4%BF%AE%E5%A4%8D%E8%AF%A6%E8%A7%A3/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2017-1-5-app-hotfix%E7%83%AD%E4%BF%AE%E5%A4%8D%E8%AF%A6%E8%A7%A3/</guid><description>App Hotfix(热修复)详解</description></item><item><title>快速添加圆角和描边</title><link>https://ceeyang.com/posts/2016-12-01-%E5%BF%AB%E9%80%9F%E6%B7%BB%E5%8A%A0%E5%9C%86%E8%A7%92%E5%92%8C%E6%8F%8F%E8%BE%B9/</link><pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2016-12-01-%E5%BF%AB%E9%80%9F%E6%B7%BB%E5%8A%A0%E5%9C%86%E8%A7%92%E5%92%8C%E6%8F%8F%E8%BE%B9/</guid><description>iOS 为图片添加圆角和描边的几种方式</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>IOS on Cee Yang</title><link>https://ceeyang.com/tags/ios/</link><description>Recent content in IOS on Cee Yang</description><image><title>Cee Yang</title><url>https://ceeyang.com/images/og-cover.png</url><link>https://ceeyang.com/images/og-cover.png</link></image><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ceeyang.com/tags/ios/index.xml" rel="self" type="application/rss+xml"/><item><title>开源邀请归因系统 share-installs：自托管延迟深度链接匹配方案</title><link>https://ceeyang.com/posts/2026-06-01-share-installs-guide/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2026-06-01-share-installs-guide/</guid><description>分享一个开源自托管的邀请码 &amp;amp; 延迟深度链接归因系统——share-installs。用户点击邀请链接并安装 App 后，首次启动时邀请码自动识别回填。</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<p>你有没有遇到过这种场景：</p>
+<blockquote>
+<p>用户 A 分享了一个邀请链接给用户 B。用户 B 在手机上点击链接，跳转到 App Store 下载了 App。安装打开后——<strong>邀请码呢？</strong></p>
+</blockquote>
+<p>传统方案要么依赖复杂的 Deep Link 配置（Universal Link / App Links），要么需要接入 Firebase Dynamic Links 这类第三方服务。前者配置繁琐，后者有被 deprecate 的风险。</p>
+<p>这就是我开源 <strong>share-installs</strong> 的原因。</p>
+<hr>
+<h2 id="什么是-share-installs">什么是 share-installs？</h2>
+<p><strong>share-installs</strong> 是一个开源、自托管的 <strong>邀请码 &amp; 延迟深度链接归因系统</strong>。</p>
+<p>核心能力只有一句话：<strong>用户点击邀请链接并安装 App 后，首次启动时邀请码会自动识别并回填——即使点击时 App 尚未安装。</strong></p>
+<p>项目地址：<a href="https://github.com/ceeyang/share-installs">github.com/ceeyang/share-installs</a></p>
+<pre tabindex="0"><code>⭐ 核心功能：浏览器指纹 → 后端匹配 → App 启动自动回填
+🖥️ 三端 SDK：Web（TypeScript）+ iOS（Swift）+ Android（Kotlin）
+🐳 一键部署：Docker Compose / Kubernetes / 裸机
+🔐 自托管：数据存在你自己的服务器上
+</code></pre><hr>
+<h2 id="工作原理">工作原理</h2>
+<p>整个流程分为四个阶段：</p>
+<pre tabindex="0"><code>[阶段 1] 用户 A 分享邀请链接
+         │
+         ▼
+[阶段 2] 用户 B 点击链接 → 你的落地页
+         │  JS SDK 上报浏览器指纹到后端
+         ▼
+[阶段 3] 跳转 App Store / Play Store
+         │
+         ▼
+[阶段 4] 用户 B 安装并打开 App
+         │  移动 SDK 上报设备指纹
+         ▼
+         后端匹配指纹 → 返回邀请码
+         │
+         ▼
+         App 自动填入邀请码 ✓
+</code></pre><p><strong>关键技术点：</strong></p>
+<ol>
+<li><strong>指纹匹配</strong>：浏览器和设备的特征组合（时区、语言、屏幕尺寸、硬件参数等）被视为同一用户的指纹</li>
+<li><strong>时间窗口</strong>：默认 72 小时内，点击事件可被匹配</li>
+<li><strong>置信度阈值</strong>：模糊匹配默认 0.75，可配置</li>
+</ol>
+<p><strong>职责边界：</strong> share-installs 只负责指纹收集和匹配。邀请码的生成、跳转商店、使用次数统计等业务逻辑由你的系统处理。</p>
+<hr>
+<h2 id="快速启动">快速启动</h2>
+<h3 id="docker-一键启动推荐">Docker 一键启动（推荐）</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone https://github.com/ceeyang/share-installs.git
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> share-installs
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 使用默认配置启动全部服务</span>
+</span></span><span class="line"><span class="cl">docker compose up --build
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 验证</span>
+</span></span><span class="line"><span class="cl">curl http://localhost:6066/api/health
+</span></span><span class="line"><span class="cl"><span class="c1"># {&#34;status&#34;:&#34;ok&#34;,&#34;version&#34;:&#34;1.0.0&#34;,&#34;timestamp&#34;:&#34;...&#34;}</span>
+</span></span></code></pre></div><h3 id="本地调试模式docker-基础设施--本地代码热重载">本地调试模式（Docker 基础设施 + 本地代码热重载）</h3>
+<p>最适合有断点调试需求的日常开发：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 1. 启动数据库 + 缓存</span>
+</span></span><span class="line"><span class="cl">docker compose up db redis -d
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 2. 安装依赖</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> backend <span class="o">&amp;&amp;</span> npm install
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 3. 初始化数据库</span>
+</span></span><span class="line"><span class="cl">npm run db:generate
+</span></span><span class="line"><span class="cl">npx prisma migrate dev --name init
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 4. 启动热重载开发服务器</span>
+</span></span><span class="line"><span class="cl">npm run dev
+</span></span><span class="line"><span class="cl"><span class="c1"># 服务运行在 http://localhost:6066</span>
+</span></span></code></pre></div><h3 id="环境变量快速参考">环境变量快速参考</h3>
+<table>
+  <thead>
+      <tr>
+          <th>变量</th>
+          <th>默认值</th>
+          <th>说明</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>MULTI_TENANT</code></td>
+          <td><code>false</code></td>
+          <td>自部署模式 / SaaS 模式</td>
+      </tr>
+      <tr>
+          <td><code>ADMIN_SECRET</code></td>
+          <td>空（不鉴权）</td>
+          <td>项目管理端点保护密钥</td>
+      </tr>
+      <tr>
+          <td><code>FINGERPRINT_MATCH_THRESHOLD</code></td>
+          <td><code>0.75</code></td>
+          <td>匹配最低置信度</td>
+      </tr>
+      <tr>
+          <td><code>FINGERPRINT_MATCH_TTL_HOURS</code></td>
+          <td><code>72</code></td>
+          <td>匹配时间窗口（小时）</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="sdk-集成">SDK 集成</h2>
+<h3 id="web-端邀请落地页">Web 端（邀请落地页）</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-typescript" data-lang="typescript"><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">ShareInstallsSDK</span> <span class="p">}</span> <span class="kr">from</span> <span class="s1">&#39;@share-installs/js-sdk&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">sdk</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">ShareInstallsSDK</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">apiBaseUrl</span><span class="o">:</span> <span class="s1">&#39;https://你的域名/api&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 从 URL 提取邀请码
+</span></span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">inviteCode</span> <span class="o">=</span> <span class="nx">location</span><span class="p">.</span><span class="nx">pathname</span><span class="p">.</span><span class="nx">split</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">).</span><span class="nx">pop</span><span class="p">()</span><span class="o">!</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 上报指纹
+</span></span></span><span class="line"><span class="cl"><span class="k">await</span> <span class="nx">sdk</span><span class="p">.</span><span class="nx">trackClick</span><span class="p">(</span><span class="nx">inviteCode</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">customData</span><span class="o">:</span> <span class="p">{</span> <span class="nx">campaign</span><span class="o">:</span> <span class="s1">&#39;summer2024&#39;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 然后由你的代码跳转 App Store / Play Store
+</span></span></span></code></pre></div><h3 id="iosswift">iOS（Swift）</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">import</span> <span class="nc">ShareInstallsSDK</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 在 AppDelegate 或 @main App 中初始化</span>
+</span></span><span class="line"><span class="cl"><span class="n">ShareInstallsSDK</span><span class="p">.</span><span class="n">configure</span><span class="p">(</span><span class="n">with</span><span class="p">:</span> <span class="n">ShareInstallsConfiguration</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">apiBaseURL</span><span class="p">:</span> <span class="n">URL</span><span class="p">(</span><span class="n">string</span><span class="p">:</span> <span class="s">&#34;https://你的域名/api&#34;</span><span class="p">)</span><span class="o">!</span>
+</span></span><span class="line"><span class="cl"><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 首次启动后 resolve</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="kd">let</span> <span class="nv">result</span> <span class="p">=</span> <span class="k">try</span> <span class="n">await</span> <span class="n">ShareInstallsSDK</span><span class="p">.</span><span class="n">shared</span><span class="p">.</span><span class="n">resolveDeferred</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// result.inviteCode — 邀请码</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// result.customData — 落地页传入的自定义数据</span>
+</span></span><span class="line"><span class="cl">    <span class="n">applyInviteCode</span><span class="p">(</span><span class="n">result</span><span class="p">.</span><span class="n">inviteCode</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h3 id="androidkotlin">Android（Kotlin）</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="line"><span class="cl"><span class="c1">// 在 Application.onCreate 中初始化
+</span></span></span><span class="line"><span class="cl"><span class="nc">ShareInstallsSDK</span><span class="p">.</span><span class="n">configure</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">context</span> <span class="p">=</span> <span class="n">applicationContext</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">configuration</span> <span class="p">=</span> <span class="n">ShareInstallsConfiguration</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">        <span class="n">apiBaseUrl</span> <span class="p">=</span> <span class="s2">&#34;https://你的域名/api&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 首次启动后 resolve
+</span></span></span><span class="line"><span class="cl"><span class="k">val</span> <span class="py">result</span> <span class="p">=</span> <span class="nc">ShareInstallsSDK</span><span class="p">.</span><span class="n">instance</span><span class="p">.</span><span class="n">resolveDeferred</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="n">result</span> <span class="o">!=</span> <span class="k">null</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">applyInviteCode</span><span class="p">(</span><span class="n">result</span><span class="p">.</span><span class="n">inviteCode</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<h2 id="部署选项">部署选项</h2>
+<table>
+  <thead>
+      <tr>
+          <th>方式</th>
+          <th>适用场景</th>
+          <th>复杂度</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Docker Compose</td>
+          <td>测试 &amp; 自托管</td>
+          <td>⭐</td>
+      </tr>
+      <tr>
+          <td>Docker Dev</td>
+          <td>日常开发调试</td>
+          <td>⭐⭐</td>
+      </tr>
+      <tr>
+          <td>Docker Compose（生产）</td>
+          <td>小型生产部署</td>
+          <td>⭐⭐</td>
+      </tr>
+      <tr>
+          <td>裸机（Node.js + PG + Redis）</td>
+          <td>已有基础设施</td>
+          <td>⭐⭐⭐</td>
+      </tr>
+      <tr>
+          <td>Kubernetes + Terraform（AWS）</td>
+          <td>生产环境</td>
+          <td>⭐⭐⭐⭐</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="项目结构一览">项目结构一览</h2>
+<pre tabindex="0"><code>share-installs/
+├── backend/           # Express + Prisma + Redis REST API
+├── sdk/
+│   ├── ios/           # Swift SDK（SPM + CocoaPods）
+│   ├── android/       # Kotlin SDK
+│   └── js/            # TypeScript Web SDK（npm）
+├── landing/           # Next.js 邀请落地页（可选）
+├── dashboard/         # 管理仪表盘
+├── docs/              # 架构 &amp; 集成文档
+├── infrastructure/
+│   ├── k8s/           # Kubernetes manifests
+│   └── terraform/     # AWS 基础设施（EKS + RDS）
+├── test/              # 内存测试服务器 &amp; 测试页面
+├── docker-compose.yml
+└── docker-compose.dev.yml
+</code></pre><p><strong>后端技术栈：</strong></p>
+<ul>
+<li><strong>运行时</strong>：Node.js + TypeScript</li>
+<li><strong>框架</strong>：Express</li>
+<li><strong>ORM</strong>：Prisma</li>
+<li><strong>缓存</strong>：Redis（用于指纹匹配加速 + 限流）</li>
+<li><strong>数据库</strong>：PostgreSQL</li>
+</ul>
+<hr>
+<h2 id="适用场景">适用场景</h2>
+<ul>
+<li><strong>社交裂变</strong>：App 用户邀请好友注册，自动归因</li>
+<li><strong>活动推广</strong>：通过邀请链接分发优惠券码</li>
+<li><strong>内测分发</strong>：控制邀请名额，追踪安装来源</li>
+<li><strong>渠道归因</strong>：区分不同推广渠道的下载来源</li>
+</ul>
+<hr>
+<h2 id="与其他方案对比">与其他方案对比</h2>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>share-installs</th>
+          <th>Firebase Dynamic Links</th>
+          <th>Branch.io</th>
+          <th>AppsFlyer</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>开源</strong></td>
+          <td>✅</td>
+          <td>❌</td>
+          <td>❌</td>
+          <td>❌</td>
+      </tr>
+      <tr>
+          <td><strong>自托管</strong></td>
+          <td>✅</td>
+          <td>❌</td>
+          <td>❌</td>
+          <td>❌</td>
+      </tr>
+      <tr>
+          <td><strong>免费</strong></td>
+          <td>✅</td>
+          <td>✅（有额度）</td>
+          <td>❌</td>
+          <td>❌</td>
+      </tr>
+      <tr>
+          <td><strong>多端 SDK</strong></td>
+          <td>Web/iOS/Android</td>
+          <td>Web/iOS/Android</td>
+          <td>Web/iOS/Android</td>
+          <td>Web/iOS/Android</td>
+      </tr>
+      <tr>
+          <td><strong>部署复杂度</strong></td>
+          <td>低（Docker）</td>
+          <td>零（托管）</td>
+          <td>零（托管）</td>
+          <td>零（托管）</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>选择建议：</strong> 如果你的数据合规要求严格、不想依赖第三方服务、或者想完全控制归因逻辑，share-installs 是一个轻量且可扩展的选择。</p>
+<hr>
+<h2 id="结语">结语</h2>
+<p>share-installs 是一个小而美的项目——它只做一件事，但把它做扎实了。从指纹采集、存储匹配、到多端 SDK，整个链路完整闭环。</p>
+<p>项目是完全开源的（Apache 2.0 协议），欢迎 Star、Issue 和 PR：</p>
+<p>👉 <a href="https://github.com/ceeyang/share-installs">https://github.com/ceeyang/share-installs</a></p>
+<p>如果你有类似的场景需要处理邀请归因，不妨试试自部署一个，5 分钟就能跑起来。</p>
+]]></content:encoded></item><item><title>Swift Debug Print</title><link>https://ceeyang.com/posts/2019-08-10-swift-debug-print/</link><pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2019-08-10-swift-debug-print/</guid><description>Swift Debug Print</description><content:encoded><![CDATA[<h2 id="自定义-swift-控制台输出">自定义 swift 控制台输出</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// </span><span class="cs">MARK:</span><span class="c1"> - Debug Print -</span>
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">func</span> <span class="nf">print</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;(</span><span class="kc">_</span> <span class="n">message</span><span class="p">:</span> <span class="n">T</span><span class="p">,</span> <span class="n">fileName</span><span class="p">:</span> <span class="nb">String</span> <span class="p">=</span> <span class="kc">#file</span><span class="p">,</span> <span class="n">methodName</span><span class="p">:</span> <span class="nb">String</span> <span class="p">=</span> <span class="kc">#function</span><span class="p">,</span> <span class="n">line</span><span class="p">:</span> <span class="nb">Int</span> <span class="p">=</span> <span class="kc">#line</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="cp">#if</span> <span class="cp">DEBUG</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">let</span> <span class="nv">printInfo</span> <span class="p">=</span>
+</span></span><span class="line"><span class="cl">    <span class="s">&#34;&#34;&#34;
+</span></span></span><span class="line"><span class="cl"><span class="s">    </span><span class="se">\n</span><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">    =================================================================================================================================================
+</span></span></span><span class="line"><span class="cl"><span class="s">    【File    Name】: </span><span class="si">\(</span><span class="n">fileName</span><span class="p">.</span><span class="bp">split</span><span class="si">(</span><span class="s">&#34;/&#34;</span><span class="si">)</span><span class="p">.</span><span class="bp">last</span> <span class="p">??</span>  <span class="s">&#34;&#34;</span><span class="si">)</span><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">    【FunctionName】: </span><span class="si">\(</span><span class="n">methodName</span><span class="si">)</span><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">    【Fuction Line】: </span><span class="si">\(</span><span class="n">line</span><span class="si">)</span><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">    【Print   Time】: </span><span class="si">\(</span><span class="n">Date</span><span class="si">())</span><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">    【   Message  】:
+</span></span></span><span class="line"><span class="cl"><span class="s">    </span><span class="si">\(</span><span class="n">message</span><span class="si">)</span><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">    =================================================================================================================================================
+</span></span></span><span class="line"><span class="cl"><span class="s">    </span><span class="se">\n</span><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">    &#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="bp">print</span><span class="p">(</span><span class="n">printInfo</span><span class="p">,</span> <span class="n">separator</span><span class="p">:</span> <span class="s">&#34;&#34;</span><span class="p">,</span> <span class="n">terminator</span><span class="p">:</span> <span class="s">&#34;&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="cp">#endif</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>]]></content:encoded></item><item><title>UITextView+Placeholder</title><link>https://ceeyang.com/posts/2019-08-08-uitextview%E6%89%A9%E5%B1%95%E6%B7%BB%E5%8A%A0placeholder/</link><pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2019-08-08-uitextview%E6%89%A9%E5%B1%95%E6%B7%BB%E5%8A%A0placeholder/</guid><description>UITextView 扩展 Placeholder</description><content:encoded><![CDATA[<h2 id="swift-uitextview-扩展-placeholder">Swift UITextView 扩展 Placeholder</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">import</span> <span class="nc">UIKit</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">fileprivate</span> <span class="kd">var</span> <span class="nv">kTextViewPlaceholderLabel</span> <span class="p">:</span> <span class="nb">Int</span> <span class="p">=</span> <span class="mh">0x2019_00</span>
+</span></span><span class="line"><span class="cl"><span class="n">fileprivate</span> <span class="kd">var</span> <span class="nv">kTextViewPlaceholder</span>      <span class="p">:</span> <span class="nb">Int</span> <span class="p">=</span> <span class="mh">0x2019_01</span>
+</span></span><span class="line"><span class="cl"><span class="n">fileprivate</span> <span class="kd">var</span> <span class="nv">kTextViewPlaceholderColor</span> <span class="p">:</span> <span class="nb">Int</span> <span class="p">=</span> <span class="mh">0x2019_02</span>
+</span></span><span class="line"><span class="cl"><span class="n">fileprivate</span> <span class="kd">var</span> <span class="nv">kTextViewPlaceholderFont</span>  <span class="p">:</span> <span class="nb">Int</span> <span class="p">=</span> <span class="mh">0x2019_03</span>
+</span></span><span class="line"><span class="cl"><span class="n">fileprivate</span> <span class="kd">var</span> <span class="nv">kTextViewPlaceholderKeys</span>  <span class="p">:</span> <span class="nb">Int</span> <span class="p">=</span> <span class="mh">0x2019_04</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">extension</span> <span class="nc">UITextView</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 占位符</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">x_placeholder</span><span class="p">:</span> <span class="nb">String</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">get</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="kd">let</span> <span class="nv">placeholder</span> <span class="p">=</span> <span class="n">objc_getAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholder</span><span class="p">)</span> <span class="k">as</span><span class="p">?</span> <span class="nb">String</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">placeholder</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="s">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">set</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">objc_setAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholder</span><span class="p">,</span> <span class="n">newValue</span><span class="p">,</span> <span class="p">.</span><span class="n">OBJC_ASSOCIATION_RETAIN</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">x_placeholderLabel</span><span class="p">.</span><span class="n">text</span> <span class="p">=</span> <span class="n">newValue</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 占位符颜色</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">x_placeholderColor</span><span class="p">:</span> <span class="n">UIColor</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">get</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="kd">let</span> <span class="nv">placeholderColor</span> <span class="p">=</span> <span class="n">objc_getAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderColor</span><span class="p">)</span> <span class="k">as</span><span class="p">?</span> <span class="n">UIColor</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">placeholderColor</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">UIColor</span><span class="p">.</span><span class="n">subTitleColor</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">set</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">objc_setAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderColor</span><span class="p">,</span> <span class="n">newValue</span><span class="p">,</span> <span class="p">.</span><span class="n">OBJC_ASSOCIATION_RETAIN</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">x_placeholderLabel</span><span class="p">.</span><span class="n">textColor</span> <span class="p">=</span> <span class="n">newValue</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 占位符字体</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">x_placeholderFont</span><span class="p">:</span> <span class="n">UIFont</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">get</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="kd">let</span> <span class="nv">placeholderFont</span> <span class="p">=</span> <span class="n">objc_getAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderColor</span><span class="p">)</span> <span class="k">as</span><span class="p">?</span> <span class="n">UIFont</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">placeholderFont</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">UIFont</span><span class="p">.</span><span class="n">systemFont</span><span class="p">(</span><span class="n">ofSize</span><span class="p">:</span> <span class="mi">12</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">set</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">objc_setAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderColor</span><span class="p">,</span> <span class="n">newValue</span><span class="p">,</span> <span class="p">.</span><span class="n">OBJC_ASSOCIATION_RETAIN</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">x_placeholderLabel</span><span class="p">.</span><span class="n">font</span> <span class="p">=</span> <span class="n">newValue</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 占位符 标签</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">@IBInspectable</span> <span class="kd">var</span> <span class="nv">x_placeholderLabel</span><span class="p">:</span> <span class="n">UILabel</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">get</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="kd">var</span> <span class="nv">_placeholderLabel</span> <span class="p">=</span> <span class="n">UILabel</span><span class="p">(</span><span class="n">font</span><span class="p">:</span> <span class="kc">self</span><span class="p">.</span><span class="n">font</span> <span class="p">??</span> <span class="n">UIFont</span><span class="p">.</span><span class="n">systemFont</span><span class="p">(</span><span class="n">ofSize</span><span class="p">:</span> <span class="mi">12</span><span class="p">),</span> <span class="n">color</span><span class="p">:</span> <span class="p">.</span><span class="n">subTitleColor</span><span class="p">,</span> <span class="n">alignment</span><span class="p">:</span> <span class="p">.</span><span class="kr">left</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="kd">let</span> <span class="nv">label</span> <span class="p">=</span> <span class="n">objc_getAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderLabel</span><span class="p">)</span> <span class="k">as</span><span class="p">?</span> <span class="n">UILabel</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">_placeholderLabel</span> <span class="p">=</span> <span class="n">label</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">objc_setAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderLabel</span><span class="p">,</span> <span class="n">_placeholderLabel</span><span class="p">,</span> <span class="p">.</span><span class="n">OBJC_ASSOCIATION_RETAIN</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="n">addPlaceholderLabelToSuperView</span><span class="p">(</span><span class="n">label</span><span class="p">:</span> <span class="n">_placeholderLabel</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="n">_placeholderLabel</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">set</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">objc_setAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderLabel</span><span class="p">,</span> <span class="n">newValue</span><span class="p">,</span> <span class="p">.</span><span class="n">OBJC_ASSOCIATION_RETAIN</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">addPlaceholderLabelToSuperView</span><span class="p">(</span><span class="n">label</span><span class="p">:</span> <span class="n">newValue</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 是否需要添加占位符到父视图</span>
+</span></span><span class="line"><span class="cl">    <span class="n">fileprivate</span> <span class="kd">var</span> <span class="nv">x_placeHolderNeedAddToSuperView</span><span class="p">:</span> <span class="nb">Bool</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">get</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="kd">let</span> <span class="nv">isAdded</span> <span class="p">=</span> <span class="n">objc_getAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderKeys</span><span class="p">)</span> <span class="k">as</span><span class="p">?</span> <span class="nb">Bool</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">isAdded</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">set</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">objc_setAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderKeys</span><span class="p">,</span> <span class="n">newValue</span><span class="p">,</span> <span class="p">.</span><span class="n">OBJC_ASSOCIATION_RETAIN</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 添加占位符到父视图</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">///</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">/// - Parameter label: 占位符 标签</span>
+</span></span><span class="line"><span class="cl">    <span class="n">fileprivate</span> <span class="kd">func</span> <span class="nf">addPlaceholderLabelToSuperView</span><span class="p">(</span><span class="n">label</span><span class="p">:</span> <span class="n">UILabel</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">guard</span> <span class="n">x_placeHolderNeedAddToSuperView</span> <span class="k">else</span> <span class="p">{</span> <span class="k">return</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="n">x_placeHolderNeedAddToSuperView</span> <span class="p">=</span> <span class="kc">false</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">NotificationCenter</span><span class="p">.</span><span class="k">default</span><span class="p">.</span><span class="n">addObserver</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="n">selector</span><span class="p">:</span> <span class="k">#selector</span><span class="p">(</span><span class="n">x_textChange</span><span class="p">(</span><span class="n">noti</span><span class="p">:)),</span> <span class="n">name</span><span class="p">:</span> <span class="n">UITextView</span><span class="p">.</span><span class="n">textDidChangeNotification</span><span class="p">,</span> <span class="n">object</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">addSubview</span><span class="p">(</span><span class="n">label</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">label</span><span class="p">.</span><span class="n">snp</span><span class="p">.</span><span class="n">makeConstraints</span> <span class="p">{</span> <span class="p">(</span><span class="n">make</span><span class="p">)</span> <span class="k">in</span>
+</span></span><span class="line"><span class="cl">            <span class="n">make</span><span class="p">.</span><span class="n">edges</span><span class="p">.</span><span class="n">equalToSuperview</span><span class="p">().</span><span class="n">inset</span><span class="p">(</span><span class="n">UIEdgeInsets</span><span class="p">(</span><span class="n">top</span><span class="p">:</span> <span class="mi">7</span><span class="p">,</span> <span class="kr">left</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="n">bottom</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="kr">right</span><span class="p">:</span> <span class="mi">0</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 编辑事件</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">@objc</span> <span class="n">fileprivate</span> <span class="kd">func</span> <span class="nf">x_textChange</span><span class="p">(</span><span class="n">noti</span><span class="p">:</span> <span class="n">NSNotification</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">let</span> <span class="nv">isEmpty</span> <span class="p">=</span> <span class="n">text</span><span class="p">.</span><span class="bp">isEmpty</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">print</span><span class="p">(</span><span class="s">&#34;text:</span><span class="si">\(</span><span class="nb">String</span><span class="si">(</span><span class="n">describing</span><span class="p">:</span> <span class="n">text</span><span class="si">))</span><span class="se">\n</span><span class="s">isEmpty:</span><span class="si">\(</span><span class="bp">isEmpty</span><span class="si">)</span><span class="s">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">x_placeholderLabel</span><span class="p">.</span><span class="n">text</span> <span class="p">=</span> <span class="bp">isEmpty</span> <span class="p">?</span> <span class="n">x_placeholder</span> <span class="p">:</span> <span class="s">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">x_placeholderLabel</span><span class="p">.</span><span class="n">isHidden</span> <span class="p">=</span> <span class="o">!</span><span class="bp">isEmpty</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>]]></content:encoded></item><item><title>iOS UITabBarController 嵌套 UINavigationController</title><link>https://ceeyang.com/posts/2018-09-18-ios-tabbar-%E5%B5%8C%E5%A5%97-navbar/</link><pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2018-09-18-ios-tabbar-%E5%B5%8C%E5%A5%97-navbar/</guid><description>iOS UITabBarController 嵌套 UINavigationController</description><content:encoded><![CDATA[<h1 id="ios-uitabbarcontroller-嵌套-uinavigationcontroller">iOS UITabBarController 嵌套 UINavigationController</h1>
+<pre><code>本文处理两个问题:
+1. 自定义导航按钮后, 滑动返回手势失效问题
+2. TabBar 嵌套 NavigationBar 的 TabBar 显示隐藏错乱等问题
+</code></pre>
+<h2 id="主要思路">主要思路</h2>
+<ol>
+<li>使用 UITabBarController 作为 Window 的 rootViewController</li>
+<li>自定义 UINavigationController 控制器, 全局控制 tabbar 的显示与隐藏</li>
+<li>添加自定义控制器为 UINavigationController 的 root 控制器</li>
+<li>UITabBarController 添加每个 UINavigationController 控制器</li>
+</ol>
+<h2 id="直接上代码">直接上代码</h2>
+<p>自定义的 UITabBarController :</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">import</span> <span class="nc">UIKit</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">HomeTabBarController</span><span class="p">:</span> <span class="n">UITabBarController</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kc">super</span><span class="p">.</span><span class="n">viewDidLoad</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="n">createChildController</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 通过自定义方法添加所有子控制器</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">func</span> <span class="nf">createChildController</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">addChildVC</span><span class="p">(</span><span class="n">childVc</span><span class="p">:</span> <span class="n">HomeViewController</span><span class="p">(),</span> <span class="n">title</span><span class="p">:</span> <span class="s">&#34;首页&#34;</span><span class="p">,</span> <span class="n">image</span><span class="p">:</span> <span class="s">&#34;IMG_Home&#34;</span><span class="p">,</span> <span class="n">selectedImage</span><span class="p">:</span> <span class="s">&#34;IMG_Home_Selected&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">addChildVC</span><span class="p">(</span><span class="n">childVc</span><span class="p">:</span> <span class="n">MoreViewController</span><span class="p">(),</span> <span class="n">title</span><span class="p">:</span> <span class="s">&#34;应用&#34;</span><span class="p">,</span> <span class="n">image</span><span class="p">:</span> <span class="s">&#34;IMG_More&#34;</span><span class="p">,</span> <span class="n">selectedImage</span><span class="p">:</span> <span class="s">&#34;IMG_More_Selected&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">addChildVC</span><span class="p">(</span><span class="n">childVc</span><span class="p">:</span> <span class="n">MineViewController</span><span class="p">(),</span> <span class="n">title</span><span class="p">:</span> <span class="s">&#34;我的&#34;</span><span class="p">,</span> <span class="n">image</span><span class="p">:</span> <span class="s">&#34;IMG_Mine&#34;</span><span class="p">,</span> <span class="n">selectedImage</span><span class="p">:</span> <span class="s">&#34;IMG_Mine_Selected&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 自定义添加子控制器</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">func</span> <span class="nf">addChildVC</span><span class="p">(</span><span class="n">childVc</span><span class="p">:</span> <span class="n">UIViewController</span><span class="p">,</span> <span class="n">title</span><span class="p">:</span><span class="nb">String</span><span class="p">,</span> <span class="n">image</span><span class="p">:</span> <span class="nb">String</span><span class="p">,</span> <span class="n">selectedImage</span><span class="p">:</span> <span class="nb">String</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">let</span> <span class="nv">nav</span> <span class="p">=</span> <span class="n">HomeNavigationController</span><span class="p">(</span><span class="n">rootViewController</span><span class="p">:</span> <span class="n">childVc</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">let</span> <span class="nv">normalImage</span> <span class="p">=</span> <span class="n">UIImage</span><span class="p">(</span><span class="n">named</span><span class="p">:</span> <span class="n">image</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">let</span> <span class="nv">selectedImage</span> <span class="p">=</span> <span class="n">UIImage</span><span class="p">(</span><span class="n">named</span><span class="p">:</span> <span class="n">selectedImage</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">nav</span><span class="p">.</span><span class="n">navigationItem</span><span class="p">.</span><span class="n">title</span> <span class="p">=</span> <span class="n">title</span>
+</span></span><span class="line"><span class="cl">        <span class="n">nav</span><span class="p">.</span><span class="n">tabBarItem</span> <span class="p">=</span> <span class="n">tabbarItem</span><span class="p">(</span><span class="n">with</span><span class="p">:</span> <span class="n">title</span><span class="p">,</span> <span class="n">normalImage</span><span class="p">:</span> <span class="n">normalImage</span><span class="p">!,</span> <span class="n">selectedImage</span><span class="p">:</span> <span class="n">selectedImage</span><span class="p">!)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">addChildViewController</span><span class="p">(</span><span class="n">nav</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 快捷创建 UITabBarItem</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">func</span> <span class="nf">tabbarItem</span><span class="p">(</span><span class="n">with</span> <span class="n">title</span><span class="p">:</span> <span class="nb">String</span><span class="p">,</span> <span class="n">normalImage</span><span class="p">:</span> <span class="n">UIImage</span><span class="p">,</span> <span class="n">selectedImage</span><span class="p">:</span> <span class="n">UIImage</span><span class="p">)</span> <span class="p">-&gt;</span> <span class="n">UITabBarItem</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">let</span> <span class="nv">image</span> <span class="p">=</span> <span class="n">normalImage</span><span class="p">.</span><span class="n">withRenderingMode</span><span class="p">(.</span><span class="n">alwaysOriginal</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">let</span> <span class="nv">_selectedImage</span> <span class="p">=</span> <span class="n">selectedImage</span><span class="p">.</span><span class="n">withRenderingMode</span><span class="p">(.</span><span class="n">alwaysOriginal</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">let</span> <span class="nv">tabBarItem</span> <span class="p">=</span> <span class="n">UITabBarItem</span><span class="p">(</span><span class="n">title</span><span class="p">:</span> <span class="n">title</span><span class="p">,</span> <span class="n">image</span><span class="p">:</span> <span class="n">image</span><span class="p">,</span> <span class="n">selectedImage</span><span class="p">:</span> <span class="n">_selectedImage</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">tabBarItem</span><span class="p">.</span><span class="n">setTitleTextAttributes</span><span class="p">([</span><span class="n">NSAttributedStringKey</span><span class="p">.</span><span class="n">foregroundColor</span><span class="p">:</span> <span class="n">UIColor</span><span class="p">.</span><span class="n">mainColor</span><span class="p">],</span> <span class="k">for</span><span class="p">:</span> <span class="p">.</span><span class="n">selected</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">tabBarItem</span><span class="p">.</span><span class="n">setTitleTextAttributes</span><span class="p">([</span><span class="n">NSAttributedStringKey</span><span class="p">.</span><span class="n">foregroundColor</span><span class="p">:</span> <span class="n">UIColor</span><span class="p">.</span><span class="n">tabbarNormalColor</span><span class="p">],</span> <span class="k">for</span><span class="p">:</span> <span class="p">.</span><span class="n">normal</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">tabBarItem</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">override</span> <span class="kd">func</span> <span class="nf">didReceiveMemoryWarning</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kc">super</span><span class="p">.</span><span class="n">didReceiveMemoryWarning</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Dispose of any resources that can be recreated.</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">//让图片和文字在 iPad 下仍然保持上下排列</span>
+</span></span><span class="line"><span class="cl"><span class="kd">extension</span> <span class="nc">UITabBar</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">override</span> <span class="n">open</span> <span class="kd">var</span> <span class="nv">traitCollection</span><span class="p">:</span> <span class="n">UITraitCollection</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">UIDevice</span><span class="p">.</span><span class="n">current</span><span class="p">.</span><span class="n">userInterfaceIdiom</span> <span class="p">==</span> <span class="p">.</span><span class="n">pad</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="n">UITraitCollection</span><span class="p">(</span><span class="n">horizontalSizeClass</span><span class="p">:</span> <span class="p">.</span><span class="n">compact</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="kc">super</span><span class="p">.</span><span class="n">traitCollection</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>自定义的 UINavigationController :</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">import</span> <span class="nc">UIKit</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">class</span> <span class="nc">HomeNavigationController</span><span class="p">:</span> <span class="n">UINavigationController</span><span class="p">,</span> <span class="n">UIGestureRecognizerDelegate</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kc">super</span><span class="p">.</span><span class="n">viewDidLoad</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1">/// 自定义返回按钮后返回手势失效</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">/// 手动实现返回手势代理</span>
+</span></span><span class="line"><span class="cl">        <span class="n">interactivePopGestureRecognizer</span><span class="p">?.</span><span class="n">delegate</span> <span class="p">=</span> <span class="kc">self</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">override</span> <span class="kd">func</span> <span class="nf">didReceiveMemoryWarning</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kc">super</span><span class="p">.</span><span class="n">didReceiveMemoryWarning</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Dispose of any resources that can be recreated.</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">override</span> <span class="kd">func</span> <span class="nf">pushViewController</span><span class="p">(</span><span class="kc">_</span> <span class="n">viewController</span><span class="p">:</span> <span class="n">UIViewController</span><span class="p">,</span> <span class="n">animated</span><span class="p">:</span> <span class="nb">Bool</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1">/// 如果当前控制器的子控制器个数大于等于1, 说明推出的控制器为子控制器</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">childViewControllers</span><span class="p">.</span><span class="bp">count</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="c1">/// 自定义返回按钮</span>
+</span></span><span class="line"><span class="cl">            <span class="kd">let</span> <span class="nv">backBtn</span> <span class="p">=</span> <span class="n">UIButton</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">            <span class="n">backBtn</span><span class="p">.</span><span class="n">setImage</span><span class="p">(</span><span class="n">UIImage</span><span class="p">(</span><span class="n">named</span><span class="p">:</span> <span class="s">&#34;IMG_Back&#34;</span><span class="p">),</span> <span class="k">for</span><span class="p">:</span> <span class="p">.</span><span class="n">normal</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">backBtn</span><span class="p">.</span><span class="n">addTarget</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="n">action</span><span class="p">:</span> <span class="k">#selector</span><span class="p">(</span><span class="n">backButtonDidClick</span><span class="p">),</span> <span class="k">for</span><span class="p">:</span> <span class="p">.</span><span class="n">touchUpInside</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">viewController</span><span class="p">.</span><span class="n">navigationItem</span><span class="p">.</span><span class="n">leftBarButtonItem</span> <span class="p">=</span> <span class="n">UIBarButtonItem</span><span class="p">(</span><span class="n">customView</span><span class="p">:</span> <span class="n">backBtn</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="c1">/// 子控制器隐藏  bottomBar</span>
+</span></span><span class="line"><span class="cl">            <span class="n">viewController</span><span class="p">.</span><span class="n">hidesBottomBarWhenPushed</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="kc">super</span><span class="p">.</span><span class="n">pushViewController</span><span class="p">(</span><span class="n">viewController</span><span class="p">,</span> <span class="n">animated</span><span class="p">:</span> <span class="n">animated</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 返回按钮点击事件</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">@objc</span> <span class="kd">func</span> <span class="nf">backButtonDidClick</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">popViewController</span><span class="p">(</span><span class="n">animated</span><span class="p">:</span> <span class="kc">true</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 滑动返回手势</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">func</span> <span class="nf">gestureRecognizer</span><span class="p">(</span><span class="kc">_</span> <span class="n">gestureRecognizer</span><span class="p">:</span> <span class="n">UIGestureRecognizer</span><span class="p">,</span> <span class="n">shouldReceive</span> <span class="n">touch</span><span class="p">:</span> <span class="n">UITouch</span><span class="p">)</span> <span class="p">-&gt;</span> <span class="nb">Bool</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1">/// 判断是否需要滑动返回手势</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">gestureRecognizer</span> <span class="p">==</span> <span class="n">navigationController</span><span class="p">?.</span><span class="n">interactivePopGestureRecognizer</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="n">navigationController</span><span class="p">!.</span><span class="n">childViewControllers</span><span class="p">.</span><span class="bp">count</span> <span class="o">&gt;</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1">/// 解决当前控制器为根控制器的时候, 返回手势卡屏的问题</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">childViewControllers</span><span class="p">.</span><span class="bp">count</span> <span class="p">==</span> <span class="mi">1</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="kc">false</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>]]></content:encoded></item><item><title>5分钟带你看完 WWDC 2018</title><link>https://ceeyang.com/posts/2018-06-05-5%E5%88%86%E9%92%9F%E5%B8%A6%E4%BD%A0%E7%9C%8B%E5%AE%8C-wwdc-2018/</link><pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2018-06-05-5%E5%88%86%E9%92%9F%E5%B8%A6%E4%BD%A0%E7%9C%8B%E5%AE%8C-wwdc-2018/</guid><description>WWDC 2018 Keynote 全记录</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<p>一年一度的 WWDC（苹果全球开发者大会）于北京时间 6月5日 凌晨1点开幕。废话不多说，来看看这次WWDC 都有哪些亮点吧!</p>
+<h2 id="ios-12-和-arkit-20">iOS 12 和 ARKit 2.0</h2>
+<blockquote>
+<p>关键词：官方防沉迷最为致命</p>
+</blockquote>
+<h3 id="ios-12">iOS 12</h3>
+<p>iOS 12 相较于 iOS 11 并没有太多UI上的变动，刚更新完 bate 版本的 iOS 12，完全感觉不到这是个新系统。</p>
+<p>iOS 12 主要是对安全和性能的优化，iOS 12 在旧设备上的运行速度比 iOS 11更块，程序加载速度快了一倍。（PS：看来苹果并没有放弃旧设备）</p>
+<p><img loading="lazy" src="https://cdn.mos.cms.futurecdn.net/RdxhPVv8fAyM6oHsRgF6dH-650-80.png"></p>
+<h3 id="arkit-20">ARKit 2.0</h3>
+<p>Apple 与 皮克斯 合作开发了一种用于共享AR内容的新文件格式，新的 AR 格式名为 USDZ。</p>
+<p>作为一个含着金苹果出生的新生儿，USDZ 一开始就得到了 Adobe Creative Cloud （包括 Photoshop CC、InDesign CC、Illustrator CC、Dreamweaver CC、Premiere Pro CC）套件的支持。</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-10.jpg"></p>
+<p>同时，面向开发者的开发套件 ARKit 则升级到了二代，主要提升了面部跟踪、渲染能力、3D 探测和共享体验等能力。</p>
+<p>随后展示了一款名为 Measure 的 App，可使用AR查看物品大小。</p>
+<p><img loading="lazy" src="https://cdn.mos.cms.futurecdn.net/4tbGCxGUGsH9VwSLsfMDK5-650-80.png"></p>
+<p>最后为了演示新的 AR 能力和效果，苹果请来了乐高的创意总监来捧场。这是一个真实的乐高积木建筑物为基础，最多四个人可以用苹果 AR 应用进行游戏，可以在真实环境中模拟出各种虚拟的形象和建筑。</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-9.jpg">
+<img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-11.jpg"></p>
+<h3 id="相册优化">相册优化</h3>
+<p>iOS 12 的相册将大大提升搜索性能，系统不仅会提出搜索建议，还会帮你按主题整理照片。</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-13.jpg"></p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-14.jpg"></p>
+<h3 id="siri变得更聪明">Siri变得更聪明</h3>
+<p>iOS 12 中，苹果为 Siri 提供了更加高效的操作，让它可以操作各个应用内部的功能，并且能在锁屏界面建议用户下一步的行动。</p>
+<p>苹果还发布了一款名为「Shortcuts」的应用，它允许用户自定义 Siri 搜索指令，支持通过拖拽来快速编辑指令，同时还提供了一个指令库供用户下载现成的命令，就像是为 Siri 打造的 Workflow 自动化工具。</p>
+<p><img loading="lazy" src="https://cdn.sspai.com/2018-06-04-Artboard.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1"></p>
+<p>看到这里，相比熟悉苹果的朋友大概明白了，Siri 的本次改进，很可能是源于它收购的效率神器 Workflow，堪称一个用 Siri 唤醒的 Workflow。</p>
+<h3 id="原生应用大更新">原生应用大更新</h3>
+<p>iOS 12 中，不少原生应用都得到了更新。</p>
+<ul>
+<li>iBooks 更名为 <strong>Apple Books</strong>，采用类似 App Store 的新界面设计。</li>
+<li>新闻应用（News）在 iPad 上新添加了侧边栏，方便浏览，也突出策划内容。</li>
+<li>语音备忘录现在支持 iCloud 了</li>
+<li>股市的界面重构，可以看到股票全天走势，并打通 News 应用，方便看财经新闻；</li>
+</ul>
+<h3 id="carplay-开放了">CarPlay 开放了</h3>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-21.jpg"></p>
+<p>CarPlay 变得更加开放了，曾经被苹果狠心抛弃的 Google Maps 和 Google 的干儿子地图 Waze，以及来自东方的神秘力量高德地图成为首批 CarPlay 支持的第三方导航，从此“志玲姐姐为您导航”将可以常伴林肯领航者车主左右，中国梦和美国梦一起实现。</p>
+<h3 id="防手机沉迷---划重点">防手机沉迷 - 划重点！</h3>
+<p>本次 iOS 12 的重点就是：<strong>防沉迷！</strong></p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-25.jpg"></p>
+<p>鉴于手机上瘾成为了一个社会议题，今年 Google 和苹果都不约而同地将“防沉迷”加入到了系统更新当中：</p>
+<ul>
+<li>**Do Not Disturb（别吵我）**功能将关掉手机的视觉通知，在夜深人静想起她或梦见她的时候，来了邮件也不会亮屏刺破夜的静谧和黑暗</li>
+<li>Deliver Quietly（安静通知）则是将消息推送静默化、不显示在锁屏，也不出声，也不会在 app 右上角标红</li>
+<li><strong>Grouped Notifications（分组通知</strong>）可以将某一类型的通知归组，微信群聊消息不再有轰炸的感觉</li>
+<li>**Reports（应用报告）**可以用周报告的形式，告诉用户用什么应用最多，哪个应用通知最多，每天起床第一个打开的是什么应用等等</li>
+<li><strong>App Limits（应用限制</strong>）可以给某个应用规定使用时间，当然这不是强制性的，用户可以突破限制继续“吃鸡”</li>
+<li><strong>Allowances（零用钱？）</strong> 是家长限制孩子使用应用的新特性</li>
+</ul>
+<h3 id="imessage-和-feactime">iMessage 和 FeacTime</h3>
+<p>Animoji 新增了 4 个新表情（幽灵，考拉，老虎和霸王龙），用户还可以为自己量身定做 Animoji ，并用到各种场景——这就是全新的 Memoji 技术</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-26.jpg"></p>
+<p><img loading="lazy" src="https://cdn.sspai.com/2018/06/05/67b6fba3d36bdd7caf09bec94dcb157b.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1"></p>
+<p>iOS 版 <strong>FaceTime</strong> 迎来了群聊功能，最多支持 32 人同时聊天，成员可以随时加入或离开聊天。聊天界面用瀑布流的形式呈现，正在说话的成员窗口会自动放大。macOS 版 FaceTime 同样也得到了更新。</p>
+<p><img loading="lazy" src="https://cdn.sspai.com/2018-06-04-Screen%20Shot%202018-06-05%20at%202.00.58%20AM.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1"></p>
+<h2 id="tvos">tvOS</h2>
+<blockquote>
+<p>关键词：优化试听体验</p>
+</blockquote>
+<p>tvOS 今年的变化比较小，更新主要集中在了影视资源以及细节优化上。</p>
+<p>Apple TV 4K 将支持杜比全景声和杜比视界，让你在家里也能获得电影院般的听觉体验。</p>
+<p><img loading="lazy" src="https://cdn.sspai.com/2018-06-04-Screen%20Shot%202018-06-05%20at%202.26.21%20AM.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1"></p>
+<h2 id="watchos-5">watchOS 5</h2>
+<blockquote>
+<p>关键词：运动进行到底</p>
+</blockquote>
+<p>随着 Apple Watch 成长的，还有它的操作系统 watchOS，这一次 watchOS 升级到了第五代。</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-31.jpg"></p>
+<p>Apple Watch 的功能朝着运动的方向发展，此次 watchOS 5 的更新，也以运动为主。</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-35.jpg"></p>
+<p>watchOS 5 的一个小惊喜是让 Apple Watch 成为了对讲机，这个应用名为 Walkie Talkie（对讲机）。</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-38.jpg"></p>
+<p>Apple Watch 早就支持了 Apple Pay，不过在通知上，Apple Watch 显然可以做得更多，比如值机和给滴滴师傅付款评分，手表不再只是个通知器，也能做些轻交互。</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-51.jpg"></p>
+<p>还有 Apple Watch 可以浏览网页了~</p>
+<h2 id="macos-mojave">macOS Mojave</h2>
+<blockquote>
+<p>关键词：夜间模式、全新的App Store</p>
+</blockquote>
+<p><img loading="lazy" src="https://cdn.sspai.com/2018-06-04-macOS01.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1"></p>
+<p>对于大多数人来说，macOS 更新最大的悬念，是新系统叫什么名字。</p>
+<p>答案是：<strong>macOS Mojave</strong>，Mojave 中译名是莫哈韦沙漠，位于在美国加利福尼亚西南，出于洛杉矶和拉斯维加斯之间。</p>
+<p>在 Mojave 这版系统中，苹果加入了一套适应暗光环境下使用的夜间主题，并对 Mac App Store 的交互界面进行了重塑，整个系统的改变甚至连库克都称为是苹果的一次 “巨大的跨越”。</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-89.jpg"></p>
+<h3 id="夜间模式--动态桌面">夜间模式 / 动态桌面</h3>
+<p>不少用户会在暗光环境下使用电脑，即便是将屏幕亮度调到最低，也难免会因为白底色为主的主题而感到刺眼。在这次更新中，macOS Mojave 新增加了一套暗色主题，不同于目前将菜单和程序栏调成暗色的选项，新系统上的是一套全局暗色主题，即便是在文件夹、应用里都是以黑色为主色呈现。</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-63.jpg"></p>
+<p>另外，系统可根据时间变化对桌面进行自动调整，日间使用时系统为正常主题；夜间使用时系统则自动切换至暗色模式主题。此时，台下的开发者们爆发出了一阵欢呼，大概是这个主题能够提升程序员朋友夜间加班的幸福感吧。</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-63.jpg"></p>
+<h3 id="智能分类">智能分类</h3>
+<p>macOS 会跟据文件类型和标签对桌面的文件进行自动分类整理，从此再也不用担心满桌面都是文件了。</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-82.jpg"></p>
+<p><img loading="lazy" src="https://cdn.sspai.com/2018-06-04-macOS04.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1"></p>
+<h3 id="快速查看升级">快速查看升级</h3>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-92.jpg"></p>
+<p>访达在这次系统上的更新并不多，只是针对图片查看增添了 “图库视图” 功能。通过 “图库视图”，用户可更加便捷快速地浏览到访达文件夹内的图片内容，与此同时功能内部也内置了图片元数据显示窗，用户可以借助数据窗口了解到图片的相关详情，并且可对图片进行快速编辑操作。</p>
+<h3 id="截图录屏操作---类似ios">截图/录屏操作 - 类似iOS</h3>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-93.jpg"></p>
+<p>此次 macOS Mojave 加入了 “系统级” 的截屏功能，用户也可以在截屏后对截屏图片进行简单的标记。不过实际上，目前不少社交软件其实都已经具备了截图 + 标记的相关功能，且在体验上也相当不错。</p>
+<h3 id="安全权限">安全权限</h3>
+<p>当我们在 iOS 系统上打开刚下载的应用程序时，系统会弹出弹窗，提示是否允许程序访问用户信息和手机硬件。而这次苹果也将相关的安全控制策略从 iOS “搬” 到了 macOS 上，当用户打开某个网址或程序时，系统会弹出 “是否允许访问” 的弹窗以获得用户批准。这也可能是为了呼应最近越发严格的隐私政策。</p>
+<h3 id="在-macos-上运行的几款-ios-程序">在 macOS 上运行的几款 iOS 程序</h3>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-84.jpg"></p>
+<p>将 iOS 的应用程序搬到 macOS 上运行是不少玩家曾经有过的想法。此次苹果在新版的 macOS 系统上加入了 iOS 端的新闻、股市、家、语音备忘录四个程序，用户可以在桌面系统上通过这几款应用阅读新闻、控制家庭设备等等。</p>
+<p>在发布会的最后，苹果否认了将对 iOS 和 macOS 进行合并的传闻，但考虑到 iOS 平台有非常庞大的应用数量，他们也希望其中的部分应用能来到 macOS。于是苹果在发布会上为大家提前预览了一个准备多年的项目，macOS 将可以使用 iOS 的 UIKit 框架进行开发，以降低开发多平台应用的成本。</p>
+<p><img loading="lazy" src="https://cdn.sspai.com/2018-06-04-Screen%20Shot%202018-06-05%20at%203.08.05%20AM.png?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1"></p>
+<p>比如这次 macOS Mojave 中新增的 4 款应用——News、股票、语音备忘录、家庭——均采用了这种新技术。</p>
+<h3 id="全新的-mac-app-store">全新的 Mac App Store</h3>
+<p><img loading="lazy" src="https://cdn.sspai.com/2018-06-04-macOS09.jpg?imageView2/2/w/1120/q/90/interlace/1/ignore-error/1"></p>
+<p>在 iOS 11 对 Mac App Store 进行了重新设计后，macOS Mojave 也迎来了全新设计的 Mac App Store。新版拥有与 iOS 上 App Store 类似的发现页，里面能看到每日编辑推荐和一些 App 的使用技巧。进入 App 页面后，你可以看到视频预览和与 iOS 类似的评分系统。为了方便用户评分，新版 macOS 还加入了和 iOS 一样的 App 内打分功能。此外，苹果还宣布包括 Office 365 和 Adobe Lightroom CC 在内的一批重量级 App 将在今年稍后登录 Mac App Store。</p>
+<h2 id="结语">结语</h2>
+<p>是的，这次的 WWDC 只有软件，没有新的电子设备发布，没有新 iPad Pro、没有 iPhone SE2、没有带八代酷睿的新 MacBook，唯一能和“硬件”沾上边的就是一个新的彩虹表带。</p>
+<p><img loading="lazy" src="https://images.ifanr.cn/wp-content/uploads/2018/06/WWDC-56.jpg"></p>
+<p>时至今日，苹果生态已经日趋完善了，大概苹果的产品经理们也想不出什么石破天惊的功能让大家 wow 一声了，有的只是细节层面的改进。作为看客和用户，也只能接受这样的现实了。</p>
+<p>对了，那个可以四个人一起玩的乐高积木和 AR 应用，倒是可以考虑买来玩一下，不要一边说没有新东西，一边又对新东西视而不见。</p>
+<p>对于 iOS 开发者来说，macOS 将可以使用 iOS 的 UIKit 框架进行开发是一个值得关注的点。</p>
+<h3 id="参考">参考</h3>
+<ul>
+<li><a href="https://developer.apple.com/videos/play/wwdc2018/101/">WWDC 2018 Keynote</a></li>
+<li><a href="https://www.techradar.com/news/apple-wwdc-2018-keynote">Apple WWDC 2018: what&rsquo;s new? All the announcements from the keynote</a></li>
+<li><a href="http://www.ifanr.com/1043270">iOS 加入「防沉迷」，macOS 有了暗色主题，今年的 WWDC 重点都在系统上</a></li>
+<li><a href="https://sspai.com/post/44816">苹果 WWDC 2018：最全总结看这里，不错过任何重点</a></li>
+</ul>
+]]></content:encoded></item><item><title>Xcode命令行工具管理</title><link>https://ceeyang.com/posts/2018-05-05-xcode%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7%E7%AE%A1%E7%90%86/</link><pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2018-05-05-xcode%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7%E7%AE%A1%E7%90%86/</guid><description>如何切换Xcode命令行工具</description><content:encoded><![CDATA[<h2 id="安装">安装</h2>
+<pre><code>xcode-select --install
+</code></pre>
+<p><img loading="lazy" src="https://upload-images.jianshu.io/upload_images/545662-f9031dfcce085f8f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/459"></p>
+<h2 id="xcode版本切换">Xcode版本切换</h2>
+<h3 id="显示当前使用的xocde版本">显示当前使用的xocde版本</h3>
+<pre><code>$ xcode-select --print-path
+</code></pre>
+<h3 id="选择xcode中的默认版本">选择Xcode中的默认版本</h3>
+<pre><code>$ sudo xcode-select -switch /Applications/Xcode.app
+</code></pre>
+]]></content:encoded></item><item><title>Swift 4.2 新特性</title><link>https://ceeyang.com/posts/2018-11-09-swift4.2%E6%96%B0%E7%89%B9%E6%80%A7/</link><pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2018-11-09-swift4.2%E6%96%B0%E7%89%B9%E6%80%A7/</guid><description>本文介绍 Swift 4.2 的一些新特性</description><content:encoded><![CDATA[<h3 id="private-权限扩大">private 权限扩大</h3>
+<p>在 Swift 4 中，<code>extension</code> 可以读取 <code>private</code> 变量了。</p>
+<p>Swift 3 中，如果将主体函数的变量定义为 <code>private</code>，则其 <code>extension</code> 无法读取此变量，必须将其改为 <code>filePrivate</code> 才可以。</p>
+<h3 id="单向区间">单向区间</h3>
+<p>单向区间是一个新的类型，主要分两种：确定上限和确定下限的区间。直接用字面量定义大概可以写成 <code>…6</code>和 <code>2…</code></p>
+<p>例如</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">intArr</span> <span class="p">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">arr1</span> <span class="p">=</span> <span class="n">intArr</span><span class="p">[...</span><span class="mi">3</span><span class="p">]</span> 	<span class="c1">// [0, 1, 2, 3]</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">arr2</span> <span class="p">=</span> <span class="n">intArr</span><span class="p">[</span><span class="mf">3.</span><span class="p">..]</span> 	<span class="c1">// [3, 4]</span>
+</span></span></code></pre></div><h3 id="字符串改动">字符串改动</h3>
+<h4 id="string-操作简化了">String 操作简化了</h4>
+<p><code>String</code> 许多要通过 <code>.characters</code> 进行的操作，可以直接用 String 进行操作了。</p>
+<p>例如：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">greeting</span> <span class="p">=</span> <span class="s">&#34;Hello, 😜!&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// No need to drill down to .characters</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">n</span> <span class="p">=</span> <span class="n">greeting</span><span class="p">.</span><span class="bp">count</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">endOfSentence</span> <span class="p">=</span> <span class="n">greeting</span><span class="p">.</span><span class="n">index</span><span class="p">(</span><span class="n">of</span><span class="p">:</span> <span class="s">&#34;!&#34;</span><span class="p">)</span><span class="o">!</span>
+</span></span></code></pre></div><h4 id="新增-substring-类型">新增 Substring 类型</h4>
+<p>swift 4 为字符串片段新增了一个叫 <code>Substring</code> 的类型。</p>
+<p>当你创建一个字符串的片段时，会产生一个 <code>Substring</code> 实例。<code>Substring</code> 与 <code>String</code> 用法相同， 因为子串和原字符串共享内存，所以对子串的操作快速而且高效。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">greeting</span> <span class="p">=</span> <span class="s">&#34;Hi there! It&#39;s nice to meet you! 👋&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">endOfSentence</span> <span class="p">=</span> <span class="n">greeting</span><span class="p">.</span><span class="n">index</span><span class="p">(</span><span class="n">of</span><span class="p">:</span> <span class="s">&#34;!&#34;</span><span class="p">)</span><span class="o">!</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 产生 Substring 实例</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">firstSentence</span> <span class="p">=</span> <span class="n">greeting</span><span class="p">[...</span><span class="n">endOfSentence</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// firstSentence == &#34;Hi there!&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// `Substring` 与 `String` 用法相同</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">shoutingSentence</span> <span class="p">=</span> <span class="n">firstSentence</span><span class="p">.</span><span class="n">uppercased</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// shoutingSentence == &#34;HI THERE!&#34;</span>
+</span></span></code></pre></div><p>但是要注意一个 <code>Substring</code> 保留从其生成的完整的 <code>String</code>值。 当您传递一个看似很小的 <code>Substring</code> 时，这可能导致意外的高内存开销。所以使用 <code>Substring</code>时，最好转化为 <code>String</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">newString</span> <span class="p">=</span> <span class="nb">String</span><span class="p">(</span><span class="n">substring</span><span class="p">)</span>
+</span></span></code></pre></div><h4 id="换行可以不用-n了">换行可以不用 <code>\n</code>了！</h4>
+<p>Swift 3，字符串换行要插入 <code>\n</code>。
+例如：</p>
+<p><img loading="lazy" src="https://ws4.sinaimg.cn/large/006tNc79gy1fjdam0wvhhj305d0283yf.jpg"></p>
+<p>在 Swift 4 可以这样操作:</p>
+<p><img loading="lazy" src="https://ws2.sinaimg.cn/large/006tNc79gy1fjdas2yri4j303q0260sm.jpg"></p>
+<p>用两个 <code>“”“</code> 包裹起来的字符串会自动添加 <code>\n</code> 换行，更加直观了。注意：换行与缩进参照的是第二个 <code>“”“</code> 号的位置。</p>
+<p>嗯，我觉得OK！</p>
+<h4 id="支持-unicode-9">支持 Unicode 9</h4>
+<p>Swift 4 支持 Unicode 9，<a href="https://oleb.net/blog/2016/12/emoji-4-0/">为现代表情符号修正了一些问题</a>。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">family1</span> <span class="p">=</span> <span class="s">&#34;👨‍👩‍👧‍👦&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">family2</span> <span class="p">=</span> <span class="s">&#34;👨\u{200D}👩\u{200D}👧\u{200D}👦&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">family1</span> <span class="p">==</span> <span class="n">family2</span> <span class="c1">// → true</span>
+</span></span></code></pre></div><p>居然还有这种操作~</p>
+<h3 id="新增-keypath-数据类型">新增 KeyPath 数据类型</h3>
+<p>KeyPath 是 Swift 4 新增加的数据类型。</p>
+<p>定义两个结构体 <code>Person</code>与<code>Book</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">struct</span> <span class="nc">Person</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">name</span><span class="p">:</span> <span class="nb">String</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">struct</span> <span class="nc">Book</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">title</span><span class="p">:</span> <span class="nb">String</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">authors</span><span class="p">:</span> <span class="p">[</span><span class="n">Person</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">primaryAuthor</span><span class="p">:</span> <span class="n">Person</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">authors</span><span class="p">.</span><span class="bp">first</span><span class="p">!</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">abelson</span> <span class="p">=</span> <span class="n">Person</span><span class="p">(</span><span class="n">name</span><span class="p">:</span> <span class="s">&#34;Harold Abelson&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">sussman</span> <span class="p">=</span> <span class="n">Person</span><span class="p">(</span><span class="n">name</span><span class="p">:</span> <span class="s">&#34;Gerald Jay Sussman&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">book</span> <span class="p">=</span> <span class="n">Book</span><span class="p">(</span><span class="n">title</span><span class="p">:</span> <span class="s">&#34;Structure and Interpretation of Computer Programs&#34;</span><span class="p">,</span> <span class="n">authors</span><span class="p">:</span> <span class="p">[</span><span class="n">abelson</span><span class="p">,</span> <span class="n">sussman</span><span class="p">])</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="n">book</span><span class="p">[</span><span class="n">keyPath</span><span class="p">:</span> <span class="err">\</span><span class="n">Book</span><span class="p">.</span><span class="n">title</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="n">book</span><span class="p">[</span><span class="n">keyPath</span><span class="p">:</span> <span class="err">\</span><span class="n">Book</span><span class="p">.</span><span class="n">primaryAuthor</span><span class="p">.</span><span class="n">name</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 相当与</span>
+</span></span><span class="line"><span class="cl"><span class="n">book</span><span class="p">.</span><span class="n">title</span>
+</span></span><span class="line"><span class="cl"><span class="n">book</span><span class="p">.</span><span class="n">primaryAuthor</span><span class="p">.</span><span class="n">name</span>
+</span></span></code></pre></div><p>这里 <code>\Book.title</code> 与 <code>\Book.primaryAuthor.name</code> 就是 KeyPath.</p>
+<p>KeyPath 可以用 <code>.appending</code> 拼接</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">authorKeyPath</span> <span class="p">=</span> <span class="err">\</span><span class="n">Book</span><span class="p">.</span><span class="n">primaryAuthor</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">nameKeyPath</span> <span class="p">=</span> <span class="n">authorKeyPath</span><span class="p">.</span><span class="n">appending</span><span class="p">(</span><span class="n">path</span><span class="p">:</span> <span class="err">\</span><span class="p">.</span><span class="n">name</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// nameKeyPath = \Book.primaryAuthor.name</span>
+</span></span></code></pre></div><h3 id="新增--swapat-函数">新增  <code>swapAt()</code> 函数</h3>
+<p>Swift 4 引入了一种在集合中交换两个元素的新方法: <code>swapAt()</code></p>
+<p>Swift 3 交换集合中的元素的用 <code>swap()</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">var</span> <span class="nv">numbers</span> <span class="p">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="bp">swap</span><span class="p">(&amp;</span><span class="n">numbers</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="p">&amp;</span><span class="n">numbers</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// numbers = [2,1,3,4,5]</span>
+</span></span></code></pre></div><p>Swift 4 中可以直接用</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">var</span> <span class="nv">numbers</span> <span class="p">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="n">numbers</span><span class="p">.</span><span class="n">swapAt</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// numbers = [2,1,3,4,5]</span>
+</span></span></code></pre></div><h3 id="其他改动">其他改动</h3>
+<p>其他改动如：<strong>新的整数协议</strong>、<strong>泛型下标</strong>、<strong>NSNumber bridging</strong>等</p>
+<p>可以参考：<a href="https://github.com/ole/whats-new-in-swift-4">whats new in swift4</a></p>
+]]></content:encoded></item><item><title>iOS11上手体验</title><link>https://ceeyang.com/posts/2017-6-6-ios11%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C/</link><pubDate>Thu, 08 Jun 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2017-6-6-ios11%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C/</guid><description>WWDC发布iOS11，让我们一起来看看吧。</description><content:encoded><![CDATA[<p>WWDC2017于今天凌晨1点准时开始，说实话笔者等这一天等很久了。</p>
+<p>##以下是笔者的上手体验：</p>
+<ul>
+<li><a href="#0">系统界面的更新</a></li>
+</ul>
+<ol>
+<li>iMessage：通过iCloud将iMessage里的对话内容进行云端同步。</li>
+<li><a href="#1">Camera</a>：相机可以直接读取图片中的二维码，每张照片压缩率为此前的两倍，你会有更多空间存储照片，此外还可更好地分类，笔者测试了一下，拍一张照片是比以前用的内存小，各位内存吃紧的小伙伴有福利了。</li>
+<li><a href="#4">Control Center</a>：更多的功能将加入其中，改变音量大小等变为了模块式，界面优化明显。</li>
+<li>Siri：通过深度学习，可以理解你的言语，结合上下文进一步知晓你的兴趣爱好等，笔者对iOS9的 Siri有点小失望，这一代的估计不错，不过笔者来得及没体验，留个各位同学自己上手体验吧。</li>
+<li><a href="#7">Apple Music</a>：可以与朋友一同分享音乐，包括微信，QQ。</li>
+<li><a href="#8">App Store</a>：经过重新设计，内容将通过“今日推荐”、“游戏”、“App”三个标签页进行展示。</li>
+<li><a href="#9">Keyboard</a>：内置键盘加入中国的拼音输入，并且新增单手操作模式。</li>
+</ol>
+<ul>
+<li><a href="#10">Fiels</a>：属于 iOS 的文件管理器。不过貌似没啥用，不能获取其他 APP 的沙盒文件。</li>
+</ul>
+<p>###凌晨看完发布会直播，眼睛已经涩得不行，只能去睡觉，第二天体验新版的 iOS11 系统了，一大早来公司就下载了新系统安装，刚开始还不适应，不过感觉也还行。使用中发现许多 bug,不过毕竟是测试版，就不多做评价。下面笔者带你走进 iOS11，至于是否更新测试版本各位同学自己决定咯。</p>
+<h4 id="系统界面的更新"><h4 id="0">系统界面的更新</h4></h4>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-89f22bb32d743551.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-bb06699395d4615b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-9a4a239e38e15083.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p>　　顶部状态了的信号图标变了，变成安卓风格，个人觉得还是以前的小圆点好看，虽然笔者用的是表示信号强度的数字。以前锁屏界面的通知消息能够右滑清除，新版的系统好像不可以了。只能长安，或者重按，笔者用的 iPhone 7，带 3DTouch 的功能，重按后出现了上面的通知详情界面。上拉能显示历史通知消息，笔者这里把历史通知都删除了，看不到所以就没截图。不管是在通知消息上面右滑还是在空白处右滑都会打开相机。有点小小的不习惯啊。</p>
+<p>　　进入主页的动画效果也有改变。</p>
+<hr>
+<h4 id="camera照相机"><h4 id="1"> Camera：照相机</h4></h4>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-7c0f3436f456dfe1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-cbf0edacf405a6de.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p>　　哈哈，相机已经可以直接读取图片中的二维码了，也就是说拿着相机就可以扫描其他二维码，虽然整个过程需要打开浏览器，再打开各个 APP，过程比较繁琐，但这进步也是值得称赞的。不过笔者跳转到微信后没任何反应，哈哈，看来又是 bug 。期待后期的使用了。等等，听说安卓的早就可以了？安卓同学请略过QAQ。</p>
+<hr>
+<h4 id="control-center控制中心"><h4 id = "4"> Control Center：控制中心 <h4></h4>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-7fd4b10dd5234ffa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-9b97ee5ee4f9daa7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-0e275d2ee493a4a2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-c9db4c44d48d77ba.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p>　　控制中心可以自定义菜单，如图，笔者选了一些功能。笔者这里只提几点：点击 WiFi 后只能打开与关闭，重按也只能打开一个更多的页面，并不能在控制中心选择 WiFi，蓝牙也是如此。看以前暴露的视频，WiFi 和蓝牙是可以在控制中心选择的，但笔者没测试出来，或许是 bug 来着。字体大小按钮，可以将全局的字体整体放大缩小，拿 iPhone 当老年机的话笔者感觉这个功能会有点用。辅助功能里面新增几个选项：SOS，Pay，重新启动，SOS 创建临时急救方案，点一下自动拨打急救电话，貌似以前也有，现在提到控制中心了而已。其他几个也不多说。 计算器页面也重新做了次，各位同学不知意下如何。</p>
+<hr>
+<h4 id="apple-music苹果音乐"><h4 id = "7"> Apple Music：苹果音乐 <h4></h4>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-e214b931552eab83.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p>　　Apple Music 支持分享到 QQ 和微信，微博暂时还不能分享过去。</p>
+<hr>
+<h4 id="app-store苹果应用商店"><h4 id = "8"> App Store：苹果应用商店 <h4></h4>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-38081bad0379a4bd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-020013b2eb4d6507.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-982ef8907bd711dd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-677a26359cee8c64.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-26d4378c4a2756c8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p>　　App Store 界面大变样，转为你各人设置，根据平时爱好推荐新品。话说王者农药居然是在搜索榜第一位！</p>
+<hr>
+<h4 id="keyboard键盘添加中午输入并新增单手操作模式"><h4 id = "9"> Keyboard：键盘添加中午输入，并新增单手操作模式 <h4></h4>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-94de6a53f81b1583.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-143dac8800c82867.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-9258a1006ea01451.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p>　　哈哈，用惯了搜狗的笔者还是觉得有点鸡肋，仅仅是各人观点，勿喷。不知小伙伴们意下如何，哈哈。</p>
+<hr>
+<h4 id="fielsios-的文件管理器-"><h4 id = "10"> Fiels：iOS 的文件管理器 ：<h4></h4>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-6eb43cd106900af1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-9e91c2120c53ffd5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p><img alt="image.png" loading="lazy" src="http://upload-images.jianshu.io/upload_images/1395849-74652a71626e8eb4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"></p>
+<p>　　更新系统后会发现多了一个叫做 Files（文件）的 APP，打开使用了几下，出了不少 bug。不得不吐槽一下，除了能打开 iCloud Drive 上的备份文件之外，好像并没什么用。不能打开其他 APP 中的文件，QQ音乐啥的里面的音乐一首都搜索不到，AirDrop 上传到手机的文件也收不到，不知道这个管理器能干啥。或许是给土豪们用来管理 iCloud 的，哈哈。</p>
+<hr>
+<p>　　今早第一时间来就更新了新系统，使用中还是发现不少 bug,这里就不一一列出来了。笔者建议小伙伴们还是等待一段时间，等稳定了再安装新版本吧。</p>
+]]></content:encoded></item><item><title>App热修复详解</title><link>https://ceeyang.com/posts/2017-1-5-app-hotfix%E7%83%AD%E4%BF%AE%E5%A4%8D%E8%AF%A6%E8%A7%A3/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2017-1-5-app-hotfix%E7%83%AD%E4%BF%AE%E5%A4%8D%E8%AF%A6%E8%A7%A3/</guid><description>App Hotfix(热修复)详解</description><content:encoded><![CDATA[<h1 id="app-hotfix热修复详解">App Hotfix(热修复)详解</h1>
+<p>定义：</p>
+<p>　　从广义的角度理解，大家都比较认同 Hotfix 是在移动端不需要重新发版，通过在线更新对版本 Bug 的修复。</p>
+<h2 id="现在比较流行的热修复技术分为三种">现在比较流行的热修复技术分为三种：</h2>
+<h2 id="一使用jspatch进行热修复">一、使用JSPatch进行热修复：</h2>
+<blockquote>
+<p>　　Objective-C 是动态语言，OC上所有方法的调用/类的生成都通过 Objective-C Runtime 在运行时进行，我们可以通过类名和方法名反射得到相应的类和方法，也可以替换某个类的方法为新的实现，还可以新注册一个类，为类添加方法替换方法，通过这些即可实现动态修复 APP 技术。</p>
+</blockquote>
+<blockquote>
+<p>　　<a href="https://github.com/bang590/JSPatch">JSPatch</a>是一个在Github上的开源项目，<a href="https://github.com/bang590/JSPatch">JSPatch下载地址</a>。<a href="https://github.com/bang590/JSPatch">JSPatch</a> 的实现主要是通过 Objective-C的 runtime 原理,即利用JS传递字符串给OC，OC通过 Runtime 接口调用和替换OC方法。具体实现原理请参考作者的帖子：<a href="https://segmentfault.com/a/1190000003870981">JSPatch 实现原理详解 (整改版)</a>。</p>
+</blockquote>
+<blockquote>
+<p>　　<a href="http://bang590.github.io/JSPatchConvertor">OC转JS工具</a>,具体实现参考该<a href="http://www.jianshu.com/p/8cec322531ae">博客</a></p>
+</blockquote>
+<hr>
+<h3 id="大体实现思路如下">大体实现思路如下：</h3>
+<ol>
+<li><a href="#1">首先，开发者提供热修复脚本</a>；</li>
+<li><a href="#2">其次，要将脚本上传到后台，后台需要提供上传的操作页面</a>；</li>
+<li><a href="#3">然后，终端设备每次运行后请求获取最新的脚本文件</a>；</li>
+<li><a href="#4">最后，解析脚本文件，调用 JSPatch 引擎，执行脚本文件并修复</a>；</li>
+</ol>
+<h4 id="1开发者提供热修复脚本"><span id = "1">1、开发者提供热修复脚本:</span></h4>
+<p>脚本的书写：</p>
+<p>　　脚本书写也很简单，先用Objective-C将要需要更改的代码改好，然后根据需要修改的代码更改成js代码即可，具体书写方法请参照 <a href="https://github.com/bang590/JSPatch">JSPatch</a>使用说明，或者使用上面提供的<a href="http://bang590.github.io/JSPatchConvertor">OC转JS工具</a>。</p>
+<p>例如：</p>
+<p>　　OBjective-C代码，这里是需要修改的内容。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Objective-C" data-lang="Objective-C"><span class="line"><span class="cl"><span class="k">@implementation</span> <span class="nc">ViewController</span>
+</span></span><span class="line"><span class="cl"><span class="p">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">viewDidLoad</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="p">[</span><span class="nb">super</span> <span class="n">viewDidLoad</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="cm">/** 该代码在上线后的项目里面并没有
+</span></span></span><span class="line"><span class="cl"><span class="cm">        *  即在 APP 上线后又临时修改的。
+</span></span></span><span class="line"><span class="cl"><span class="cm">        *  添加或者修改我们需要改动代码，如无需改动，该方法不变，此处拿修改标题做测试，可以做很堵其他操作；
+</span></span></span><span class="line"><span class="cl"><span class="cm">        */</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">self</span><span class="p">.</span><span class="n">title</span> <span class="o">=</span> <span class="s">@&#34;Welcome to use JSPatchDemo&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">      <span class="cm">/**
+</span></span></span><span class="line"><span class="cl"><span class="cm">      * 省略其他代码
+</span></span></span><span class="line"><span class="cl"><span class="cm">      */</span>
+</span></span><span class="line"><span class="cl"><span class="k">@end</span>
+</span></span></code></pre></div><p>　　javascript代码：JS 属于链式语法，相信很多人都会，可以查看 JSPatch 的语法规则自己写，也可以通过<a href="http://bang590.github.io/JSPatchConvertor">OC转JS工具</a>将上面的代码转换成JS 代码</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">defineClass</span><span class="p">(</span><span class="s1">&#39;ViewController&#39;</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">viewDidLoad</span><span class="o">:</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">self</span><span class="p">.</span><span class="kr">super</span><span class="p">().</span><span class="nx">viewDidLoad</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="cm">/** 该代码在上线后的项目里面并没有
+</span></span></span><span class="line"><span class="cl"><span class="cm">         *  即在 APP 上线后又临时修改的。
+</span></span></span><span class="line"><span class="cl"><span class="cm">         *  添加或者修改我们需要改动代码，如无需改动，该方法不变，此处拿修改标题做测试，可以做很堵其他操作；
+</span></span></span><span class="line"><span class="cl"><span class="cm">         */</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">self</span><span class="p">.</span><span class="nx">setTitle</span><span class="p">(</span><span class="s2">&#34;Welcome to use JSPatchDemo&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span></code></pre></div><p>　　至此，热修复脚本已经编写完成。</p>
+<hr>
+<h4 id="2要将脚本上传到后台后台需要提供上传的操作页面"><span id = "2">2、要将脚本上传到后台，后台需要提供上传的操作页面:</span></h4>
+<p>　　此处需要后台配置，将上面已经写好的脚本放到服务器上面，并开发接口由APP 请求接口获取到脚本文件</p>
+<hr>
+<h4 id="3终端设备每次运行后请求获取最新的脚本文件"><span id = "3">3、终端设备每次运行后请求获取最新的脚本文件:</span></h4>
+<p>　　终端获取请求后台开发的接口，获取到脚本内容，可以根据当前版本与脚本编号判断当前脚本是否是最新脚本，如果是最新脚本，则执行脚本内容。</p>
+<hr>
+<h4 id="4解析脚本文件调用-jspatch-引擎执行脚本文件并修复"><span id = "4">4、解析脚本文件，调用 JSPatch 引擎，执行脚本文件并修复:</span></h4>
+<p>首先将JSPatch添加到项目中</p>
+<pre tabindex="0"><code>   pod &#39;JSPatch&#39;
+</code></pre><p>然后导入头文件<code>#import &quot;JSPatch.h&quot;</code>, 在程序启动的时候注册 JSPatch</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-OBjective-C" data-lang="OBjective-C"><span class="line"><span class="cl"><span class="k">@implementation</span> <span class="nc">AppDelegate</span>
+</span></span><span class="line"><span class="cl"><span class="p">-</span> <span class="p">(</span><span class="kt">BOOL</span><span class="p">)</span><span class="nf">application:</span><span class="p">(</span><span class="n">UIApplication</span> <span class="o">*</span><span class="p">)</span><span class="nv">application</span> <span class="nf">didFinishLaunchingWithOptions:</span><span class="p">(</span><span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">launchOptions</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">//此处作为演示，加载本地的 js 文件
+</span></span></span><span class="line"><span class="cl">    <span class="c1">//热修复功能一般是从服务器段请求下来，然后再经过版本判断等操作，再加载等。
+</span></span></span><span class="line"><span class="cl">    <span class="n">NSString</span> <span class="o">*</span> <span class="n">jsPath</span> <span class="o">=</span> <span class="p">[[</span><span class="n">NSBundle</span> <span class="n">mainBundle</span><span class="p">]</span> <span class="nl">pathForResource</span><span class="p">:</span><span class="s">@&#34;JSFileName&#34;</span> <span class="nl">ofType</span><span class="p">:</span><span class="s">@&#34;js&#34;</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">//在 js 文件存在的情况下，调用 JSPatch，如果js 文件不存在，程序会崩溃。
+</span></span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">([[</span><span class="n">NSFileManager</span> <span class="n">defaultManager</span><span class="p">]</span> <span class="nl">fileExistsAtPath</span><span class="p">:</span><span class="n">jsPath</span><span class="p">]</span> <span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">NSString</span> <span class="o">*</span><span class="n">scriptPatch</span> <span class="o">=</span> <span class="p">[</span><span class="n">NSString</span> <span class="nl">stringWithContentsOfFile</span><span class="p">:</span><span class="n">jsPath</span> <span class="nl">encoding</span><span class="p">:</span><span class="n">NSUTF8StringEncoding</span> <span class="nl">error</span><span class="p">:</span><span class="nb">nil</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="p">[</span><span class="n">JPEngine</span> <span class="n">startEngine</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">        <span class="p">[</span><span class="n">JPEngine</span> <span class="nl">evaluateScript</span><span class="p">:</span><span class="n">scriptPatch</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>　　至此，利用JSPatch引擎进行 APP 热修复功能差不多就如此了，剩下的就是调试优化上诉各个环节。</p>
+<h2 id="二使用reactnative实现热修复">二、使用ReactNative实现热修复：</h2>
+<blockquote>
+<p>　　<a href="https://github.com/facebook/react-native">ReactNative</a>是facebook提供的一种开源框架，使用JS语法进行跨平台开发，深受开发者青睐。直接使用ReactNative实现热修复的好像不是很多，比较流行的是使用微软的CodePush。</p>
+</blockquote>
+<blockquote>
+<p>　　这个是<a href="http://microsoft.github.io/code-push/docs/getting-started.html">CodePush</a>的官方网站地址,这个是CodePush<a href="https://github.com/Microsoft/react-native-code-push#getting-started">GitHut</a>地址。具体实现参考该<a href="http://blog.csdn.net/u011151353/article/details/50688681">博客</a>，讲的特别详细，我就不具体讲解了。</p>
+</blockquote>
+<h2 id="三使用luawax打补丁的方案实现热修复">三、使用Lua+Wax打补丁的方案实现热修复：</h2>
+<blockquote>
+<p>　　由于 lua热修复框架多年不更新，此处省略。</p>
+</blockquote>
+]]></content:encoded></item><item><title>快速添加圆角和描边</title><link>https://ceeyang.com/posts/2016-12-01-%E5%BF%AB%E9%80%9F%E6%B7%BB%E5%8A%A0%E5%9C%86%E8%A7%92%E5%92%8C%E6%8F%8F%E8%BE%B9/</link><pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2016-12-01-%E5%BF%AB%E9%80%9F%E6%B7%BB%E5%8A%A0%E5%9C%86%E8%A7%92%E5%92%8C%E6%8F%8F%E8%BE%B9/</guid><description>iOS 为图片添加圆角和描边的几种方式</description><content:encoded><![CDATA[<h1 id="前言">前言</h1>
+<p>对于习惯使用Storyboard的人来说，设置圆角、描边是一件比较蛋疼的事，因为苹果没有在xcode的Interface Builder上直接提供修改控件的圆角，边框设置。</p>
+<p>我们来说说如何对某个控件进行圆角、描边处理：</p>
+<h1 id="初级">初级</h1>
+<p>对于一个初学者来说，如果要进行某个控件的圆角、描边设置，就要从Storyboard关联出属性，然后再对属性进行代码处理。</p>
+<p>如下代码：</p>
+<pre tabindex="0"><code>self.myButton.layer.cornerRadius = 20;
+self.myButton.layer.masksToBounds = YES;
+self.myButton.layer.borderWidth = 2;
+self.myButton.layer.borderColor = [UIColor blackColor].CGColor;
+</code></pre><p>这样不仅需要Storyboard关联出属性，还要写一堆代码对属性进行设置，不得不说实在麻烦~</p>
+<h1 id="中级">中级</h1>
+<p>更聪明的做法是使用Storyboard提供的Runtime Attributes为控件添加圆角描边。</p>
+<p>选中控件，然后在Runtime Attributes框中输入对应的<code>Key</code>与<code>Type</code>与<code>Value</code>,这样程序在运行时就会通过KVC为你的控件属性进行赋值。(不仅仅是圆角、描边~)</p>
+<p>如下图</p>
+<p><img loading="lazy" src="http://ww4.sinaimg.cn/large/7853084cgw1fabg89aeqkj207b08j74y.jpg"></p>
+<p>设置圆角、描边的Key为：</p>
+<pre tabindex="0"><code>layer.borderWidth
+layer.borderColorFromUIColor
+layer.cornerRadius
+clipsToBounds
+</code></pre><p>我这次在测试时，</p>
+<p>这样做不用关联出属性，但是需要输入大串字符串，也是不够方便。</p>
+<h1 id="高级">高级</h1>
+<p>创建UIView的分类，使用<code>IBInspectable</code>+ <code>IB_DESIGNABLE</code>关键字：</p>
+<pre tabindex="0"><code>#import &lt;UIKit/UIKit.h&gt;
+
+IB_DESIGNABLE
+
+@interface UIView (Inspectable)
+
+@property(nonatomic,assign) IBInspectable CGFloat cornerRadius;
+@property(nonatomic,assign) IBInspectable CGFloat borderWidth;
+@property(nonatomic,assign) IBInspectable UIColor *borderColor;
+
+@end
+</code></pre><pre tabindex="0"><code>#import &#34;UIView+Inspectable.h&#34;
+
+@implementation UIView (Inspectable)
+
+-(void)setCornerRadius:(CGFloat)cornerRadius{
+    self.layer.masksToBounds = YES;
+    self.layer.cornerRadius = cornerRadius;
+}
+-(void)setBorderColor:(UIColor *)borderColor{
+    self.layer.borderColor = borderColor.CGColor;
+}
+-(void)setBorderWidth:(CGFloat)borderWidth{
+    self.layer.borderWidth = borderWidth;
+}
+
+- (CGFloat)cornerRadius{
+    return self.layer.cornerRadius;
+}
+- (CGFloat)borderWidth{
+    return self.layer.borderWidth;
+}
+- (UIColor *)borderColor{
+    return [UIColor colorWithCGColor:self.layer.borderColor];
+}
+
+@end
+</code></pre><p>附上：<a href="https://github.com/qiubaiying/CircularAndStroke.git">GitHub地址</a></p>
+<h4 id="直接使用">直接使用</h4>
+<p>直接将这两个文件拖入项目中即可使用，在右边栏将会显示圆角和描边的属性设置</p>
+<p>如图：</p>
+<p><img loading="lazy" src="http://ww4.sinaimg.cn/large/7853084cgw1facfqugjtbj20mp07v401.jpg"></p>
+<h4 id="动态显示设置效果">动态显示设置效果</h4>
+<p>直接使用的话只有在运行时才能看到效果，</p>
+<p>例如要实时显示一个<code>UIBUtton</code>圆角、描边效果，需要创建一个类继承<code>UIButton</code></p>
+<pre tabindex="0"><code>#import &lt;UIKit/UIKit.h&gt;
+#import &#34;UIView+Inspectable.h&#34;
+
+@interface myButton : UIButton
+
+@end
+</code></pre><pre tabindex="0"><code>#import &#34;myButton.h&#34;
+
+@implementation myButton
+
+@end
+</code></pre><p>只要将button的Class选择该空白类即可</p>
+<p>关于<code>IBInspectable</code>与<code>IB_DESIGNABLE</code>的使用详情可以参考这篇文章<a href="http://www.jianshu.com/p/a90e44ba1f2b">《谈不完美的IBDesignable/IBInspectable可视化效果编程》</a></p>
+]]></content:encoded></item></channel></rss>

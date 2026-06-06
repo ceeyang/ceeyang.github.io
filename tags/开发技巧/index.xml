@@ -1,1 +1,84 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>开发技巧 on Cee Yang</title><link>https://ceeyang.com/tags/%E5%BC%80%E5%8F%91%E6%8A%80%E5%B7%A7/</link><description>Recent content in 开发技巧 on Cee Yang</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 01 Dec 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://ceeyang.com/tags/%E5%BC%80%E5%8F%91%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>快速添加圆角和描边</title><link>https://ceeyang.com/posts/2016-12-01-%E5%BF%AB%E9%80%9F%E6%B7%BB%E5%8A%A0%E5%9C%86%E8%A7%92%E5%92%8C%E6%8F%8F%E8%BE%B9/</link><pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2016-12-01-%E5%BF%AB%E9%80%9F%E6%B7%BB%E5%8A%A0%E5%9C%86%E8%A7%92%E5%92%8C%E6%8F%8F%E8%BE%B9/</guid><description>iOS 为图片添加圆角和描边的几种方式</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>开发技巧 on Cee Yang</title><link>https://ceeyang.com/tags/%E5%BC%80%E5%8F%91%E6%8A%80%E5%B7%A7/</link><description>Recent content in 开发技巧 on Cee Yang</description><image><title>Cee Yang</title><url>https://ceeyang.com/images/og-cover.png</url><link>https://ceeyang.com/images/og-cover.png</link></image><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 01 Dec 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://ceeyang.com/tags/%E5%BC%80%E5%8F%91%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>快速添加圆角和描边</title><link>https://ceeyang.com/posts/2016-12-01-%E5%BF%AB%E9%80%9F%E6%B7%BB%E5%8A%A0%E5%9C%86%E8%A7%92%E5%92%8C%E6%8F%8F%E8%BE%B9/</link><pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2016-12-01-%E5%BF%AB%E9%80%9F%E6%B7%BB%E5%8A%A0%E5%9C%86%E8%A7%92%E5%92%8C%E6%8F%8F%E8%BE%B9/</guid><description>iOS 为图片添加圆角和描边的几种方式</description><content:encoded><![CDATA[<h1 id="前言">前言</h1>
+<p>对于习惯使用Storyboard的人来说，设置圆角、描边是一件比较蛋疼的事，因为苹果没有在xcode的Interface Builder上直接提供修改控件的圆角，边框设置。</p>
+<p>我们来说说如何对某个控件进行圆角、描边处理：</p>
+<h1 id="初级">初级</h1>
+<p>对于一个初学者来说，如果要进行某个控件的圆角、描边设置，就要从Storyboard关联出属性，然后再对属性进行代码处理。</p>
+<p>如下代码：</p>
+<pre tabindex="0"><code>self.myButton.layer.cornerRadius = 20;
+self.myButton.layer.masksToBounds = YES;
+self.myButton.layer.borderWidth = 2;
+self.myButton.layer.borderColor = [UIColor blackColor].CGColor;
+</code></pre><p>这样不仅需要Storyboard关联出属性，还要写一堆代码对属性进行设置，不得不说实在麻烦~</p>
+<h1 id="中级">中级</h1>
+<p>更聪明的做法是使用Storyboard提供的Runtime Attributes为控件添加圆角描边。</p>
+<p>选中控件，然后在Runtime Attributes框中输入对应的<code>Key</code>与<code>Type</code>与<code>Value</code>,这样程序在运行时就会通过KVC为你的控件属性进行赋值。(不仅仅是圆角、描边~)</p>
+<p>如下图</p>
+<p><img loading="lazy" src="http://ww4.sinaimg.cn/large/7853084cgw1fabg89aeqkj207b08j74y.jpg"></p>
+<p>设置圆角、描边的Key为：</p>
+<pre tabindex="0"><code>layer.borderWidth
+layer.borderColorFromUIColor
+layer.cornerRadius
+clipsToBounds
+</code></pre><p>我这次在测试时，</p>
+<p>这样做不用关联出属性，但是需要输入大串字符串，也是不够方便。</p>
+<h1 id="高级">高级</h1>
+<p>创建UIView的分类，使用<code>IBInspectable</code>+ <code>IB_DESIGNABLE</code>关键字：</p>
+<pre tabindex="0"><code>#import &lt;UIKit/UIKit.h&gt;
+
+IB_DESIGNABLE
+
+@interface UIView (Inspectable)
+
+@property(nonatomic,assign) IBInspectable CGFloat cornerRadius;
+@property(nonatomic,assign) IBInspectable CGFloat borderWidth;
+@property(nonatomic,assign) IBInspectable UIColor *borderColor;
+
+@end
+</code></pre><pre tabindex="0"><code>#import &#34;UIView+Inspectable.h&#34;
+
+@implementation UIView (Inspectable)
+
+-(void)setCornerRadius:(CGFloat)cornerRadius{
+    self.layer.masksToBounds = YES;
+    self.layer.cornerRadius = cornerRadius;
+}
+-(void)setBorderColor:(UIColor *)borderColor{
+    self.layer.borderColor = borderColor.CGColor;
+}
+-(void)setBorderWidth:(CGFloat)borderWidth{
+    self.layer.borderWidth = borderWidth;
+}
+
+- (CGFloat)cornerRadius{
+    return self.layer.cornerRadius;
+}
+- (CGFloat)borderWidth{
+    return self.layer.borderWidth;
+}
+- (UIColor *)borderColor{
+    return [UIColor colorWithCGColor:self.layer.borderColor];
+}
+
+@end
+</code></pre><p>附上：<a href="https://github.com/qiubaiying/CircularAndStroke.git">GitHub地址</a></p>
+<h4 id="直接使用">直接使用</h4>
+<p>直接将这两个文件拖入项目中即可使用，在右边栏将会显示圆角和描边的属性设置</p>
+<p>如图：</p>
+<p><img loading="lazy" src="http://ww4.sinaimg.cn/large/7853084cgw1facfqugjtbj20mp07v401.jpg"></p>
+<h4 id="动态显示设置效果">动态显示设置效果</h4>
+<p>直接使用的话只有在运行时才能看到效果，</p>
+<p>例如要实时显示一个<code>UIBUtton</code>圆角、描边效果，需要创建一个类继承<code>UIButton</code></p>
+<pre tabindex="0"><code>#import &lt;UIKit/UIKit.h&gt;
+#import &#34;UIView+Inspectable.h&#34;
+
+@interface myButton : UIButton
+
+@end
+</code></pre><pre tabindex="0"><code>#import &#34;myButton.h&#34;
+
+@implementation myButton
+
+@end
+</code></pre><p>只要将button的Class选择该空白类即可</p>
+<p>关于<code>IBInspectable</code>与<code>IB_DESIGNABLE</code>的使用详情可以参考这篇文章<a href="http://www.jianshu.com/p/a90e44ba1f2b">《谈不完美的IBDesignable/IBInspectable可视化效果编程》</a></p>
+]]></content:encoded></item></channel></rss>

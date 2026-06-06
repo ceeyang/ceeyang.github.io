@@ -1,1 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Xcode on Cee Yang</title><link>https://ceeyang.com/tags/xcode/</link><description>Recent content in Xcode on Cee Yang</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 05 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://ceeyang.com/tags/xcode/index.xml" rel="self" type="application/rss+xml"/><item><title>Xcode命令行工具管理</title><link>https://ceeyang.com/posts/2018-05-05-xcode%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7%E7%AE%A1%E7%90%86/</link><pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2018-05-05-xcode%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7%E7%AE%A1%E7%90%86/</guid><description>如何切换Xcode命令行工具</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Xcode on Cee Yang</title><link>https://ceeyang.com/tags/xcode/</link><description>Recent content in Xcode on Cee Yang</description><image><title>Cee Yang</title><url>https://ceeyang.com/images/og-cover.png</url><link>https://ceeyang.com/images/og-cover.png</link></image><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 05 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://ceeyang.com/tags/xcode/index.xml" rel="self" type="application/rss+xml"/><item><title>Xcode命令行工具管理</title><link>https://ceeyang.com/posts/2018-05-05-xcode%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7%E7%AE%A1%E7%90%86/</link><pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2018-05-05-xcode%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7%E7%AE%A1%E7%90%86/</guid><description>如何切换Xcode命令行工具</description><content:encoded><![CDATA[<h2 id="安装">安装</h2>
+<pre><code>xcode-select --install
+</code></pre>
+<p><img loading="lazy" src="https://upload-images.jianshu.io/upload_images/545662-f9031dfcce085f8f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/459"></p>
+<h2 id="xcode版本切换">Xcode版本切换</h2>
+<h3 id="显示当前使用的xocde版本">显示当前使用的xocde版本</h3>
+<pre><code>$ xcode-select --print-path
+</code></pre>
+<h3 id="选择xcode中的默认版本">选择Xcode中的默认版本</h3>
+<pre><code>$ sudo xcode-select -switch /Applications/Xcode.app
+</code></pre>
+]]></content:encoded></item></channel></rss>

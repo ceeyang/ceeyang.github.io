@@ -1,1 +1,276 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Full-Stack on Cee Yang</title><link>https://ceeyang.com/tags/full-stack/</link><description>Recent content in Full-Stack on Cee Yang</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ceeyang.com/tags/full-stack/index.xml" rel="self" type="application/rss+xml"/><item><title>开源邀请归因系统 share-installs：自托管延迟深度链接匹配方案</title><link>https://ceeyang.com/posts/2026-06-01-share-installs-guide/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2026-06-01-share-installs-guide/</guid><description>分享一个开源自托管的邀请码 &amp;amp; 延迟深度链接归因系统——share-installs。用户点击邀请链接并安装 App 后，首次启动时邀请码自动识别回填。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Full-Stack on Cee Yang</title><link>https://ceeyang.com/tags/full-stack/</link><description>Recent content in Full-Stack on Cee Yang</description><image><title>Cee Yang</title><url>https://ceeyang.com/images/og-cover.png</url><link>https://ceeyang.com/images/og-cover.png</link></image><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ceeyang.com/tags/full-stack/index.xml" rel="self" type="application/rss+xml"/><item><title>开源邀请归因系统 share-installs：自托管延迟深度链接匹配方案</title><link>https://ceeyang.com/posts/2026-06-01-share-installs-guide/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2026-06-01-share-installs-guide/</guid><description>分享一个开源自托管的邀请码 &amp;amp; 延迟深度链接归因系统——share-installs。用户点击邀请链接并安装 App 后，首次启动时邀请码自动识别回填。</description><content:encoded><![CDATA[<h2 id="前言">前言</h2>
+<p>你有没有遇到过这种场景：</p>
+<blockquote>
+<p>用户 A 分享了一个邀请链接给用户 B。用户 B 在手机上点击链接，跳转到 App Store 下载了 App。安装打开后——<strong>邀请码呢？</strong></p>
+</blockquote>
+<p>传统方案要么依赖复杂的 Deep Link 配置（Universal Link / App Links），要么需要接入 Firebase Dynamic Links 这类第三方服务。前者配置繁琐，后者有被 deprecate 的风险。</p>
+<p>这就是我开源 <strong>share-installs</strong> 的原因。</p>
+<hr>
+<h2 id="什么是-share-installs">什么是 share-installs？</h2>
+<p><strong>share-installs</strong> 是一个开源、自托管的 <strong>邀请码 &amp; 延迟深度链接归因系统</strong>。</p>
+<p>核心能力只有一句话：<strong>用户点击邀请链接并安装 App 后，首次启动时邀请码会自动识别并回填——即使点击时 App 尚未安装。</strong></p>
+<p>项目地址：<a href="https://github.com/ceeyang/share-installs">github.com/ceeyang/share-installs</a></p>
+<pre tabindex="0"><code>⭐ 核心功能：浏览器指纹 → 后端匹配 → App 启动自动回填
+🖥️ 三端 SDK：Web（TypeScript）+ iOS（Swift）+ Android（Kotlin）
+🐳 一键部署：Docker Compose / Kubernetes / 裸机
+🔐 自托管：数据存在你自己的服务器上
+</code></pre><hr>
+<h2 id="工作原理">工作原理</h2>
+<p>整个流程分为四个阶段：</p>
+<pre tabindex="0"><code>[阶段 1] 用户 A 分享邀请链接
+         │
+         ▼
+[阶段 2] 用户 B 点击链接 → 你的落地页
+         │  JS SDK 上报浏览器指纹到后端
+         ▼
+[阶段 3] 跳转 App Store / Play Store
+         │
+         ▼
+[阶段 4] 用户 B 安装并打开 App
+         │  移动 SDK 上报设备指纹
+         ▼
+         后端匹配指纹 → 返回邀请码
+         │
+         ▼
+         App 自动填入邀请码 ✓
+</code></pre><p><strong>关键技术点：</strong></p>
+<ol>
+<li><strong>指纹匹配</strong>：浏览器和设备的特征组合（时区、语言、屏幕尺寸、硬件参数等）被视为同一用户的指纹</li>
+<li><strong>时间窗口</strong>：默认 72 小时内，点击事件可被匹配</li>
+<li><strong>置信度阈值</strong>：模糊匹配默认 0.75，可配置</li>
+</ol>
+<p><strong>职责边界：</strong> share-installs 只负责指纹收集和匹配。邀请码的生成、跳转商店、使用次数统计等业务逻辑由你的系统处理。</p>
+<hr>
+<h2 id="快速启动">快速启动</h2>
+<h3 id="docker-一键启动推荐">Docker 一键启动（推荐）</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone https://github.com/ceeyang/share-installs.git
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> share-installs
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 使用默认配置启动全部服务</span>
+</span></span><span class="line"><span class="cl">docker compose up --build
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 验证</span>
+</span></span><span class="line"><span class="cl">curl http://localhost:6066/api/health
+</span></span><span class="line"><span class="cl"><span class="c1"># {&#34;status&#34;:&#34;ok&#34;,&#34;version&#34;:&#34;1.0.0&#34;,&#34;timestamp&#34;:&#34;...&#34;}</span>
+</span></span></code></pre></div><h3 id="本地调试模式docker-基础设施--本地代码热重载">本地调试模式（Docker 基础设施 + 本地代码热重载）</h3>
+<p>最适合有断点调试需求的日常开发：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 1. 启动数据库 + 缓存</span>
+</span></span><span class="line"><span class="cl">docker compose up db redis -d
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 2. 安装依赖</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> backend <span class="o">&amp;&amp;</span> npm install
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 3. 初始化数据库</span>
+</span></span><span class="line"><span class="cl">npm run db:generate
+</span></span><span class="line"><span class="cl">npx prisma migrate dev --name init
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 4. 启动热重载开发服务器</span>
+</span></span><span class="line"><span class="cl">npm run dev
+</span></span><span class="line"><span class="cl"><span class="c1"># 服务运行在 http://localhost:6066</span>
+</span></span></code></pre></div><h3 id="环境变量快速参考">环境变量快速参考</h3>
+<table>
+  <thead>
+      <tr>
+          <th>变量</th>
+          <th>默认值</th>
+          <th>说明</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>MULTI_TENANT</code></td>
+          <td><code>false</code></td>
+          <td>自部署模式 / SaaS 模式</td>
+      </tr>
+      <tr>
+          <td><code>ADMIN_SECRET</code></td>
+          <td>空（不鉴权）</td>
+          <td>项目管理端点保护密钥</td>
+      </tr>
+      <tr>
+          <td><code>FINGERPRINT_MATCH_THRESHOLD</code></td>
+          <td><code>0.75</code></td>
+          <td>匹配最低置信度</td>
+      </tr>
+      <tr>
+          <td><code>FINGERPRINT_MATCH_TTL_HOURS</code></td>
+          <td><code>72</code></td>
+          <td>匹配时间窗口（小时）</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="sdk-集成">SDK 集成</h2>
+<h3 id="web-端邀请落地页">Web 端（邀请落地页）</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-typescript" data-lang="typescript"><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">ShareInstallsSDK</span> <span class="p">}</span> <span class="kr">from</span> <span class="s1">&#39;@share-installs/js-sdk&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">sdk</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">ShareInstallsSDK</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">apiBaseUrl</span><span class="o">:</span> <span class="s1">&#39;https://你的域名/api&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 从 URL 提取邀请码
+</span></span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">inviteCode</span> <span class="o">=</span> <span class="nx">location</span><span class="p">.</span><span class="nx">pathname</span><span class="p">.</span><span class="nx">split</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">).</span><span class="nx">pop</span><span class="p">()</span><span class="o">!</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 上报指纹
+</span></span></span><span class="line"><span class="cl"><span class="k">await</span> <span class="nx">sdk</span><span class="p">.</span><span class="nx">trackClick</span><span class="p">(</span><span class="nx">inviteCode</span><span class="p">,</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">customData</span><span class="o">:</span> <span class="p">{</span> <span class="nx">campaign</span><span class="o">:</span> <span class="s1">&#39;summer2024&#39;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 然后由你的代码跳转 App Store / Play Store
+</span></span></span></code></pre></div><h3 id="iosswift">iOS（Swift）</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">import</span> <span class="nc">ShareInstallsSDK</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 在 AppDelegate 或 @main App 中初始化</span>
+</span></span><span class="line"><span class="cl"><span class="n">ShareInstallsSDK</span><span class="p">.</span><span class="n">configure</span><span class="p">(</span><span class="n">with</span><span class="p">:</span> <span class="n">ShareInstallsConfiguration</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">apiBaseURL</span><span class="p">:</span> <span class="n">URL</span><span class="p">(</span><span class="n">string</span><span class="p">:</span> <span class="s">&#34;https://你的域名/api&#34;</span><span class="p">)</span><span class="o">!</span>
+</span></span><span class="line"><span class="cl"><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 首次启动后 resolve</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="kd">let</span> <span class="nv">result</span> <span class="p">=</span> <span class="k">try</span> <span class="n">await</span> <span class="n">ShareInstallsSDK</span><span class="p">.</span><span class="n">shared</span><span class="p">.</span><span class="n">resolveDeferred</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// result.inviteCode — 邀请码</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// result.customData — 落地页传入的自定义数据</span>
+</span></span><span class="line"><span class="cl">    <span class="n">applyInviteCode</span><span class="p">(</span><span class="n">result</span><span class="p">.</span><span class="n">inviteCode</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h3 id="androidkotlin">Android（Kotlin）</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-kotlin" data-lang="kotlin"><span class="line"><span class="cl"><span class="c1">// 在 Application.onCreate 中初始化
+</span></span></span><span class="line"><span class="cl"><span class="nc">ShareInstallsSDK</span><span class="p">.</span><span class="n">configure</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">context</span> <span class="p">=</span> <span class="n">applicationContext</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">configuration</span> <span class="p">=</span> <span class="n">ShareInstallsConfiguration</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">        <span class="n">apiBaseUrl</span> <span class="p">=</span> <span class="s2">&#34;https://你的域名/api&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 首次启动后 resolve
+</span></span></span><span class="line"><span class="cl"><span class="k">val</span> <span class="py">result</span> <span class="p">=</span> <span class="nc">ShareInstallsSDK</span><span class="p">.</span><span class="n">instance</span><span class="p">.</span><span class="n">resolveDeferred</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="n">result</span> <span class="o">!=</span> <span class="k">null</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">applyInviteCode</span><span class="p">(</span><span class="n">result</span><span class="p">.</span><span class="n">inviteCode</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<h2 id="部署选项">部署选项</h2>
+<table>
+  <thead>
+      <tr>
+          <th>方式</th>
+          <th>适用场景</th>
+          <th>复杂度</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Docker Compose</td>
+          <td>测试 &amp; 自托管</td>
+          <td>⭐</td>
+      </tr>
+      <tr>
+          <td>Docker Dev</td>
+          <td>日常开发调试</td>
+          <td>⭐⭐</td>
+      </tr>
+      <tr>
+          <td>Docker Compose（生产）</td>
+          <td>小型生产部署</td>
+          <td>⭐⭐</td>
+      </tr>
+      <tr>
+          <td>裸机（Node.js + PG + Redis）</td>
+          <td>已有基础设施</td>
+          <td>⭐⭐⭐</td>
+      </tr>
+      <tr>
+          <td>Kubernetes + Terraform（AWS）</td>
+          <td>生产环境</td>
+          <td>⭐⭐⭐⭐</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="项目结构一览">项目结构一览</h2>
+<pre tabindex="0"><code>share-installs/
+├── backend/           # Express + Prisma + Redis REST API
+├── sdk/
+│   ├── ios/           # Swift SDK（SPM + CocoaPods）
+│   ├── android/       # Kotlin SDK
+│   └── js/            # TypeScript Web SDK（npm）
+├── landing/           # Next.js 邀请落地页（可选）
+├── dashboard/         # 管理仪表盘
+├── docs/              # 架构 &amp; 集成文档
+├── infrastructure/
+│   ├── k8s/           # Kubernetes manifests
+│   └── terraform/     # AWS 基础设施（EKS + RDS）
+├── test/              # 内存测试服务器 &amp; 测试页面
+├── docker-compose.yml
+└── docker-compose.dev.yml
+</code></pre><p><strong>后端技术栈：</strong></p>
+<ul>
+<li><strong>运行时</strong>：Node.js + TypeScript</li>
+<li><strong>框架</strong>：Express</li>
+<li><strong>ORM</strong>：Prisma</li>
+<li><strong>缓存</strong>：Redis（用于指纹匹配加速 + 限流）</li>
+<li><strong>数据库</strong>：PostgreSQL</li>
+</ul>
+<hr>
+<h2 id="适用场景">适用场景</h2>
+<ul>
+<li><strong>社交裂变</strong>：App 用户邀请好友注册，自动归因</li>
+<li><strong>活动推广</strong>：通过邀请链接分发优惠券码</li>
+<li><strong>内测分发</strong>：控制邀请名额，追踪安装来源</li>
+<li><strong>渠道归因</strong>：区分不同推广渠道的下载来源</li>
+</ul>
+<hr>
+<h2 id="与其他方案对比">与其他方案对比</h2>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>share-installs</th>
+          <th>Firebase Dynamic Links</th>
+          <th>Branch.io</th>
+          <th>AppsFlyer</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>开源</strong></td>
+          <td>✅</td>
+          <td>❌</td>
+          <td>❌</td>
+          <td>❌</td>
+      </tr>
+      <tr>
+          <td><strong>自托管</strong></td>
+          <td>✅</td>
+          <td>❌</td>
+          <td>❌</td>
+          <td>❌</td>
+      </tr>
+      <tr>
+          <td><strong>免费</strong></td>
+          <td>✅</td>
+          <td>✅（有额度）</td>
+          <td>❌</td>
+          <td>❌</td>
+      </tr>
+      <tr>
+          <td><strong>多端 SDK</strong></td>
+          <td>Web/iOS/Android</td>
+          <td>Web/iOS/Android</td>
+          <td>Web/iOS/Android</td>
+          <td>Web/iOS/Android</td>
+      </tr>
+      <tr>
+          <td><strong>部署复杂度</strong></td>
+          <td>低（Docker）</td>
+          <td>零（托管）</td>
+          <td>零（托管）</td>
+          <td>零（托管）</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>选择建议：</strong> 如果你的数据合规要求严格、不想依赖第三方服务、或者想完全控制归因逻辑，share-installs 是一个轻量且可扩展的选择。</p>
+<hr>
+<h2 id="结语">结语</h2>
+<p>share-installs 是一个小而美的项目——它只做一件事，但把它做扎实了。从指纹采集、存储匹配、到多端 SDK，整个链路完整闭环。</p>
+<p>项目是完全开源的（Apache 2.0 协议），欢迎 Star、Issue 和 PR：</p>
+<p>👉 <a href="https://github.com/ceeyang/share-installs">https://github.com/ceeyang/share-installs</a></p>
+<p>如果你有类似的场景需要处理邀请归因，不妨试试自部署一个，5 分钟就能跑起来。</p>
+]]></content:encoded></item></channel></rss>

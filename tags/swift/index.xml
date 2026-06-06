@@ -1,1 +1,225 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Swift on Cee Yang</title><link>https://ceeyang.com/tags/swift/</link><description>Recent content in Swift on Cee Yang</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 10 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ceeyang.com/tags/swift/index.xml" rel="self" type="application/rss+xml"/><item><title>Swift Debug Print</title><link>https://ceeyang.com/posts/2019-08-10-swift-debug-print/</link><pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2019-08-10-swift-debug-print/</guid><description>Swift Debug Print</description></item><item><title>UITextView+Placeholder</title><link>https://ceeyang.com/posts/2019-08-08-uitextview%E6%89%A9%E5%B1%95%E6%B7%BB%E5%8A%A0placeholder/</link><pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2019-08-08-uitextview%E6%89%A9%E5%B1%95%E6%B7%BB%E5%8A%A0placeholder/</guid><description>UITextView 扩展 Placeholder</description></item><item><title>Swift 4.2 新特性</title><link>https://ceeyang.com/posts/2018-11-09-swift4.2%E6%96%B0%E7%89%B9%E6%80%A7/</link><pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2018-11-09-swift4.2%E6%96%B0%E7%89%B9%E6%80%A7/</guid><description>本文介绍 Swift 4.2 的一些新特性</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Swift on Cee Yang</title><link>https://ceeyang.com/tags/swift/</link><description>Recent content in Swift on Cee Yang</description><image><title>Cee Yang</title><url>https://ceeyang.com/images/og-cover.png</url><link>https://ceeyang.com/images/og-cover.png</link></image><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 10 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ceeyang.com/tags/swift/index.xml" rel="self" type="application/rss+xml"/><item><title>Swift Debug Print</title><link>https://ceeyang.com/posts/2019-08-10-swift-debug-print/</link><pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2019-08-10-swift-debug-print/</guid><description>Swift Debug Print</description><content:encoded><![CDATA[<h2 id="自定义-swift-控制台输出">自定义 swift 控制台输出</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// </span><span class="cs">MARK:</span><span class="c1"> - Debug Print -</span>
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">func</span> <span class="nf">print</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;(</span><span class="kc">_</span> <span class="n">message</span><span class="p">:</span> <span class="n">T</span><span class="p">,</span> <span class="n">fileName</span><span class="p">:</span> <span class="nb">String</span> <span class="p">=</span> <span class="kc">#file</span><span class="p">,</span> <span class="n">methodName</span><span class="p">:</span> <span class="nb">String</span> <span class="p">=</span> <span class="kc">#function</span><span class="p">,</span> <span class="n">line</span><span class="p">:</span> <span class="nb">Int</span> <span class="p">=</span> <span class="kc">#line</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="cp">#if</span> <span class="cp">DEBUG</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">let</span> <span class="nv">printInfo</span> <span class="p">=</span>
+</span></span><span class="line"><span class="cl">    <span class="s">&#34;&#34;&#34;
+</span></span></span><span class="line"><span class="cl"><span class="s">    </span><span class="se">\n</span><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">    =================================================================================================================================================
+</span></span></span><span class="line"><span class="cl"><span class="s">    【File    Name】: </span><span class="si">\(</span><span class="n">fileName</span><span class="p">.</span><span class="bp">split</span><span class="si">(</span><span class="s">&#34;/&#34;</span><span class="si">)</span><span class="p">.</span><span class="bp">last</span> <span class="p">??</span>  <span class="s">&#34;&#34;</span><span class="si">)</span><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">    【FunctionName】: </span><span class="si">\(</span><span class="n">methodName</span><span class="si">)</span><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">    【Fuction Line】: </span><span class="si">\(</span><span class="n">line</span><span class="si">)</span><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">    【Print   Time】: </span><span class="si">\(</span><span class="n">Date</span><span class="si">())</span><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">    【   Message  】:
+</span></span></span><span class="line"><span class="cl"><span class="s">    </span><span class="si">\(</span><span class="n">message</span><span class="si">)</span><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">    =================================================================================================================================================
+</span></span></span><span class="line"><span class="cl"><span class="s">    </span><span class="se">\n</span><span class="s">
+</span></span></span><span class="line"><span class="cl"><span class="s">    &#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="bp">print</span><span class="p">(</span><span class="n">printInfo</span><span class="p">,</span> <span class="n">separator</span><span class="p">:</span> <span class="s">&#34;&#34;</span><span class="p">,</span> <span class="n">terminator</span><span class="p">:</span> <span class="s">&#34;&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="cp">#endif</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>]]></content:encoded></item><item><title>UITextView+Placeholder</title><link>https://ceeyang.com/posts/2019-08-08-uitextview%E6%89%A9%E5%B1%95%E6%B7%BB%E5%8A%A0placeholder/</link><pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2019-08-08-uitextview%E6%89%A9%E5%B1%95%E6%B7%BB%E5%8A%A0placeholder/</guid><description>UITextView 扩展 Placeholder</description><content:encoded><![CDATA[<h2 id="swift-uitextview-扩展-placeholder">Swift UITextView 扩展 Placeholder</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Swift" data-lang="Swift"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">import</span> <span class="nc">UIKit</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">fileprivate</span> <span class="kd">var</span> <span class="nv">kTextViewPlaceholderLabel</span> <span class="p">:</span> <span class="nb">Int</span> <span class="p">=</span> <span class="mh">0x2019_00</span>
+</span></span><span class="line"><span class="cl"><span class="n">fileprivate</span> <span class="kd">var</span> <span class="nv">kTextViewPlaceholder</span>      <span class="p">:</span> <span class="nb">Int</span> <span class="p">=</span> <span class="mh">0x2019_01</span>
+</span></span><span class="line"><span class="cl"><span class="n">fileprivate</span> <span class="kd">var</span> <span class="nv">kTextViewPlaceholderColor</span> <span class="p">:</span> <span class="nb">Int</span> <span class="p">=</span> <span class="mh">0x2019_02</span>
+</span></span><span class="line"><span class="cl"><span class="n">fileprivate</span> <span class="kd">var</span> <span class="nv">kTextViewPlaceholderFont</span>  <span class="p">:</span> <span class="nb">Int</span> <span class="p">=</span> <span class="mh">0x2019_03</span>
+</span></span><span class="line"><span class="cl"><span class="n">fileprivate</span> <span class="kd">var</span> <span class="nv">kTextViewPlaceholderKeys</span>  <span class="p">:</span> <span class="nb">Int</span> <span class="p">=</span> <span class="mh">0x2019_04</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">extension</span> <span class="nc">UITextView</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 占位符</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">x_placeholder</span><span class="p">:</span> <span class="nb">String</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">get</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="kd">let</span> <span class="nv">placeholder</span> <span class="p">=</span> <span class="n">objc_getAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholder</span><span class="p">)</span> <span class="k">as</span><span class="p">?</span> <span class="nb">String</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">placeholder</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="s">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">set</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">objc_setAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholder</span><span class="p">,</span> <span class="n">newValue</span><span class="p">,</span> <span class="p">.</span><span class="n">OBJC_ASSOCIATION_RETAIN</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">x_placeholderLabel</span><span class="p">.</span><span class="n">text</span> <span class="p">=</span> <span class="n">newValue</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 占位符颜色</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">x_placeholderColor</span><span class="p">:</span> <span class="n">UIColor</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">get</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="kd">let</span> <span class="nv">placeholderColor</span> <span class="p">=</span> <span class="n">objc_getAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderColor</span><span class="p">)</span> <span class="k">as</span><span class="p">?</span> <span class="n">UIColor</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">placeholderColor</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">UIColor</span><span class="p">.</span><span class="n">subTitleColor</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">set</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">objc_setAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderColor</span><span class="p">,</span> <span class="n">newValue</span><span class="p">,</span> <span class="p">.</span><span class="n">OBJC_ASSOCIATION_RETAIN</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">x_placeholderLabel</span><span class="p">.</span><span class="n">textColor</span> <span class="p">=</span> <span class="n">newValue</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 占位符字体</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">x_placeholderFont</span><span class="p">:</span> <span class="n">UIFont</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">get</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="kd">let</span> <span class="nv">placeholderFont</span> <span class="p">=</span> <span class="n">objc_getAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderColor</span><span class="p">)</span> <span class="k">as</span><span class="p">?</span> <span class="n">UIFont</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">placeholderFont</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">UIFont</span><span class="p">.</span><span class="n">systemFont</span><span class="p">(</span><span class="n">ofSize</span><span class="p">:</span> <span class="mi">12</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">set</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">objc_setAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderColor</span><span class="p">,</span> <span class="n">newValue</span><span class="p">,</span> <span class="p">.</span><span class="n">OBJC_ASSOCIATION_RETAIN</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">x_placeholderLabel</span><span class="p">.</span><span class="n">font</span> <span class="p">=</span> <span class="n">newValue</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 占位符 标签</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">@IBInspectable</span> <span class="kd">var</span> <span class="nv">x_placeholderLabel</span><span class="p">:</span> <span class="n">UILabel</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">get</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="kd">var</span> <span class="nv">_placeholderLabel</span> <span class="p">=</span> <span class="n">UILabel</span><span class="p">(</span><span class="n">font</span><span class="p">:</span> <span class="kc">self</span><span class="p">.</span><span class="n">font</span> <span class="p">??</span> <span class="n">UIFont</span><span class="p">.</span><span class="n">systemFont</span><span class="p">(</span><span class="n">ofSize</span><span class="p">:</span> <span class="mi">12</span><span class="p">),</span> <span class="n">color</span><span class="p">:</span> <span class="p">.</span><span class="n">subTitleColor</span><span class="p">,</span> <span class="n">alignment</span><span class="p">:</span> <span class="p">.</span><span class="kr">left</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="kd">let</span> <span class="nv">label</span> <span class="p">=</span> <span class="n">objc_getAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderLabel</span><span class="p">)</span> <span class="k">as</span><span class="p">?</span> <span class="n">UILabel</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">_placeholderLabel</span> <span class="p">=</span> <span class="n">label</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">objc_setAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderLabel</span><span class="p">,</span> <span class="n">_placeholderLabel</span><span class="p">,</span> <span class="p">.</span><span class="n">OBJC_ASSOCIATION_RETAIN</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="n">addPlaceholderLabelToSuperView</span><span class="p">(</span><span class="n">label</span><span class="p">:</span> <span class="n">_placeholderLabel</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="n">_placeholderLabel</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">set</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">objc_setAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderLabel</span><span class="p">,</span> <span class="n">newValue</span><span class="p">,</span> <span class="p">.</span><span class="n">OBJC_ASSOCIATION_RETAIN</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="n">addPlaceholderLabelToSuperView</span><span class="p">(</span><span class="n">label</span><span class="p">:</span> <span class="n">newValue</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 是否需要添加占位符到父视图</span>
+</span></span><span class="line"><span class="cl">    <span class="n">fileprivate</span> <span class="kd">var</span> <span class="nv">x_placeHolderNeedAddToSuperView</span><span class="p">:</span> <span class="nb">Bool</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">get</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="kd">let</span> <span class="nv">isAdded</span> <span class="p">=</span> <span class="n">objc_getAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderKeys</span><span class="p">)</span> <span class="k">as</span><span class="p">?</span> <span class="nb">Bool</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">isAdded</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">set</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">objc_setAssociatedObject</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="p">&amp;</span><span class="n">kTextViewPlaceholderKeys</span><span class="p">,</span> <span class="n">newValue</span><span class="p">,</span> <span class="p">.</span><span class="n">OBJC_ASSOCIATION_RETAIN</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 添加占位符到父视图</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">///</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">/// - Parameter label: 占位符 标签</span>
+</span></span><span class="line"><span class="cl">    <span class="n">fileprivate</span> <span class="kd">func</span> <span class="nf">addPlaceholderLabelToSuperView</span><span class="p">(</span><span class="n">label</span><span class="p">:</span> <span class="n">UILabel</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">guard</span> <span class="n">x_placeHolderNeedAddToSuperView</span> <span class="k">else</span> <span class="p">{</span> <span class="k">return</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="n">x_placeHolderNeedAddToSuperView</span> <span class="p">=</span> <span class="kc">false</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">NotificationCenter</span><span class="p">.</span><span class="k">default</span><span class="p">.</span><span class="n">addObserver</span><span class="p">(</span><span class="kc">self</span><span class="p">,</span> <span class="n">selector</span><span class="p">:</span> <span class="k">#selector</span><span class="p">(</span><span class="n">x_textChange</span><span class="p">(</span><span class="n">noti</span><span class="p">:)),</span> <span class="n">name</span><span class="p">:</span> <span class="n">UITextView</span><span class="p">.</span><span class="n">textDidChangeNotification</span><span class="p">,</span> <span class="n">object</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">addSubview</span><span class="p">(</span><span class="n">label</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">label</span><span class="p">.</span><span class="n">snp</span><span class="p">.</span><span class="n">makeConstraints</span> <span class="p">{</span> <span class="p">(</span><span class="n">make</span><span class="p">)</span> <span class="k">in</span>
+</span></span><span class="line"><span class="cl">            <span class="n">make</span><span class="p">.</span><span class="n">edges</span><span class="p">.</span><span class="n">equalToSuperview</span><span class="p">().</span><span class="n">inset</span><span class="p">(</span><span class="n">UIEdgeInsets</span><span class="p">(</span><span class="n">top</span><span class="p">:</span> <span class="mi">7</span><span class="p">,</span> <span class="kr">left</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="n">bottom</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="kr">right</span><span class="p">:</span> <span class="mi">0</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">/// 编辑事件</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">@objc</span> <span class="n">fileprivate</span> <span class="kd">func</span> <span class="nf">x_textChange</span><span class="p">(</span><span class="n">noti</span><span class="p">:</span> <span class="n">NSNotification</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">let</span> <span class="nv">isEmpty</span> <span class="p">=</span> <span class="n">text</span><span class="p">.</span><span class="bp">isEmpty</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">print</span><span class="p">(</span><span class="s">&#34;text:</span><span class="si">\(</span><span class="nb">String</span><span class="si">(</span><span class="n">describing</span><span class="p">:</span> <span class="n">text</span><span class="si">))</span><span class="se">\n</span><span class="s">isEmpty:</span><span class="si">\(</span><span class="bp">isEmpty</span><span class="si">)</span><span class="s">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">x_placeholderLabel</span><span class="p">.</span><span class="n">text</span> <span class="p">=</span> <span class="bp">isEmpty</span> <span class="p">?</span> <span class="n">x_placeholder</span> <span class="p">:</span> <span class="s">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">x_placeholderLabel</span><span class="p">.</span><span class="n">isHidden</span> <span class="p">=</span> <span class="o">!</span><span class="bp">isEmpty</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>]]></content:encoded></item><item><title>Swift 4.2 新特性</title><link>https://ceeyang.com/posts/2018-11-09-swift4.2%E6%96%B0%E7%89%B9%E6%80%A7/</link><pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2018-11-09-swift4.2%E6%96%B0%E7%89%B9%E6%80%A7/</guid><description>本文介绍 Swift 4.2 的一些新特性</description><content:encoded><![CDATA[<h3 id="private-权限扩大">private 权限扩大</h3>
+<p>在 Swift 4 中，<code>extension</code> 可以读取 <code>private</code> 变量了。</p>
+<p>Swift 3 中，如果将主体函数的变量定义为 <code>private</code>，则其 <code>extension</code> 无法读取此变量，必须将其改为 <code>filePrivate</code> 才可以。</p>
+<h3 id="单向区间">单向区间</h3>
+<p>单向区间是一个新的类型，主要分两种：确定上限和确定下限的区间。直接用字面量定义大概可以写成 <code>…6</code>和 <code>2…</code></p>
+<p>例如</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">intArr</span> <span class="p">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">arr1</span> <span class="p">=</span> <span class="n">intArr</span><span class="p">[...</span><span class="mi">3</span><span class="p">]</span> 	<span class="c1">// [0, 1, 2, 3]</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">arr2</span> <span class="p">=</span> <span class="n">intArr</span><span class="p">[</span><span class="mf">3.</span><span class="p">..]</span> 	<span class="c1">// [3, 4]</span>
+</span></span></code></pre></div><h3 id="字符串改动">字符串改动</h3>
+<h4 id="string-操作简化了">String 操作简化了</h4>
+<p><code>String</code> 许多要通过 <code>.characters</code> 进行的操作，可以直接用 String 进行操作了。</p>
+<p>例如：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">greeting</span> <span class="p">=</span> <span class="s">&#34;Hello, 😜!&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// No need to drill down to .characters</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">n</span> <span class="p">=</span> <span class="n">greeting</span><span class="p">.</span><span class="bp">count</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">endOfSentence</span> <span class="p">=</span> <span class="n">greeting</span><span class="p">.</span><span class="n">index</span><span class="p">(</span><span class="n">of</span><span class="p">:</span> <span class="s">&#34;!&#34;</span><span class="p">)</span><span class="o">!</span>
+</span></span></code></pre></div><h4 id="新增-substring-类型">新增 Substring 类型</h4>
+<p>swift 4 为字符串片段新增了一个叫 <code>Substring</code> 的类型。</p>
+<p>当你创建一个字符串的片段时，会产生一个 <code>Substring</code> 实例。<code>Substring</code> 与 <code>String</code> 用法相同， 因为子串和原字符串共享内存，所以对子串的操作快速而且高效。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">greeting</span> <span class="p">=</span> <span class="s">&#34;Hi there! It&#39;s nice to meet you! 👋&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">endOfSentence</span> <span class="p">=</span> <span class="n">greeting</span><span class="p">.</span><span class="n">index</span><span class="p">(</span><span class="n">of</span><span class="p">:</span> <span class="s">&#34;!&#34;</span><span class="p">)</span><span class="o">!</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// 产生 Substring 实例</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">firstSentence</span> <span class="p">=</span> <span class="n">greeting</span><span class="p">[...</span><span class="n">endOfSentence</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// firstSentence == &#34;Hi there!&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// `Substring` 与 `String` 用法相同</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">shoutingSentence</span> <span class="p">=</span> <span class="n">firstSentence</span><span class="p">.</span><span class="n">uppercased</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// shoutingSentence == &#34;HI THERE!&#34;</span>
+</span></span></code></pre></div><p>但是要注意一个 <code>Substring</code> 保留从其生成的完整的 <code>String</code>值。 当您传递一个看似很小的 <code>Substring</code> 时，这可能导致意外的高内存开销。所以使用 <code>Substring</code>时，最好转化为 <code>String</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">newString</span> <span class="p">=</span> <span class="nb">String</span><span class="p">(</span><span class="n">substring</span><span class="p">)</span>
+</span></span></code></pre></div><h4 id="换行可以不用-n了">换行可以不用 <code>\n</code>了！</h4>
+<p>Swift 3，字符串换行要插入 <code>\n</code>。
+例如：</p>
+<p><img loading="lazy" src="https://ws4.sinaimg.cn/large/006tNc79gy1fjdam0wvhhj305d0283yf.jpg"></p>
+<p>在 Swift 4 可以这样操作:</p>
+<p><img loading="lazy" src="https://ws2.sinaimg.cn/large/006tNc79gy1fjdas2yri4j303q0260sm.jpg"></p>
+<p>用两个 <code>“”“</code> 包裹起来的字符串会自动添加 <code>\n</code> 换行，更加直观了。注意：换行与缩进参照的是第二个 <code>“”“</code> 号的位置。</p>
+<p>嗯，我觉得OK！</p>
+<h4 id="支持-unicode-9">支持 Unicode 9</h4>
+<p>Swift 4 支持 Unicode 9，<a href="https://oleb.net/blog/2016/12/emoji-4-0/">为现代表情符号修正了一些问题</a>。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">family1</span> <span class="p">=</span> <span class="s">&#34;👨‍👩‍👧‍👦&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">family2</span> <span class="p">=</span> <span class="s">&#34;👨\u{200D}👩\u{200D}👧\u{200D}👦&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">family1</span> <span class="p">==</span> <span class="n">family2</span> <span class="c1">// → true</span>
+</span></span></code></pre></div><p>居然还有这种操作~</p>
+<h3 id="新增-keypath-数据类型">新增 KeyPath 数据类型</h3>
+<p>KeyPath 是 Swift 4 新增加的数据类型。</p>
+<p>定义两个结构体 <code>Person</code>与<code>Book</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">struct</span> <span class="nc">Person</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">name</span><span class="p">:</span> <span class="nb">String</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">struct</span> <span class="nc">Book</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">title</span><span class="p">:</span> <span class="nb">String</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">authors</span><span class="p">:</span> <span class="p">[</span><span class="n">Person</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">var</span> <span class="nv">primaryAuthor</span><span class="p">:</span> <span class="n">Person</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">authors</span><span class="p">.</span><span class="bp">first</span><span class="p">!</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">abelson</span> <span class="p">=</span> <span class="n">Person</span><span class="p">(</span><span class="n">name</span><span class="p">:</span> <span class="s">&#34;Harold Abelson&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">sussman</span> <span class="p">=</span> <span class="n">Person</span><span class="p">(</span><span class="n">name</span><span class="p">:</span> <span class="s">&#34;Gerald Jay Sussman&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">book</span> <span class="p">=</span> <span class="n">Book</span><span class="p">(</span><span class="n">title</span><span class="p">:</span> <span class="s">&#34;Structure and Interpretation of Computer Programs&#34;</span><span class="p">,</span> <span class="n">authors</span><span class="p">:</span> <span class="p">[</span><span class="n">abelson</span><span class="p">,</span> <span class="n">sussman</span><span class="p">])</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="n">book</span><span class="p">[</span><span class="n">keyPath</span><span class="p">:</span> <span class="err">\</span><span class="n">Book</span><span class="p">.</span><span class="n">title</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="n">book</span><span class="p">[</span><span class="n">keyPath</span><span class="p">:</span> <span class="err">\</span><span class="n">Book</span><span class="p">.</span><span class="n">primaryAuthor</span><span class="p">.</span><span class="n">name</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 相当与</span>
+</span></span><span class="line"><span class="cl"><span class="n">book</span><span class="p">.</span><span class="n">title</span>
+</span></span><span class="line"><span class="cl"><span class="n">book</span><span class="p">.</span><span class="n">primaryAuthor</span><span class="p">.</span><span class="n">name</span>
+</span></span></code></pre></div><p>这里 <code>\Book.title</code> 与 <code>\Book.primaryAuthor.name</code> 就是 KeyPath.</p>
+<p>KeyPath 可以用 <code>.appending</code> 拼接</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">authorKeyPath</span> <span class="p">=</span> <span class="err">\</span><span class="n">Book</span><span class="p">.</span><span class="n">primaryAuthor</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nv">nameKeyPath</span> <span class="p">=</span> <span class="n">authorKeyPath</span><span class="p">.</span><span class="n">appending</span><span class="p">(</span><span class="n">path</span><span class="p">:</span> <span class="err">\</span><span class="p">.</span><span class="n">name</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// nameKeyPath = \Book.primaryAuthor.name</span>
+</span></span></code></pre></div><h3 id="新增--swapat-函数">新增  <code>swapAt()</code> 函数</h3>
+<p>Swift 4 引入了一种在集合中交换两个元素的新方法: <code>swapAt()</code></p>
+<p>Swift 3 交换集合中的元素的用 <code>swap()</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">var</span> <span class="nv">numbers</span> <span class="p">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="bp">swap</span><span class="p">(&amp;</span><span class="n">numbers</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="p">&amp;</span><span class="n">numbers</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// numbers = [2,1,3,4,5]</span>
+</span></span></code></pre></div><p>Swift 4 中可以直接用</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="line"><span class="cl"><span class="kd">var</span> <span class="nv">numbers</span> <span class="p">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="n">numbers</span><span class="p">.</span><span class="n">swapAt</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// numbers = [2,1,3,4,5]</span>
+</span></span></code></pre></div><h3 id="其他改动">其他改动</h3>
+<p>其他改动如：<strong>新的整数协议</strong>、<strong>泛型下标</strong>、<strong>NSNumber bridging</strong>等</p>
+<p>可以参考：<a href="https://github.com/ole/whats-new-in-swift-4">whats new in swift4</a></p>
+]]></content:encoded></item></channel></rss>
