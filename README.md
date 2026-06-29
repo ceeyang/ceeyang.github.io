@@ -22,8 +22,9 @@
 git clone --recurse-submodules https://github.com/ceeyang/ceeyang.github.io.git
 cd ceeyang.github.io
 
-# 启动本地开发服务器
-hugo server -D
+# 启动本地开发服务器（development 环境，链接指向 localhost）
+hugo serve
+# 或：hugo server -D
 ```
 
 访问 [http://localhost:1313](http://localhost:1313) 预览站点。

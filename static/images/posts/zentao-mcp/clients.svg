@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" role="img" aria-label="supported AI clients">
+  <rect width="960" height="320" rx="16" fill="#0f172a"/>
+  <text x="480" y="40" text-anchor="middle" fill="#e2e8f0" font-family="system-ui,sans-serif" font-size="18" font-weight="700">一条命令 · 18 种 AI 客户端自动配置</text>
+  <text x="480" y="68" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="13">curl -fsSL install.sh | bash</text>
+  <g font-family="system-ui,sans-serif" font-size="13" font-weight="600">
+    <rect x="40" y="95" width="130" height="44" rx="8" fill="#1e293b" stroke="#334155"/>
+    <text x="105" y="123" text-anchor="middle" fill="#38bdf8">Cursor</text>
+    <rect x="185" y="95" width="130" height="44" rx="8" fill="#1e293b" stroke="#334155"/>
+    <text x="250" y="123" text-anchor="middle" fill="#fbbf24">Claude Desktop</text>
+    <rect x="330" y="95" width="130" height="44" rx="8" fill="#1e293b" stroke="#334155"/>
+    <text x="395" y="123" text-anchor="middle" fill="#f472b6">Claude Code</text>
+    <rect x="475" y="95" width="130" height="44" rx="8" fill="#1e293b" stroke="#334155"/>
+    <text x="540" y="123" text-anchor="middle" fill="#34d399">Windsurf</text>
+    <rect x="620" y="95" width="130" height="44" rx="8" fill="#1e293b" stroke="#334155"/>
+    <text x="685" y="123" text-anchor="middle" fill="#a78bfa">Trae</text>
+    <rect x="765" y="95" width="155" height="44" rx="8" fill="#1e293b" stroke="#334155"/>
+    <text x="842" y="123" text-anchor="middle" fill="#60a5fa">VS Code</text>
+    <rect x="40" y="155" width="130" height="44" rx="8" fill="#1e293b" stroke="#334155"/>
+    <text x="105" y="183" text-anchor="middle" fill="#fb923c">Cline</text>
+    <rect x="185" y="155" width="130" height="44" rx="8" fill="#1e293b" stroke="#334155"/>
+    <text x="250" y="183" text-anchor="middle" fill="#e2e8f0">OpenCode</text>
+    <rect x="330" y="155" width="130" height="44" rx="8" fill="#1e293b" stroke="#334155"/>
+    <text x="395" y="183" text-anchor="middle" fill="#4ade80">Continue</text>
+    <rect x="475" y="155" width="130" height="44" rx="8" fill="#1e293b" stroke="#334155"/>
+    <text x="540" y="183" text-anchor="middle" fill="#f87171">Zed</text>
+    <rect x="620" y="155" width="130" height="44" rx="8" fill="#1e293b" stroke="#334155"/>
+    <text x="685" y="183" text-anchor="middle" fill="#c084fc">Kiro</text>
+    <rect x="765" y="155" width="155" height="44" rx="8" fill="#1e293b" stroke="#334155"/>
+    <text x="842" y="183" text-anchor="middle" fill="#22d3ee">Roo Code</text>
+    <rect x="40" y="215" width="155" height="44" rx="8" fill="#1e293b" stroke="#334155"/>
+    <text x="117" y="243" text-anchor="middle" fill="#fcd34d">Amazon Q</text>
+    <rect x="210" y="215" width="155" height="44" rx="8" fill="#1e293b" stroke="#334155"/>
+    <text x="287" y="243" text-anchor="middle" fill="#93c5fd">Copilot CLI</text>
+    <rect x="380" y="215" width="155" height="44" rx="8" fill="#1e293b" stroke="#334155"/>
+    <text x="457" y="243" text-anchor="middle" fill="#86efac">Gemini CLI</text>
+    <rect x="550" y="215" width="155" height="44" rx="8" fill="#1e293b" stroke="#334155"/>
+    <text x="627" y="243" text-anchor="middle" fill="#fda4af">Kimi CLI</text>
+    <rect x="720" y="215" width="200" height="44" rx="8" fill="#134e4a" stroke="#14b8a6"/>
+    <text x="820" y="243" text-anchor="middle" fill="#5eead4">Codex CLI</text>
+  </g>
+  <text x="480" y="295" text-anchor="middle" fill="#64748b" font-size="12">INSTALL_PLATFORMS=auto 自动检测</text>
+</svg>

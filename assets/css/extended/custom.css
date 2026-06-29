@@ -36,3 +36,18 @@ body {
     padding: 24px 32px;
 }
 
+.post-content figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1rem auto;
+    display: block;
+}
+
+.post-content figure figcaption {
+    text-align: center;
+    color: var(--secondary);
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+

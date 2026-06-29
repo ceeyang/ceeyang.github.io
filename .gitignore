@@ -132,3 +132,4 @@ $RECYCLE.BIN/
 .env
 .reasonix
 .codegraph
+graphify-out/
