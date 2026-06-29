@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>禅道 on Cee Yang</title><link>https://ceeyang.com/tags/%E7%A6%85%E9%81%93/</link><description>Recent content in 禅道 on Cee Yang</description><image><title>Cee Yang</title><url>https://ceeyang.com/images/og-cover.png</url><link>https://ceeyang.com/images/og-cover.png</link></image><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Mon, 29 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ceeyang.com/tags/%E7%A6%85%E9%81%93/index.xml" rel="self" type="application/rss+xml"/><item><title>zentao-mcp：让 AI 直接读禅道 Bug、修 Bug、回写禅道</title><link>https://ceeyang.com/posts/2026-06-29-zentao-mcp-ai-bug-fix/</link><pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate><guid>https://ceeyang.com/posts/2026-06-29-zentao-mcp-ai-bug-fix/</guid><description>开源 zentao-mcp：一条命令接入 18 种 AI 客户端，让 Cursor / Claude 直接读取禅道 Bug 重现步骤、在 IDE 内修代码，并可选 dryRun 预演后回写「已解决」。</description><content:encoded><![CDATA[<figure>
+    <img loading="lazy" src="/images/posts/zentao-mcp/cover.png"
+         alt="zentao-mcp 封面"/> <figcaption>
+            <p>zentao-mcp — 禅道与 AI 编程助手之间的桥梁</p>
+        </figcaption>
+</figure>
+
+<h2 id="前言">前言</h2>
+<p>每天开工前，你是不是都要打开禅道，翻一遍指派给自己的 Bug，复制重现步骤，再切回 IDE 开始改？</p>
+<p>更麻烦的是——禅道里的重现步骤往往是 <strong>HTML 富文本</strong>，丢给 AI 时格式乱、上下文断，来回粘贴几次，半小时就没了。</p>
+<p>如果你团队用 <strong>禅道（ZenTao）</strong> 管 Bug，又用 <strong>Cursor / Claude / Windsurf</strong> 写代码，这个问题应该不陌生。</p>
+<p>所以我开源了 <strong><a href="https://github.com/ceeyang/zentao_mcp">zentao-mcp</a></strong> —— 一个专为禅道设计的 <strong>MCP Server</strong>，让 AI 直接：</p>
+<ul>
+<li>查「指派给我的 Bug」</li>
+<li>读重现步骤（自动 HTML → 纯文本）</li>
+<li>在 IDE 里改代码</li>
+<li>可选：dryRun 预演后回写「已解决」</li>
+</ul>
+<pre tabindex="0"><code>⭐ 7 个 MCP 工具，覆盖 Bug 读写的完整闭环
+🚀 一条命令安装，无需 clone 仓库
+🤖 自动配置 18 种 AI 客户端（Cursor、Claude、Windsurf…）
+🔒 写操作默认关闭 + dryRun 预演，防 AI 误操作
+📦 MIT 开源 · 适配禅道 16.5+ / 18.12
+</code></pre><p><strong>项目地址：</strong> <a href="https://github.com/ceeyang/zentao_mcp">github.com/ceeyang/zentao_mcp</a></p>
+<hr>
+<h2 id="30-秒看懂它能干什么">30 秒看懂：它能干什么？</h2>
+<table>
+  <thead>
+      <tr>
+          <th>你想…</th>
+          <th>在 AI 里这样说</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>确认装好了</td>
+          <td>「调用 zentao_health_check 检查禅道连接」</td>
+      </tr>
+      <tr>
+          <td>看我负责的 Bug</td>
+          <td>「列出指派给我的 Bug，最新的 10 条」</td>
+      </tr>
+      <tr>
+          <td>读重现步骤修 Bug</td>
+          <td>「读取 Bug #12345 详情，按 steps 帮我改代码」</td>
+      </tr>
+      <tr>
+          <td>查某产品下的 Bug</td>
+          <td>「查产品 3 下 alice 的 active Bug」</td>
+      </tr>
+      <tr>
+          <td>修完回写禅道</td>
+          <td>「dryRun 预演把 #12345 标为 fixed，备注 xxx」</td>
+      </tr>
+  </tbody>
+</table>
+<p>适配禅道开源版 <strong>16.5+ / 18.12</strong>，走官方 <strong>REST API v1</strong>。</p>
+<hr>
+<h2 id="为什么需要-zentao-mcp">为什么需要 zentao-mcp？</h2>
+<h3 id="痛点-1禅道--ide-来回切换">痛点 1：禅道 ↔ IDE 来回切换</h3>
+<p>传统流程：</p>
+<pre tabindex="0"><code>打开禅道 → 找 Bug → 复制步骤 → 粘贴到 AI → 改代码 → 再打开禅道 → 手动标 resolved
+</code></pre><p><strong>zentao-mcp 之后：</strong></p>
+<pre tabindex="0"><code>「我有哪些 Bug？」→ AI 调 MCP → 直接读步骤 → 改代码 → 「标为 fixed」
+</code></pre><p>全程在 AI 客户端内完成，<strong>不用离开编辑器</strong>。</p>
+<h3 id="痛点-2重现步骤是-htmlai-读不懂">痛点 2：重现步骤是 HTML，AI 读不懂</h3>
+<p>禅道 Bug 的 <code>steps</code> 字段通常是富文本 HTML。直接丢给 LLM，标签、样式、嵌套表格都会干扰理解。</p>
+<p><code>zentao_get_bug</code> 会自动输出 <strong><code>stepsPlain</code></strong> —— 把 HTML 转成干净的纯文本 checklist，AI 可以直接按步骤定位代码。</p>
+<h3 id="痛点-3mcp-配置门槛高">痛点 3：MCP 配置门槛高</h3>
+<p>手写 <code>~/.cursor/mcp.json</code>、找 node 绝对路径、处理 <code>spawn ENOENT</code>……同事推广成本很高。</p>
+<p>zentao-mcp 的安装脚本会：</p>
+<ol>
+<li>下载到 <code>~/.local/share/zentao-mcp</code></li>
+<li><code>npm install</code> + 构建</li>
+<li><strong>自动检测本机 AI 客户端</strong>并写入配置</li>
+<li>使用 <strong>node 绝对路径</strong>，避免 Cursor 找不到命令</li>
+</ol>
+<hr>
+<h2 id="架构一览">架构一览</h2>
+<figure>
+    <img loading="lazy" src="/images/posts/zentao-mcp/architecture.svg"
+         alt="zentao-mcp 架构图"/> <figcaption>
+            <p>AI 客户端 ↔ MCP Server ↔ 禅道 REST API</p>
+        </figcaption>
+</figure>
+
+<p>整体链路很清晰：</p>
+<ol>
+<li><strong>AI 客户端</strong>（Cursor / Claude 等）通过 stdio 与 MCP Server 通信</li>
+<li><strong>zentao-mcp</strong> 提供 7 个工具，统一返回 <code>{ ok, data, error, meta }</code> JSON 信封</li>
+<li><strong>禅道服务器</strong> 通过 HTTPS 调用 <code>/api.php/v1/*</code> REST API</li>
+</ol>
+<p>技术栈：<strong>TypeScript · Node 18+ · @modelcontextprotocol/sdk · Zod</strong></p>
+<hr>
+<h2 id="典型-bug-修复闭环">典型 Bug 修复闭环</h2>
+<figure>
+    <img loading="lazy" src="/images/posts/zentao-mcp/workflow.svg"
+         alt="Bug 修复五步闭环"/> <figcaption>
+            <p>查 Bug → 读步骤 → 改代码 → dryRun 预演 → 回写禅道</p>
+        </figcaption>
+</figure>
+
+<p><strong>Morning standup 示例：</strong></p>
+<pre tabindex="0"><code>你：我禅道上有哪些没关的 Bug？
+AI：→ zentao_list_my_bugs → 返回 6 条列表
+
+你：重点看 #12345，读步骤，在 src/auth 里找原因
+AI：→ zentao_get_bug → 读 stepsPlain → 改代码
+
+你：测试过了，dryRun 预演把 #12345 标为 fixed
+AI：→ zentao_resolve_bug(dryRun=true) → 展示将要提交的内容
+
+你：确认，正式提交
+AI：→ zentao_resolve_bug(dryRun=false) → 禅道状态更新 ✓
+</code></pre><hr>
+<h2 id="一条命令18-种客户端">一条命令，18 种客户端</h2>
+<figure>
+    <img loading="lazy" src="/images/posts/zentao-mcp/clients.svg"
+         alt="支持的 AI 客户端"/> <figcaption>
+            <p>安装脚本自动检测并写入 Cursor、Claude、Windsurf 等 18 种客户端的 MCP 配置</p>
+        </figcaption>
+</figure>
+
+<p><strong>macOS / Linux：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -fsSL https://raw.githubusercontent.com/ceeyang/zentao_mcp/main/install.sh <span class="p">|</span> bash
+</span></span></code></pre></div><p><strong>Windows（PowerShell）：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="nb">irm </span><span class="n">https</span><span class="err">:</span><span class="p">//</span><span class="n">raw</span><span class="p">.</span><span class="py">githubusercontent</span><span class="p">.</span><span class="n">com</span><span class="p">/</span><span class="n">ceeyang</span><span class="p">/</span><span class="n">zentao_mcp</span><span class="p">/</span><span class="n">main</span><span class="p">/</span><span class="n">install</span><span class="p">.</span><span class="py">ps1</span> <span class="p">|</span> <span class="nb">iex
+</span></span></span></code></pre></div><p>装完 <strong>完全重启</strong> Cursor / Claude 等客户端，然后对话：</p>
+<pre tabindex="0"><code>调用 zentao_health_check 检查连接
+</code></pre><h3 id="支持的客户端18-种">支持的客户端（18 种）</h3>
+<p>Cursor · Claude Desktop · Claude Code · Windsurf · Trae · VS Code · Cline · OpenCode · Continue · Zed · Kiro · Roo Code · Amazon Q · Copilot CLI · Gemini CLI · Kimi CLI · Codex CLI …</p>
+<p>安装时 <code>INSTALL_PLATFORMS=auto</code> 自动检测，也可手动指定 <code>cursor,claude</code>。</p>
+<blockquote>
+<p>详细安装文档：<a href="https://github.com/ceeyang/zentao_mcp/blob/main/docs/INSTALL.zh-CN.md">docs/INSTALL.zh-CN.md</a></p>
+</blockquote>
+<hr>
+<h2 id="7-个-mcp-工具">7 个 MCP 工具</h2>
+<table>
+  <thead>
+      <tr>
+          <th>工具</th>
+          <th>能力</th>
+          <th>默认</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>zentao_health_check</code></td>
+          <td>连通性 + 写权限开关状态</td>
+          <td>✅ 只读</td>
+      </tr>
+      <tr>
+          <td><code>zentao_list_my_bugs</code></td>
+          <td>指派给当前账号的 Bug</td>
+          <td>✅ 只读</td>
+      </tr>
+      <tr>
+          <td><code>zentao_list_bugs</code></td>
+          <td>按产品 / 项目 / 执行筛选</td>
+          <td>✅ 只读</td>
+      </tr>
+      <tr>
+          <td><code>zentao_get_bug</code></td>
+          <td>详情 + <strong>stepsPlain</strong> 纯文本步骤</td>
+          <td>✅ 只读</td>
+      </tr>
+      <tr>
+          <td><code>zentao_resolve_bug</code></td>
+          <td>标记已修复（fixed / duplicate 等）</td>
+          <td>🔒 需开关</td>
+      </tr>
+      <tr>
+          <td><code>zentao_close_bug</code></td>
+          <td>关闭 Bug</td>
+          <td>🔒 需开关</td>
+      </tr>
+      <tr>
+          <td><code>zentao_activate_bug</code></td>
+          <td>重新激活</td>
+          <td>🔒 需开关</td>
+      </tr>
+  </tbody>
+</table>
+<blockquote>
+<p>完整功能说明与 AI 对话示例：<a href="https://github.com/ceeyang/zentao_mcp/blob/main/docs/FEATURES.zh-CN.md">docs/FEATURES.zh-CN.md</a></p>
+</blockquote>
+<h3 id="读-bug-返回示例简化">读 Bug 返回示例（简化）</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;ok&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;data&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;id&#34;</span><span class="p">:</span> <span class="mi">12345</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;title&#34;</span><span class="p">:</span> <span class="s2">&#34;登录页 token 过期未刷新&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;status&#34;</span><span class="p">:</span> <span class="s2">&#34;active&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;stepsPlain&#34;</span><span class="p">:</span> <span class="s2">&#34;1. 打开登录页\n2. 等待 token 过期（30min）\n3. 点击任意菜单\n4. 预期：自动刷新；实际：白屏&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;severity&#34;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;assignedTo&#34;</span><span class="p">:</span> <span class="s2">&#34;cee&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">},</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;meta&#34;</span><span class="p">:</span> <span class="p">{</span> <span class="nt">&#34;source&#34;</span><span class="p">:</span> <span class="s2">&#34;zentao_get_bug&#34;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>AI 拿到 <code>stepsPlain</code> 后，可以直接生成 checklist、定位文件、提出 patch。</p>
+<hr>
+<h2 id="安全设计ai-能写但默认不能乱写">安全设计：AI 能写，但默认不能乱写</h2>
+<p>写操作是双刃剑——AI 可能误关 Bug、写错备注。zentao-mcp 默认 <strong>只读</strong>：</p>
+<table>
+  <thead>
+      <tr>
+          <th>环境变量</th>
+          <th>作用</th>
+          <th>默认值</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>ZENTAO_ALLOW_RESOLVE_BUG</code></td>
+          <td>允许标记已解决</td>
+          <td><code>false</code></td>
+      </tr>
+      <tr>
+          <td><code>ZENTAO_ALLOW_CLOSE_BUG</code></td>
+          <td>允许关闭 Bug</td>
+          <td><code>false</code></td>
+      </tr>
+      <tr>
+          <td><code>ZENTAO_ALLOW_ACTIVATE_BUG</code></td>
+          <td>允许重新激活</td>
+          <td><code>false</code></td>
+      </tr>
+  </tbody>
+</table>
+<p>额外保护：</p>
+<ul>
+<li><strong><code>dryRun: true</code></strong> — 所有写工具支持预演，先看会提交什么</li>
+<li><strong><code>ZENTAO_ALLOWED_PRODUCTS</code></strong> — 产品 ID 白名单，限制可操作范围</li>
+<li><strong><code>ZENTAO_SKIP_SSL</code></strong> — 内网自签名证书场景</li>
+<li><strong>Token / 账号密码双模式</strong>，401 自动刷新</li>
+</ul>
+<p>企业内网部署时，建议先只开读权限，团队熟悉后再由管理员按需开启写权限。</p>
+<hr>
+<h2 id="手动配置可选">手动配置（可选）</h2>
+<p>如果安装时跳过了账号配置，编辑 <code>~/.cursor/mcp.json</code>：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;mcpServers&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;zentao&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;command&#34;</span><span class="p">:</span> <span class="s2">&#34;/absolute/path/to/node&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;args&#34;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&#34;/Users/you/.local/share/zentao-mcp/dist/index.js&#34;</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;env&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;ZENTAO_URL&#34;</span><span class="p">:</span> <span class="s2">&#34;https://your-zentao-host&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;ZENTAO_ACCOUNT&#34;</span><span class="p">:</span> <span class="s2">&#34;your_account&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;ZENTAO_PASSWORD&#34;</span><span class="p">:</span> <span class="s2">&#34;your_password&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;ZENTAO_SKIP_SSL&#34;</span><span class="p">:</span> <span class="s2">&#34;true&#34;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>完整环境变量列表：<a href="https://github.com/ceeyang/zentao_mcp/blob/main/.env.example">.env.example</a></p>
+<hr>
+<h2 id="it-批量部署">IT 批量部署</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nv">ZENTAO_URL</span><span class="o">=</span>https://zentao.example.com <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="nv">ZENTAO_ACCOUNT</span><span class="o">=</span>bot <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="nv">ZENTAO_PASSWORD</span><span class="o">=</span>secret <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="nv">ZENTAO_SKIP_SSL</span><span class="o">=</span><span class="nb">true</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="nv">INSTALL_PLATFORMS</span><span class="o">=</span>auto <span class="se">\
+</span></span></span><span class="line"><span class="cl">curl -fsSL https://raw.githubusercontent.com/ceeyang/zentao_mcp/main/install.sh <span class="p">|</span> bash -s -- --yes
+</span></span></code></pre></div><p>发给同事的一键文案：<a href="https://github.com/ceeyang/zentao_mcp/blob/main/docs/SHARE.md">docs/SHARE.md</a></p>
+<hr>
+<h2 id="与其他方案对比">与其他方案对比</h2>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>zentao-mcp</th>
+          <th>手动复制粘贴</th>
+          <th>通用 REST MCP</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>禅道原生 API</td>
+          <td>✅ REST v1</td>
+          <td>—</td>
+          <td>需自己封装</td>
+      </tr>
+      <tr>
+          <td>stepsPlain 转换</td>
+          <td>✅ 内置</td>
+          <td>❌</td>
+          <td>需自己写</td>
+      </tr>
+      <tr>
+          <td>18 客户端一键安装</td>
+          <td>✅</td>
+          <td>—</td>
+          <td>❌</td>
+      </tr>
+      <tr>
+          <td>写操作安全门</td>
+          <td>✅ dryRun + 开关</td>
+          <td>—</td>
+          <td>看实现</td>
+      </tr>
+      <tr>
+          <td>中文文档</td>
+          <td>✅</td>
+          <td>—</td>
+          <td>不一定</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="路线图">路线图</h2>
+<p><strong>已实现 ✅</strong></p>
+<ul>
+<li>查 Bug / 读步骤 / 写状态完整闭环</li>
+<li>18 客户端自动配置安装器</li>
+<li>自签名 HTTPS、产品白名单、Token 刷新</li>
+</ul>
+<p><strong>规划中 📋</strong></p>
+<ul>
+<li>Bug 指派推送通知</li>
+<li>群聊每日 Bug 汇总机器人</li>
+</ul>
+<p>欢迎提 Issue 和 PR：<a href="https://github.com/ceeyang/zentao_mcp/issues">github.com/ceeyang/zentao_mcp/issues</a></p>
+<hr>
+<h2 id="快速链接">快速链接</h2>
+<table>
+  <thead>
+      <tr>
+          <th>资源</th>
+          <th>链接</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>GitHub 仓库</strong></td>
+          <td><a href="https://github.com/ceeyang/zentao_mcp">github.com/ceeyang/zentao_mcp</a></td>
+      </tr>
+      <tr>
+          <td>功能说明</td>
+          <td><a href="https://github.com/ceeyang/zentao_mcp/blob/main/docs/FEATURES.zh-CN.md">FEATURES.zh-CN.md</a></td>
+      </tr>
+      <tr>
+          <td>安装文档</td>
+          <td><a href="https://github.com/ceeyang/zentao_mcp/blob/main/docs/INSTALL.zh-CN.md">INSTALL.zh-CN.md</a></td>
+      </tr>
+      <tr>
+          <td>发给同事</td>
+          <td><a href="https://github.com/ceeyang/zentao_mcp/blob/main/docs/SHARE.md">SHARE.md</a></td>
+      </tr>
+      <tr>
+          <td>安装脚本 (sh)</td>
+          <td><a href="https://raw.githubusercontent.com/ceeyang/zentao_mcp/main/install.sh">install.sh</a></td>
+      </tr>
+      <tr>
+          <td>安装脚本 (ps1)</td>
+          <td><a href="https://raw.githubusercontent.com/ceeyang/zentao_mcp/main/install.ps1">install.ps1</a></td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="结语">结语</h2>
+<p>zentao-mcp 的目标很简单：<strong>让禅道 Bug 和 AI 编程助手之间的墙消失</strong>。</p>
+<p>如果你团队在用禅道 + Cursor / Claude，花 30 秒跑一条 <code>curl | bash</code>，明天 standup 就可以跟 AI 说「我有哪些 Bug」了。</p>
+<p><strong>Star 支持一下：</strong> <a href="https://github.com/ceeyang/zentao_mcp">github.com/ceeyang/zentao_mcp</a> ⭐</p>
+<p>有问题欢迎留言，或在 GitHub 提 Issue。</p>
+]]></content:encoded></item></channel></rss>
